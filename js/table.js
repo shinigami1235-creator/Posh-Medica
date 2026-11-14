@@ -50,7 +50,7 @@
     card.querySelector('.labcard__formula').innerHTML = p.ingr.map(i => `<li>${i}</li>`).join('');
     card.querySelector('.labcard__formula').previousElementSibling.hidden = !p.ingr.length;
     card.querySelector('.labcard__badges').innerHTML = p.badges.map(b => `<li>${b}</li>`).join('');
-    card.querySelector(".labcard__go").href = `product.html?id=${p.id}`;
+    card.querySelector(".labcard__go").href = window.POSH_PRODUCT_URL ? window.POSH_PRODUCT_URL(p.id) : `product.html?id=${p.id}`;
     card.showModal();
   }
   list.addEventListener('click', e => { const b = e.target.closest('button[data-id]'); if (b) open(b.dataset.id); });

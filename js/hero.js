@@ -52,7 +52,7 @@
     body.src = strip.src = `${window.POSH_BASE || ''}assets/img/hero/${p.key}-sachet.webp`;
     splash.src = `${window.POSH_BASE || ''}assets/img/hero/${p.key}-splash.webp`;
     drink.src = `${window.POSH_BASE || ''}assets/img/hero/glass-${p.key}-drink${sfx}.webp`;
-    tag.href = 'product.html?id=' + p.id;
+    tag.href = window.POSH_PRODUCT_URL ? window.POSH_PRODUCT_URL(p.id) : 'product.html?id=' + p.id;
     tag.querySelector('.tag__no b').textContent = String(p.id).padStart(2, '0');
     const T = s => (window.POSH_T || {})[s] || s;
     tag.querySelector('.tag__group').textContent = T(p.group);
