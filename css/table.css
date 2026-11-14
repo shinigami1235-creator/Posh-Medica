@@ -1,0 +1,75 @@
+.table{position:relative;background:var(--paper);padding:clamp(72px,10vw,140px) clamp(16px,4vw,56px);overflow:hidden}
+.table::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .15 0 0 0 0 .13 0 0 0 0 .37 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:.35;mix-blend-mode:multiply;pointer-events:none}
+.ptable{--fiber:#f05a28;--fiber-t:#ffe1d2;--care:#14967f;--care-t:#d2f2e9;--skin:#e03f78;--skin-t:#ffdbe7;--pung:#6a45c4;--pung-t:#e7defe;
+  position:relative;max-width:1320px;margin:0 auto;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(5,auto) 28px auto;gap:8px}
+.ptable__cells{display:contents;list-style:none;margin:0;padding:0}
+
+.ptable__head{grid-column:4/10;grid-row:1/4;align-self:center;padding:0 clamp(8px,2vw,28px) 12px}
+.ptable__head h2{font-size:var(--step-3);color:var(--navy)}
+.ptable__lede{margin:10px 0 18px;max-width:46ch;font-weight:700;font-size:var(--step--1)}
+.ptable__filters{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-weight:800;font-size:.95rem;min-height:44px;padding:0 16px;border-radius:999px;border:2px solid var(--navy);background:var(--paper);color:var(--navy);cursor:pointer;display:flex;align-items:center;gap:8px;transition:transform .12s}
+.chip b{display:inline-grid;place-items:center;min-width:26px;height:26px;padding:0 6px;border-radius:99px;background:var(--navy);color:var(--cream);font-size:.8rem}
+.chip.is-on{background:var(--orange);border-color:var(--orange);color:#fff}
+.chip.is-on b{background:#fff;color:var(--orange-ink)}
+.chip:active{transform:scale(.96)}
+
+.legend{grid-column:10/13;grid-row:7;list-style:none;margin:0;padding:0;display:grid;gap:6px;align-content:center;font-size:.8rem;font-weight:800}
+.legend li{display:flex;align-items:center;gap:8px}
+.legend li::before{content:"";width:16px;height:16px;border-radius:4px;background:var(--c-t);border:2px solid var(--c)}
+.legend [data-g=fiber],.el[data-g=fiber]{--c:var(--fiber);--c-t:var(--fiber-t)}
+.legend [data-g=care],.el[data-g=care]{--c:var(--care);--c-t:var(--care-t)}
+.legend [data-g=skin],.el[data-g=skin]{--c:var(--skin);--c-t:var(--skin-t)}
+.legend [data-g=pung],.el[data-g=pung]{--c:var(--pung);--c-t:var(--pung-t)}
+
+/* element tile */
+.el{position:relative;aspect-ratio:1;min-width:0}
+.el button{all:unset;box-sizing:border-box;position:absolute;inset:0;cursor:pointer;display:grid;grid-template-rows:auto 1fr auto;padding:8px 9px;border-radius:10px;
+  background:var(--c-t);border:2px solid var(--c);color:var(--navy-ink);transition:transform .18s cubic-bezier(.3,1.4,.5,1),box-shadow .18s,opacity .25s,filter .25s}
+.el__top{display:flex;justify-content:space-between;align-items:center;font-size:.72rem;font-weight:800;color:var(--c)}
+.el__form{width:16px;height:16px}
+.el__sym{align-self:center;font-size:clamp(1.3rem,2.3vw,2.2rem);font-weight:900;line-height:1;letter-spacing:-.02em}
+.el__name{font-size:.68rem;font-weight:700;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.el__pack{position:absolute;left:50%;bottom:62%;width:130%;transform:translate(-50%,30%) scale(.4) rotate(-8deg);opacity:0;pointer-events:none;z-index:6;
+  transition:transform .3s cubic-bezier(.3,1.5,.5,1),opacity .2s;filter:drop-shadow(0 10px 12px rgba(27,25,70,.3))}
+.el button:focus-visible{outline:3px solid var(--navy);outline-offset:3px}
+@media (hover:hover) and (pointer:fine){
+  .el button:hover{background:#fff;box-shadow:inset 0 0 0 2px var(--c)}
+  .el:hover{z-index:5}
+  .el:hover .el__pack{opacity:1;transform:translate(-50%,0) scale(1) rotate(-8deg)}
+}
+.el button:active{transform:scale(.96)}
+.el.is-dim button{opacity:.22;filter:saturate(.2)}
+.el.is-dim .el__pack{display:none}
+
+/* lab card */
+.labcard{border:none;padding:0;border-radius:var(--r-l);max-width:min(860px,94vw);width:100%;background:var(--paper);color:var(--navy-ink);
+  box-shadow:10px 10px 0 var(--navy);display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);overflow:hidden}
+.labcard:not([open]){display:none}
+.labcard::backdrop{background:rgba(27,25,70,.62)}
+.labcard__x{position:absolute;right:12px;top:12px;width:44px;height:44px;border-radius:50%;border:2px solid var(--navy);background:var(--paper);font-size:1.6rem;line-height:1;cursor:pointer;z-index:2}
+.labcard__media{background:var(--c-t,#ffe1d2);display:grid;place-items:center;padding:32px;border-right:2px dashed var(--navy)}
+.labcard__media img{max-height:360px;width:auto;transform:rotate(-6deg);filter:drop-shadow(0 16px 18px rgba(27,25,70,.3))}
+.labcard__body{padding:32px 32px 28px}
+.labcard__meta{display:flex;gap:12px;margin:0 0 6px;font-size:.8rem;font-weight:800;color:var(--orange-ink)}
+.labcard__name{font-size:var(--step-2);margin-bottom:16px;padding-right:40px}
+.labcard h4{margin:14px 0 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+.labcard__desc{margin:0;font-weight:700;font-size:var(--step--1)}
+.labcard__formula{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-weight:800;font-size:.85rem}
+.labcard__formula li{padding:4px 10px;border-radius:99px;background:#fff;border:1.5px solid var(--navy)}
+.labcard__formula li+li::before{content:"+";margin:0 8px 0 -2px;color:var(--orange-ink)}
+.labcard__badges{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.labcard__badges li{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;padding:4px 8px;border-radius:6px;background:var(--navy);color:var(--cream)}
+.labcard__go{display:inline-flex;align-items:center;min-height:48px;margin-top:22px;padding:0 22px;border-radius:999px;background:var(--orange);color:#fff;font-weight:800;text-decoration:none}
+
+@media (max-width:900px){
+  .ptable{display:block}
+  .ptable__head{padding:0 0 18px}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin:0 0 14px}
+  .ptable__cells{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+  .el[style]{grid-column:auto!important;grid-row:auto!important}
+  .el__name{font-size:.62rem}
+  .labcard{grid-template-columns:1fr;max-height:92vh;overflow:auto}
+  .labcard__media{border-right:none;border-bottom:2px dashed var(--navy);padding:24px}
+  .labcard__media img{max-height:200px}
+}
