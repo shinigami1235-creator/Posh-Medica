@@ -18,14 +18,37 @@
 .f6{left:14%;top:68%;animation-delay:-2.5s}.f7{left:56%;top:70%;animation-delay:-.5s}
 @keyframes drift{50%{transform:translateY(-12px) rotate(4deg)}}
 .gauges{list-style:none;padding:0;margin-top:clamp(40px,6vw,70px);display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.gauge{display:grid;grid-template-columns:34px 1fr;grid-template-rows:auto auto auto;column-gap:14px;align-items:end;padding:16px 18px;border-radius:20px;background:var(--paper);color:var(--navy);border:2px solid var(--navy);box-shadow:6px 6px 0 #7a2408}
-.gauge__tube{grid-row:1/4;position:relative;width:26px;height:100px;border:3px solid var(--navy);border-top:none;border-radius:0 0 14px 14px;overflow:hidden;background:#fff}
-.gauge__tube i{position:absolute;left:0;right:0;bottom:0;height:calc(var(--f)*100%);background:#f05a28}
-.gauge__label{font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:#a8371a}
-.gauge__value{font-weight:900;font-size:clamp(1.7rem,3vw,2.5rem);line-height:1;font-variant-numeric:tabular-nums}
-.gauge__unit{font-weight:700;font-size:.9rem}
+.gauge{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto 1fr;column-gap:16px;align-items:start;padding:18px 18px 18px 16px;border-radius:22px;background:var(--paper);color:var(--navy);border:2px solid var(--navy);box-shadow:6px 6px 0 #7a2408}
+.gauge__tube{grid-row:1/4;position:relative;width:34px;height:132px;margin-top:6px;border:3px solid var(--navy);border-top:none;border-radius:0 0 18px 18px;overflow:hidden;
+  background:linear-gradient(90deg,rgba(38,35,94,.07),rgba(255,255,255,.9) 30%,rgba(38,35,94,.05) 70%,rgba(38,35,94,.12)),#f4f1ea}
+.gauge__tube::before{content:"";position:absolute;left:-8px;right:-8px;top:-3px;height:6px;border-radius:3px;background:var(--navy);z-index:3}
+.gauge__tube::after{content:"";position:absolute;left:6px;top:10px;bottom:14px;width:5px;border-radius:3px;background:rgba(255,255,255,.75);z-index:2}
+.gauge__ticks{position:absolute;right:3px;top:14px;bottom:10px;width:7px;z-index:2;opacity:.5;
+  background:repeating-linear-gradient(to bottom,var(--navy) 0 2px,transparent 2px 22px)}
+.gauge__liq{position:absolute;left:0;right:0;bottom:0;height:100%;transform:translateY(calc((1 - var(--lvl,var(--f)))*100% + 6px));
+  background:linear-gradient(90deg,var(--liq2),var(--liq) 35%,var(--liq) 60%,var(--liq2));transition:transform 1.8s cubic-bezier(.25,1.25,.4,1)}
+.gauge__liq::before{content:"";position:absolute;left:-2px;right:-2px;top:-5px;height:10px;border-radius:50%;background:color-mix(in srgb,var(--liq) 60%,#fff);
+  box-shadow:inset 0 -2px 0 var(--liq2)}
+.gauge__liq b{position:absolute;bottom:4px;width:5px;height:5px;border-radius:50%;border:1.5px solid rgba(255,255,255,.75);opacity:0}
+.gauge__liq b:nth-child(1){left:9px}.gauge__liq b:nth-child(2){left:17px;width:4px;height:4px}.gauge__liq b:nth-child(3){left:12px;width:3px;height:3px}
+.gauges.is-filling .gauge__liq b{animation:bub 1.6s ease-in 2}
+.gauges.is-filling .gauge__liq b:nth-child(2){animation-delay:.45s}.gauges.is-filling .gauge__liq b:nth-child(3){animation-delay:.9s}
+@keyframes bub{0%{opacity:0;transform:translateY(0)}15%{opacity:1}100%{opacity:0;transform:translateY(calc(var(--f)*-110px))}}
+.gauge__label{font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:#a8371a;margin-top:4px}
+.gauge__value{font-weight:900;font-size:clamp(1.7rem,3vw,2.5rem);line-height:1.05;font-variant-numeric:tabular-nums;margin-top:6px}
+.gauge__unit{font-weight:700;font-size:.92rem;align-self:start;margin-top:2px}
 @media (max-width:980px){.gauges{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:420px){.gauges{grid-template-columns:1fr}}
+@media (max-width:560px){
+  .gauges{gap:12px}
+  .gauge{grid-template-columns:1fr;grid-template-rows:auto;justify-items:start;padding:14px 14px 16px;column-gap:0;row-gap:2px;position:relative;box-shadow:4px 4px 0 #7a2408}
+  .gauge__tube{grid-row:auto;position:absolute;right:14px;top:16px;width:24px;height:84px;margin:0}
+  .gauge__tube::after{left:4px;width:4px}
+  .gauge__label{font-size:.7rem;padding-right:34px}
+  .gauge__value{font-size:1.55rem;margin-top:28px}
+  .gauge__unit{font-size:.82rem}
+  .gauge__liq b{display:none}
+}
+@media (prefers-reduced-motion:reduce){.gauge__liq{transition:none}.gauges.is-filling .gauge__liq b{animation:none}}
 @media (prefers-reduced-motion:reduce){.float{animation:none}}
 
 /* TikTok stage */

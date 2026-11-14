@@ -87,7 +87,8 @@
     const my = -0.42 * sh, c = Math.cos(theta), sn = Math.sin(theta);
     mouth.x = bx + cx - my * sn; mouth.y = by + cy + my * c;
     pourAmt = seg(s, .28, .34) * (1 - seg(s, .5, .56));
-    hero.style.setProperty('--mix', (8 + 98 * ease(seg(s, .3, .62))).toFixed(1));
+    const mq = seg(s, .32, .8), mixf = 0.3 * seg(s, .26, .32) + 0.75 * mq * (2 - mq);
+    hero.style.setProperty('--mixf', mixf.toFixed(3));
     hero.style.setProperty('--drink', (1 - ease(seg(s, .9, 1))).toFixed(3));
     fizz = seg(s, .36, .6) * (1 - seg(s, .9, .97));
     const rise = seg(s, .62, .82), fade = seg(s, .9, 1), k = back(rise);
