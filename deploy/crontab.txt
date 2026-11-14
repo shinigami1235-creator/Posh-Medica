@@ -1,0 +1,2 @@
+# Runs Laravel's scheduler every minute (it deletes old contact messages once a day). Add with: crontab -e -u www-data
+* * * * * cd /var/www/poshmedica && php artisan schedule:run >> /dev/null 2>&1

@@ -1,0 +1,436 @@
+[
+ {
+  "key": "meta.site-name",
+  "page": "meta",
+  "en": "Posh Medica Lifetech Public Company Limited (POSH)",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน) (POSH)",
+  "html": false
+ },
+ {
+  "key": "meta.home-description",
+  "page": "meta",
+  "en": "For over 15 years, POSH has been a trusted leader in health and wellness, delivering premium supplements and cosmetics with internationally recognized quality and safety standards.",
+  "th": "กว่า 15 ปี ที่ POSH ได้รับความไว้วางใจในฐานะผู้นำด้านสุขภาพและความงาม ด้วยผลิตภัณฑ์เสริมอาหารและเครื่องสำอางคุณภาพสูงที่ผ่านการรับรองตามมาตรฐานระดับสากล ทั้งในด้านคุณภาพและความปลอดภัย",
+  "html": false
+ },
+ {
+  "key": "meta.about-title",
+  "page": "meta",
+  "en": "About Us",
+  "th": "เกี่ยวกับเรา",
+  "html": false
+ },
+ {
+  "key": "meta.about-description",
+  "page": "meta",
+  "en": "POSH has been a trusted leader in health and wellness, delivering premium supplements and cosmetics with internationally recognized quality and safety standards.",
+  "th": "ที่ POSH ได้รับความไว้วางใจในฐานะผู้นำด้านสุขภาพและความงาม ด้วยผลิตภัณฑ์เสริมอาหารและเครื่องสำอางคุณภาพสูงที่ผ่านการรับรองตามมาตรฐานระดับสากล ทั้งในด้านคุณภาพและความปลอดภัย",
+  "html": false
+ },
+ {
+  "key": "meta.awards-title",
+  "page": "meta",
+  "en": "Awards & Standards",
+  "th": "รางวัลและมาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "meta.awards-description",
+  "page": "meta",
+  "en": "In 2016, the company received the Outstanding Product of the Year 2016 Award",
+  "th": "In 2016, the company received the Outstanding Product of the Year 2016 Award",
+  "html": false
+ },
+ {
+  "key": "meta.oem-title",
+  "page": "meta",
+  "en": "OEM and ODM",
+  "th": "OEM and ODM",
+  "html": false
+ },
+ {
+  "key": "meta.oem-description",
+  "page": "meta",
+  "en": "is your trusted business partner — a one-stop OEM/ODM manufacturer for dietary supplements and cosmetics. We operate under internationally certified production systems and are supported by a team of industry specialists with extensive hands-on experience in the health and beauty sector.",
+  "th": "คือ พันธมิตรทางธุรกิจที่คุณวางใจได้ เพราะเราคือโรงงานรับผลิตอาหารเสริมและเครื่องสำอาง (OEM/ODM) ที่ครบ จบ ในที่เดียว ดำเนินการภายใต้ระบบการผลิตที่ได้รับ",
+  "html": false
+ },
+ {
+  "key": "meta.contact-title",
+  "page": "meta",
+  "en": "Contact Us",
+  "th": "ติดต่อเรา",
+  "html": false
+ },
+ {
+  "key": "meta.contact-description",
+  "page": "meta",
+  "en": "27/8 Soi 01 Kanchanaphisek 11/1, Khan Na Yao, Khan Na Yao, Bangkok, 10230",
+  "th": "27/8 ซอย 01 กาญจนาภิเษก 11/1 แขวงคันนายาว เขตคันนายาว กรุงเทพฯ 10230",
+  "html": false
+ },
+ {
+  "key": "meta.events-title",
+  "page": "meta",
+  "en": "Blog and Event",
+  "th": "บทความและกิจกรรม",
+  "html": false
+ },
+ {
+  "key": "meta.events-description",
+  "page": "meta",
+  "en": "Blog and Event",
+  "th": "บทความและกิจกรรม",
+  "html": false
+ },
+ {
+  "key": "nav.home",
+  "page": "nav",
+  "en": "Home",
+  "th": "หน้าหลัก",
+  "html": false
+ },
+ {
+  "key": "nav.about-us",
+  "page": "nav",
+  "en": "About Us",
+  "th": "เกี่ยวกับเรา",
+  "html": false
+ },
+ {
+  "key": "nav.corporate-info",
+  "page": "nav",
+  "en": "Corporate Info",
+  "th": "ข้อมูลบริษัท",
+  "html": false
+ },
+ {
+  "key": "nav.company-milestone",
+  "page": "nav",
+  "en": "Company Milestone",
+  "th": "เหตุการณ์สำคัญ",
+  "html": false
+ },
+ {
+  "key": "nav.message-from-company",
+  "page": "nav",
+  "en": "Message from Company",
+  "th": "สารจากบริษัท",
+  "html": false
+ },
+ {
+  "key": "nav.organization-chart",
+  "page": "nav",
+  "en": "Organization Chart",
+  "th": "แผนผังโครงสร้างองค์กร",
+  "html": false
+ },
+ {
+  "key": "nav.awards-standards",
+  "page": "nav",
+  "en": "Awards & Standards",
+  "th": "รางวัลและมาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "nav.our-business",
+  "page": "nav",
+  "en": "Our Business",
+  "th": "ธุรกิจของเรา",
+  "html": false
+ },
+ {
+  "key": "nav.product-overview",
+  "page": "nav",
+  "en": "Product Overview",
+  "th": "ภาพรวมผลิตภัณฑ์",
+  "html": false
+ },
+ {
+  "key": "nav.supplements",
+  "page": "nav",
+  "en": "Supplements",
+  "th": "ผลิตภัณฑ์เสริมอาหาร",
+  "html": false
+ },
+ {
+  "key": "nav.oem-and-odm",
+  "page": "nav",
+  "en": "OEM and ODM",
+  "th": "OEM and ODM",
+  "html": false
+ },
+ {
+  "key": "nav.investor-relations",
+  "page": "nav",
+  "en": "Investor Relations",
+  "th": "นักลงทุนสัมพันธ์",
+  "html": false
+ },
+ {
+  "key": "nav.blog-and-event",
+  "page": "nav",
+  "en": "Blog and Event",
+  "th": "บทความและกิจกรรม",
+  "html": false
+ },
+ {
+  "key": "nav.contact-us",
+  "page": "nav",
+  "en": "Contact Us",
+  "th": "ติดต่อเรา",
+  "html": false
+ },
+ {
+  "key": "nav.sitemap",
+  "page": "nav",
+  "en": "Sitemap",
+  "th": "แผนผังเว็บไซต์",
+  "html": false
+ },
+ {
+  "key": "nav.terms-conditions",
+  "page": "nav",
+  "en": "Terms & Conditions",
+  "th": "ข้อกำหนดและเงื่อนไข",
+  "html": false
+ },
+ {
+  "key": "nav.privacy-policy",
+  "page": "nav",
+  "en": "Privacy Policy",
+  "th": "นโยบายความเป็นส่วนตัว",
+  "html": false
+ },
+ {
+  "key": "nav.cookie-policy",
+  "page": "nav",
+  "en": "Cookie Policy",
+  "th": "นโยบายการใช้คุกกี้",
+  "html": false
+ },
+ {
+  "key": "nav.posh-medica-home",
+  "page": "nav",
+  "en": "Posh Medica home",
+  "th": "หน้าหลัก Posh Medica",
+  "html": false
+ },
+ {
+  "key": "nav.main",
+  "page": "nav",
+  "en": "Main",
+  "th": "เมนูหลัก",
+  "html": false
+ },
+ {
+  "key": "nav.menu",
+  "page": "nav",
+  "en": "Menu",
+  "th": "เมนู",
+  "html": false
+ },
+ {
+  "key": "nav.breadcrumb",
+  "page": "nav",
+  "en": "Breadcrumb",
+  "th": "ตำแหน่งหน้า",
+  "html": false
+ },
+ {
+  "key": "nav.skip-to-content",
+  "page": "nav",
+  "en": "Skip to content",
+  "th": "ข้ามไปที่เนื้อหา",
+  "html": false
+ },
+ {
+  "key": "footer.company-name",
+  "page": "footer",
+  "en": "Posh Medica Lifetech Public Company Limited",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": false
+ },
+ {
+  "key": "footer.address",
+  "page": "footer",
+  "en": "27/8 Soi 01 Kanchanaphisek 11/1, Khan Na Yao, Khan Na Yao, Bangkok, 10230",
+  "th": "27/8 ซอย 01 กาญจนาภิเษก 11/1 แขวงคันนายาว เขตคันนายาว กรุงเทพฯ 10230",
+  "html": false
+ },
+ {
+  "key": "footer.for-customer",
+  "page": "footer",
+  "en": "For Customer :",
+  "th": "สำหรับลูกค้า :",
+  "html": false
+ },
+ {
+  "key": "footer.for-shareholder",
+  "page": "footer",
+  "en": "For Shareholder and Investor :",
+  "th": "สำหรับผู้ถือหุ้นและนักลงทุน :",
+  "html": false
+ },
+ {
+  "key": "footer.copyright",
+  "page": "footer",
+  "en": "© Copyright 2026 Posh Medica Lifetech Public Company Limited. All rights reserved.",
+  "th": "© สงวนลิขสิทธิ์ พ.ศ. 2569 บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": false
+ },
+ {
+  "key": "home.supplement",
+  "page": "home",
+  "en": "Supplement",
+  "th": "ผลิตภัณฑ์เสริมอาหาร",
+  "html": false
+ },
+ {
+  "key": "home.premium-grade-extracts-expertly-researched-and-developed",
+  "page": "home",
+  "en": "Premium-grade extracts, expertly researched and developed to deliver holistic health solutions with lasting results from the inside out.",
+  "th": "คัดสรรสารสกัดที่มีคุณภาพ พร้อมการวิจัยและพัฒนาโดยผู้เชี่ยวชาญ เพื่อให้ได้ผลิตภัณฑ์ที่ตอบโจทย์สุขภาพและผลลัพธ์ที่ยั่งยืนจากภายในสู่ภายนอก",
+  "html": false
+ },
+ {
+  "key": "home.filter-by-form",
+  "page": "home",
+  "en": "Filter by form",
+  "th": "เลือกตามรูปแบบ",
+  "html": false
+ },
+ {
+  "key": "home.all",
+  "page": "home",
+  "en": "All",
+  "th": "ทั้งหมด",
+  "html": false
+ },
+ {
+  "key": "home.groups",
+  "page": "home",
+  "en": "Groups",
+  "th": "กลุ่มผลิตภัณฑ์",
+  "html": false
+ },
+ {
+  "key": "home.posh-medica-in-numbers",
+  "page": "home",
+  "en": "Posh Medica in numbers",
+  "th": "Posh Medica ในตัวเลข",
+  "html": false
+ },
+ {
+  "key": "home.play-the-posh-medica-video",
+  "page": "home",
+  "en": "Play the Posh Medica video",
+  "th": "เล่นวิดีโอ Posh Medica",
+  "html": false
+ },
+ {
+  "key": "home.videos",
+  "page": "home",
+  "en": "Videos",
+  "th": "วิดีโอ",
+  "html": false
+ },
+ {
+  "key": "contact.contact-form",
+  "page": "contact",
+  "en": "Contact Form",
+  "th": "แบบฟอร์มการติดต่อ",
+  "html": false
+ },
+ {
+  "key": "contact.please-fill-in-the-form-below",
+  "page": "contact",
+  "en": "Please fill in the form below.",
+  "th": "กรุณากรอกแบบฟอร์มด้านล่างนี้",
+  "html": false
+ },
+ {
+  "key": "contact.topic",
+  "page": "contact",
+  "en": "Topic*",
+  "th": "หัวข้อ*",
+  "html": false
+ },
+ {
+  "key": "contact.choose-a-topic",
+  "page": "contact",
+  "en": "Choose a topic",
+  "th": "เลือกหัวข้อ",
+  "html": false
+ },
+ {
+  "key": "contact.full-name",
+  "page": "contact",
+  "en": "Full Name*",
+  "th": "ชื่อ - นามสกุล*",
+  "html": false
+ },
+ {
+  "key": "contact.email",
+  "page": "contact",
+  "en": "Email*",
+  "th": "อีเมล*",
+  "html": false
+ },
+ {
+  "key": "contact.telephone",
+  "page": "contact",
+  "en": "Telephone",
+  "th": "เบอร์โทรศัพท์",
+  "html": false
+ },
+ {
+  "key": "contact.message",
+  "page": "contact",
+  "en": "Message*",
+  "th": "ข้อความ*",
+  "html": false
+ },
+ {
+  "key": "contact.attachment",
+  "page": "contact",
+  "en": "Attach a file (PDF, JPG, PNG or Word, up to 5 MB)",
+  "th": "แนบไฟล์ (PDF, JPG, PNG หรือ Word ไม่เกิน 5 MB)",
+  "html": false
+ },
+ {
+  "key": "contact.i-have-read-and-accepted-the",
+  "page": "contact",
+  "en": "I have read and accepted the",
+  "th": "ฉันได้อ่านและยอมรับข้อกำหนดและเงื่อนไขที่ระบุไว้ใน",
+  "html": false
+ },
+ {
+  "key": "contact.send",
+  "page": "contact",
+  "en": "Send",
+  "th": "ส่ง",
+  "html": false
+ },
+ {
+  "key": "events.news",
+  "page": "events",
+  "en": "News",
+  "th": "ข่าวสาร",
+  "html": false
+ },
+ {
+  "key": "ir.trust",
+  "page": "ir",
+  "en": "Trust",
+  "th": "โปร่งใส",
+  "html": false
+ },
+ {
+  "key": "ir.corporate-governance",
+  "page": "ir",
+  "en": "Corporate Governance",
+  "th": "การกำกับดูแลกิจการ",
+  "html": false
+ }
+]

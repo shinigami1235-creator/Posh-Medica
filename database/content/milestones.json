@@ -1,0 +1,56 @@
+[
+ {
+  "year": "2011",
+  "title_en": "The Beginning",
+  "title_th": "จุดเริ่มต้น",
+  "text_en": "Founded Wiwan Aesthetic Clinic by expert dermatologists.",
+  "text_th": "ก่อตั้ง Wiwan Aesthetic Clinic โดยทีมแพทย์ผิวหนังผู้เชี่ยวชาญ",
+  "image": "site/milestones/ms-2011.webp",
+  "sort": 1
+ },
+ {
+  "year": "2012",
+  "title_en": "Posh Medica Supplement Trading Company",
+  "title_th": "ขยายฐานการผลิต",
+  "text_en": "Established Posh Medica, focusing on fiber-based dietary supplements, sold in 300+ stores nationwide.",
+  "text_th": "ขยายฐานการผลิตไปยังพื้นที่อำเภอลำลูกกา จังหวัดปทุมธานี บนเนื้อที่กว่า 15,000 ตารางเมตร รองรับกำลังการผลิตเพิ่มขึ้น 20 เท่า",
+  "image": "site/milestones/ms-2012.webp",
+  "sort": 2
+ },
+ {
+  "year": "2016",
+  "title_en": "Posh Lab R&D laboratory",
+  "title_th": "Posh Medica Lifetech",
+  "text_en": "Launched Posh Lab for R&D and pilot production.",
+  "text_th": "ก้าวสำคัญของ Posh Medica Lifetech สู่การเป็นบริษัทมหาชนอย่างเต็มภาคภูมิ สะท้อนความมุ่งมั่นในการรักษามาตรฐานระดับสูง พร้อมเดินหน้าอย่างมั่นคงสู่การเติบโตอย่างยั่งยืนในระดับสากล",
+  "image": "site/milestones/ms-2016.webp",
+  "sort": 3
+ },
+ {
+  "year": "2018",
+  "title_en": "Grand Opening of Posh Medica",
+  "title_th": "จัดตั้ง",
+  "text_en": "Officially launched as a full-service manufacturer and distributor for in-house and OEM brands.",
+  "text_th": "อย่างเป็นทางการในฐานะบริษัทผลิตและจัดจำหน่ายครบวงจร ให้บริการทั้งแบรนด์ของบริษัทเองและลูกค้า OEM",
+  "image": "site/milestones/ms-2018.webp",
+  "sort": 4
+ },
+ {
+  "year": "2023",
+  "title_en": "Relocated the Manufacturing Facility",
+  "title_th": "ขยายฐานการผลิต",
+  "text_en": "Expanded production to Lam Luk Ka, Pathum Thani, increasing capacity 20-fold.",
+  "text_th": "ขยายฐานการผลิตไปยังพื้นที่อำเภอลำลูกกา จังหวัดปทุมธานี บนเนื้อที่กว่า 15,000 ตารางเมตร รองรับกำลังการผลิตเพิ่มขึ้น 20 เท่า",
+  "image": "site/milestones/ms-2023.webp",
+  "sort": 5
+ },
+ {
+  "year": "2025",
+  "title_en": "Posh Medica Lifetech",
+  "title_th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "text_en": "Becomes a public company, marking a step toward sustainable global growth.",
+  "text_th": "สู่การเป็นบริษัทมหาชนอย่างเต็มภาคภูมิ สะท้อนความมุ่งมั่นในการรักษามาตรฐานระดับสูง พร้อมเดินหน้าอย่างมั่นคงสู่การเติบโตอย่างยั่งยืนในระดับสากล",
+  "image": null,
+  "sort": 6
+ }
+]

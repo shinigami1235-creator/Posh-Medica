@@ -1,0 +1,142 @@
+[
+ {
+  "name": "7-Eleven",
+  "logo": "site/partners/711.png",
+  "url": null,
+  "shelf": 1,
+  "sort": 1
+ },
+ {
+  "name": "FamilyMart",
+  "logo": "site/partners/familymart.png",
+  "url": null,
+  "shelf": 1,
+  "sort": 2
+ },
+ {
+  "name": "Lawson",
+  "logo": "site/partners/lawson.png",
+  "url": null,
+  "shelf": 1,
+  "sort": 3
+ },
+ {
+  "name": "Jiffy",
+  "logo": "site/partners/jiffy.png",
+  "url": null,
+  "shelf": 1,
+  "sort": 4
+ },
+ {
+  "name": "CJ",
+  "logo": "site/partners/cj.png",
+  "url": null,
+  "shelf": 1,
+  "sort": 5
+ },
+ {
+  "name": "Tops",
+  "logo": "site/partners/tops.png",
+  "url": null,
+  "shelf": 1,
+  "sort": 6
+ },
+ {
+  "name": "Big C",
+  "logo": "site/partners/bigc.png",
+  "url": null,
+  "shelf": 1,
+  "sort": 7
+ },
+ {
+  "name": "Big C Mini",
+  "logo": "site/partners/bigcmini.png",
+  "url": null,
+  "shelf": 2,
+  "sort": 1
+ },
+ {
+  "name": "Lotus's",
+  "logo": "site/partners/lotuss.png",
+  "url": null,
+  "shelf": 2,
+  "sort": 2
+ },
+ {
+  "name": "The Mall",
+  "logo": "site/partners/themall.png",
+  "url": null,
+  "shelf": 2,
+  "sort": 3
+ },
+ {
+  "name": "Watsons",
+  "logo": "site/partners/watsons.png",
+  "url": "https://www.watsons.co.th/en/posh-medica-fiber-tamarind-10-sachets-box-fiber-dietary/p/BP_302103",
+  "shelf": 2,
+  "sort": 4
+ },
+ {
+  "name": "Boots",
+  "logo": "site/partners/bootspng.png",
+  "url": null,
+  "shelf": 2,
+  "sort": 5
+ },
+ {
+  "name": "Matsukiyo",
+  "logo": "site/partners/matsukiyo.png",
+  "url": null,
+  "shelf": 2,
+  "sort": 6
+ },
+ {
+  "name": "Beautrium",
+  "logo": "site/partners/beautrium.png",
+  "url": null,
+  "shelf": 2,
+  "sort": 7
+ },
+ {
+  "name": "Nine Beauty",
+  "logo": "site/partners/ninebeauty.png",
+  "url": null,
+  "shelf": 3,
+  "sort": 1
+ },
+ {
+  "name": "Pure",
+  "logo": "site/partners/pure.png",
+  "url": null,
+  "shelf": 3,
+  "sort": 2
+ },
+ {
+  "name": "Save and Safe",
+  "logo": "site/partners/saveandsafe.png",
+  "url": null,
+  "shelf": 3,
+  "sort": 3
+ },
+ {
+  "name": "Shopee",
+  "logo": "site/partners/shopee.png",
+  "url": null,
+  "shelf": 3,
+  "sort": 4
+ },
+ {
+  "name": "Lazada",
+  "logo": "site/partners/lazada.png",
+  "url": null,
+  "shelf": 3,
+  "sort": 5
+ },
+ {
+  "name": "LINE Shop",
+  "logo": "site/partners/lineshop.png",
+  "url": "https://page.line.me/rng1382b",
+  "shelf": 3,
+  "sort": 6
+ }
+]

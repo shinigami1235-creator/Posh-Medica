@@ -1,0 +1,100 @@
+[
+ {
+  "kind": "award",
+  "title_en": "INNOVATION NUTRACEUTICAL AWARD 2025",
+  "title_th": "รางวัล INNOVATION NUTRACEUTICAL AWARD 2025",
+  "image": "site/awards/awards-0.webp",
+  "sort": 1
+ },
+ {
+  "kind": "award",
+  "title_en": "NINE BEAUTY AWARDS 2025 by CJ MORE",
+  "title_th": "รางวัล NINE BEAUTY AWARDS 2025 (CJ MORE)",
+  "image": "site/awards/awards-1.webp",
+  "sort": 2
+ },
+ {
+  "kind": "award",
+  "title_en": "Watsons HWB Awards 2017",
+  "title_th": "Watsons HWB Awards 2017",
+  "image": "site/awards/awards-2.webp",
+  "sort": 3
+ },
+ {
+  "kind": "award",
+  "title_en": "Nine Beauty Awards 2024",
+  "title_th": "Nine Beauty Awards 2024",
+  "image": "site/awards/awards-3.webp",
+  "sort": 4
+ },
+ {
+  "kind": "award",
+  "title_en": "Watsons Health, Wellness and Beauty Awards 2021 (HWB Awards 2021)",
+  "title_th": "Watsons Health, Wellness and Beauty Awards 2021 (HWB Awards 2021)",
+  "image": "site/awards/awards-4.webp",
+  "sort": 5
+ },
+ {
+  "kind": "award",
+  "title_en": "Best Biz & Products Awards 2016",
+  "title_th": "Best Biz & Products Awards 2016",
+  "image": "site/awards/awards-5.webp",
+  "sort": 6
+ },
+ {
+  "kind": "award",
+  "title_en": "Watsons Health, Wellness and Beauty Award 2016 (HWB Award 2016)",
+  "title_th": "Watsons Health, Wellness and Beauty Award 2016 (HWB Award 2016)",
+  "image": "site/awards/awards-6.webp",
+  "sort": 7
+ },
+ {
+  "kind": "standard",
+  "title_en": "ISO 27001:2022 Information Security Management System",
+  "title_th": "ISO 27001:2022 Information Security Management System",
+  "image": "site/awards/standards-0.webp",
+  "sort": 1
+ },
+ {
+  "kind": "standard",
+  "title_en": "ASEAN Guidelines for Cosmetic – GMP",
+  "title_th": "แนวทางอาเซียนว่าด้วยการผลิตเครื่องสำอางตามหลัก GMP",
+  "image": "site/awards/standards-1.webp",
+  "sort": 2
+ },
+ {
+  "kind": "standard",
+  "title_en": "ISO 22716:2007",
+  "title_th": "ISO 22716:2007",
+  "image": "site/awards/standards-2.webp",
+  "sort": 3
+ },
+ {
+  "kind": "standard",
+  "title_en": "HALAL Certified",
+  "title_th": "ได้รับการรับรอง HALAL",
+  "image": "site/awards/standards-3.webp",
+  "sort": 4
+ },
+ {
+  "kind": "standard",
+  "title_en": "HALAL Certified",
+  "title_th": "ได้รับการรับรอง HALAL",
+  "image": "site/awards/standards-4.webp",
+  "sort": 5
+ },
+ {
+  "kind": "standard",
+  "title_en": "HACCP",
+  "title_th": "HACCP",
+  "image": "site/awards/standards-5.webp",
+  "sort": 6
+ },
+ {
+  "kind": "standard",
+  "title_en": "CODEX GHPs",
+  "title_th": "มาตรฐานความปลอดภัยระดับโลก CODEX GHPs",
+  "image": "site/awards/standards-6.webp",
+  "sort": 7
+ }
+]

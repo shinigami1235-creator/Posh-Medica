@@ -1,0 +1,42 @@
+[
+ {
+  "label_en": "Developed",
+  "label_th": "พัฒนาผลิตภัณฑ์มาแล้ว",
+  "value": "1,000+",
+  "unit_en": "Products",
+  "unit_th": "ผลิตภัณฑ์",
+  "fill": 0.9,
+  "color": "#b0743f,#7a4a22",
+  "sort": 1
+ },
+ {
+  "label_en": "Experience",
+  "label_th": "ประสบการณ์กว่า",
+  "value": "15",
+  "unit_en": "Years",
+  "unit_th": "ปี",
+  "fill": 0.62,
+  "color": "#f7a43a,#d9700e",
+  "sort": 2
+ },
+ {
+  "label_en": "Sale Channels",
+  "label_th": "ช่องทางจัดจำหน่าย",
+  "value": "25,000+",
+  "unit_en": "Outlets",
+  "unit_th": "จุดขายทั่วประเทศ",
+  "fill": 0.82,
+  "color": "#d4e04a,#8fa81c",
+  "sort": 3
+ },
+ {
+  "label_en": "Sales",
+  "label_th": "มียอดขายรวม",
+  "value": "586+",
+  "unit_en": "MB in 2024",
+  "unit_th": "ล้านบาท ในปี 2567",
+  "fill": 0.72,
+  "color": "#f0566c,#b5182f",
+  "sort": 4
+ }
+]

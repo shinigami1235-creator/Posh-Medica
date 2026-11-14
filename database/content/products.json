@@ -1,0 +1,1724 @@
+[
+ {
+  "id": 1,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Pi",
+  "name_en": "Pineapple Fiber",
+  "name_th": "ไฟเบอร์สับปะรด",
+  "slug_en": "pineapple-fiber",
+  "slug_th": "ไฟเบอร์สับปะรด",
+  "desc_en": "Supports gut balance, aids digestion, and helps relieve bloating. Contains konjac to keep you feeling full longer and reduce snacking throughout the day.",
+  "desc_th": "ใยอาหารสูง 15,000 มก. มีจุลินทรีย์โพรไบโอติก ช่วยปรับสมดุลลำไส้ ขับถ่ายง่าย ไม่ท้องเสีย รสชาติอร่อย ทานง่าย",
+  "ingredients_en": [
+   "Pineapple",
+   "Psyllium Husk",
+   "Bacillus coagulans",
+   "Konjac",
+   "Moringa"
+  ],
+  "ingredients_th": [
+   "ฟรุกโตโอลิโกแซคคาไรด์",
+   "บาซิลลัส",
+   "โคแอกกูแลน",
+   "ไซเลียมฮัสก์",
+   "หน่อไม้ฝรั่ง"
+  ],
+  "badges": [
+   "high fiber",
+   "low calorie",
+   "no preservatives",
+   "sugar free",
+   "vegetarian",
+   "GHP",
+   "HACCP"
+  ],
+  "image": "site/products/p1.webp",
+  "photos": [
+   "site/products/1-0.webp",
+   "site/products/1-1.webp",
+   "site/products/1-2.webp"
+  ],
+  "sort": 1
+ },
+ {
+  "id": 2,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Ta",
+  "name_en": "Tamarind Fiber",
+  "name_th": "ไฟเบอร์มะขาม",
+  "slug_en": "tamarind-fiber",
+  "slug_th": "ไฟเบอร์มะขาม",
+  "desc_en": "Contains dietary fiber and natural extracts that help support regular bowel movements and relieve constipation. Delicious and easy to consume.",
+  "desc_th": "ไฟเบอร์มะขาม รสชาติหอมอร่อยลงตัว จัดเต็มใยอาหารสูง 15,000 มก. ช่วยเพิ่มกากในระบบทางเดินอาหารและกระตุ้นการขับถ่าย พร้อมคุณค่าจากเบต้ากลูแคน ที่มีส่วนช่วยในการทำหน้าที่ตามปกติของระบบภูมิคุ้มกัน",
+  "ingredients_en": [
+   "Tamarind",
+   "Psyllium Husk",
+   "Terminalia",
+   "Chrysanthemum",
+   "Reishi Mushroom"
+  ],
+  "ingredients_th": [
+   "มะขาม",
+   "บาซิลลัส",
+   "เห็ดหลินจือ",
+   "Chrysanthemum",
+   "สารสกัดจากส้มแขก"
+  ],
+  "badges": [
+   "high fiber",
+   "low calorie",
+   "no preservatives",
+   "vegetarian",
+   "fat free",
+   "GHP",
+   "HACCP"
+  ],
+  "image": "site/products/p2.webp",
+  "photos": [
+   "site/products/2-0.webp",
+   "site/products/2-1.webp",
+   "site/products/2-2.webp"
+  ],
+  "sort": 2
+ },
+ {
+  "id": 8,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Cp",
+  "name_en": "C Passion Fruit Fiber",
+  "name_th": "ซี ไฟเบอร์เสาวรส",
+  "slug_en": "c-passion-fruit-fiber",
+  "slug_th": "ซี-ไฟเบอร์เสาวรส",
+  "desc_en": "Packed with superfruits to fight free radicals and nourish your eyes, skin, hair, and nails for strength and health.",
+  "desc_th": "ไฟเบอร์เสาวรส รสชาติหอมละมุน กลมกล่อมลงตัว จัดเต็มใยอาหารสูง 20,000 มก. และไบโอติน พร้อมเคี้ยวเพลินกับเมล็ดเจียในซอง ให้คุณสัมผัสความอร่อยที่ใช่",
+  "ingredients_en": [
+   "Passion Fruit",
+   "Psyllium Husk",
+   "Vitamin C",
+   "Goji Berry",
+   "Biotin"
+  ],
+  "ingredients_th": [
+   "ผงเสาวรส",
+   "บาซิลลัส",
+   "ผงส้มยูสุ",
+   "สารสกัดจากซีบัคธอร์น",
+   "ซีบัคธอร์น"
+  ],
+  "badges": [
+   "high fiber",
+   "high vitamin C",
+   "no preservatives",
+   "vegetarian",
+   "fat free",
+   "GHP",
+   "HACCP",
+   "sugar free"
+  ],
+  "image": "site/products/p8.webp",
+  "photos": [
+   "site/products/8-0.webp",
+   "site/products/8-1.webp",
+   "site/products/8-2.webp"
+  ],
+  "sort": 3
+ },
+ {
+  "id": 9,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Ap",
+  "name_en": "Apple Fiber",
+  "name_th": "ไฟเบอร์แอปเปิ้ล",
+  "slug_en": "apple-fiber",
+  "slug_th": "ไฟเบอร์แอปเปิ้ล",
+  "desc_en": "Contains extracts that help rejuvenate cells, slow down the appearance of wrinkles, and promote strong, radiant, and youthful-looking skin.",
+  "desc_th": "มีใยอาหารจากแอปเปิ้ลมากถึง 3200 มิลลิกรัม มี SOD จากเมล่อนฝรั่งเศษ และสารสกัดจากผิวองุ่น ช่วยชะลอความแก่ ผิวดูเยาว์วัย รสชาติอร่อย ทานง่าย",
+  "ingredients_en": [
+   "Apple Fiber",
+   "Melon",
+   "Grape Skin",
+   "L-Glutathione",
+   "Coenzyme Q10"
+  ],
+  "ingredients_th": [
+   "ไฟเบอร์แอปเปิ้ล",
+   "ผงไซเลียมฮัลก์",
+   "บุก",
+   "แอล-กลูต้าไธโอน",
+   "ผงแพร์"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "no preservatives",
+   "vegetarian",
+   "fat free",
+   "sugar free"
+  ],
+  "image": "site/products/p9.webp",
+  "photos": [
+   "site/products/9-0.webp",
+   "site/products/9-1.webp",
+   "site/products/9-2.webp"
+  ],
+  "sort": 4
+ },
+ {
+  "id": 10,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Tn",
+  "name_en": "Tangerine Fiber",
+  "name_th": "ซี ไฟเบอร์ส้มเขียวหวาน",
+  "slug_en": "tangerine-fiber",
+  "slug_th": "ซี-ไฟเบอร์ส้มเขียวหวาน",
+  "desc_en": "High in vitamin C and fruit extracts to help brighten your skin.",
+  "desc_th": "ใยอาหารสูง 15,000 มก. มีวิตามินC ส้ม 3 ชนิด ส้มเขียวหวาน, ส้มเกลี้ยง, ส้มยูสุ, มีโพรไบโอติก ปรับสมดุลลำไส้ เสริมภูมิคุ้มกัน ลดท้องอืด ท้องผูก ท้องเสีย ช่วยย่อยอาหาร ลดการอักเสบในลำไส้",
+  "ingredients_en": [
+   "Mandarin",
+   "Psyllium Husk",
+   "Vitamin C",
+   "Tomato",
+   "Broccoli"
+  ],
+  "ingredients_th": [
+   "ผงส้มเขียวหวาน",
+   "บาซิลลัส",
+   "ผงส้มยูสุ",
+   "ผงมะนาว",
+   "ผงไซเลียมฮัสก์"
+  ],
+  "badges": [
+   "high vitamin C",
+   "no preservatives",
+   "sugar free",
+   "vegetarian",
+   "GHP",
+   "HACCP"
+  ],
+  "image": "site/products/p10.webp",
+  "photos": [
+   "site/products/10-0.webp",
+   "site/products/10-1.webp",
+   "site/products/10-2.webp"
+  ],
+  "sort": 5
+ },
+ {
+  "id": 13,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Tm",
+  "name_en": "Tamarind Max Fiber",
+  "name_th": "เอส ไฟเบอร์มะขามแม็กซ์",
+  "slug_en": "tamarind-max-fiber",
+  "slug_th": "เอส-ไฟเบอร์มะขามแม็กซ์",
+  "desc_en": "Contains maximum dietary fiber with rose and selenium to help support smooth bowel movements and effectively eliminate toxins.",
+  "desc_th": "ใยอาหารสูงถึง 25,000 มก.มีกุหลาบ และลูกสำรอง ช่วยกระตุ้นการขับถ่าย รสชาติอร่อย ทานง่าย",
+  "ingredients_en": [
+   "Tamarind",
+   "Malva Nut",
+   "Rose",
+   "Safflower",
+   "Selenium"
+  ],
+  "ingredients_th": [
+   "มะขาม",
+   "กุหลาบ",
+   "กุหลาบ",
+   "ผักโขม",
+   "คาโมมายล์"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "no preservatives",
+   "vegetarian",
+   "fat free",
+   "sugar free"
+  ],
+  "image": "site/products/p13.webp",
+  "photos": [
+   "site/products/13-0.webp",
+   "site/products/13-1.webp",
+   "site/products/13-2.webp"
+  ],
+  "sort": 6
+ },
+ {
+  "id": 16,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Li",
+  "name_en": "Lime Fiber",
+  "name_th": "ไฟเบอร์มะนาว",
+  "slug_en": "lime-fiber",
+  "slug_th": "ไฟเบอร์มะนาว",
+  "desc_en": "Fresh honey lemon scent, rich taste, with natural fiber to help clean your gut and remove toxins from your body.",
+  "desc_th": "หอมน้ำผึ้งมะนาว อร่อยสดใสในทุกจิบ มีใยอาหารสูง 10,000 มก. และไซเลียมฮัส รสชาติกลมกล่อมลงตัว เพิ่มกากในระบบทางเดินอาหาร ช่วยให้ขับถ่ายอย่างอ่อนโยน พร้อมพรีไบโอติกที่เป็นอาหารของจุลินทรีย์",
+  "ingredients_en": [
+   "Lime",
+   "Psyllium Husk",
+   "Artichoke",
+   "Parsley",
+   "Chlorella"
+  ],
+  "ingredients_th": [
+   "มะนาว",
+   "บาซิลลัส",
+   "ฟรุกโตโอลิโกแซ็กคาไรด์",
+   "น้ำผึ้ง",
+   "แอปเปิ้ล"
+  ],
+  "badges": [
+   "high fiber",
+   "low calorie",
+   "vegetarian",
+   "no preservatives",
+   "GHP",
+   "HACCP"
+  ],
+  "image": "site/products/p16.webp",
+  "photos": [
+   "site/products/16-0.webp",
+   "site/products/16-1.webp",
+   "site/products/16-2.webp"
+  ],
+  "sort": 7
+ },
+ {
+  "id": 17,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "ซฟ",
+  "name_en": "ซีไฟเบอร์มะนาวแม็กซ์",
+  "name_th": "ซีไฟเบอร์มะนาวแม็กซ์",
+  "slug_en": "product-17",
+  "slug_th": "ซี-ไฟเบอร์มะนาวแม็กซ์",
+  "desc_en": "Higher fiber content with maximum vitamin C added, supports better metabolism and promotes healthier bowel movements.",
+  "desc_th": "ซี มะนาวแม็กซ์ จัดเต็มใยอาหาร 18,000 มก. ช่วยเพิ่มกากในระบบทางเดินอาหารและกระตุ้นการขับถ่าย พร้อมวิตามินซีและดีที่มีส่วนช่วยในการทำหน้าที่ตามปกติของระบบภูมิคุ้มกัน",
+  "ingredients_en": [
+   "Lime",
+   "Psyllium Husk",
+   "Garcinia",
+   "Vitamin C",
+   "Cactus Extract"
+  ],
+  "ingredients_th": [
+   "มะนาว",
+   "บาซิลลัส",
+   "ผสานผักและสมุนไพรหลากหลายชนิดไว้ในซองเดียว รวมส่วนประกอบทั้งหมด 18 ชนิด",
+   "ผงส้มยูสุ",
+   "Cactus Extract"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "high vitamin C",
+   "no preservatives",
+   "vegetarian",
+   "fat free",
+   "sugar free"
+  ],
+  "image": "site/products/p17.webp",
+  "photos": [
+   "site/products/17-0.webp",
+   "site/products/17-1.webp",
+   "site/products/17-2.webp"
+  ],
+  "sort": 8
+ },
+ {
+  "id": 18,
+  "group": "fiber",
+  "form": "capsule",
+  "symbol": "ฟบ",
+  "name_en": "ไฟเบอร์มะขามแคปซูล",
+  "name_th": "ไฟเบอร์มะขามแคปซูล",
+  "slug_en": "product-18",
+  "slug_th": "ไฟเบอร์มะขามแคปซูล",
+  "desc_en": "Tamarind fiber in capsule form, enhanced with probiotics to support gut balance and promote smooth elimination.",
+  "desc_th": "ปรับสมดุลลำไส้ ลดท้องผูก/ท้องร่วง ล้างสารพิษในร่างกาย กระตุ้นระบบขับถ่าย เสริมภูมิคุ้มกัน",
+  "ingredients_en": [
+   "Bacillus coagulans",
+   "Gambong (Garcinia)",
+   "Reishi Mushroom",
+   "Indian Gooseberry (Amla)",
+   "Terminalia"
+  ],
+  "ingredients_th": [
+   "โคแอกกูแลน",
+   "ผงสมอพิเภก",
+   "สารสกัดจากส้มแขก",
+   "สารสกัดจากแดนดิไลออน",
+   "เห็ดหลินจือ"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p18.webp",
+  "photos": [
+   "site/products/18-0.webp",
+   "site/products/18-1.webp"
+  ],
+  "sort": 9
+ },
+ {
+  "id": 19,
+  "group": "fiber",
+  "form": "capsule",
+  "symbol": "ฟอ",
+  "name_en": "ไฟเบอร์มะนาวแคปซูล",
+  "name_th": "ไฟเบอร์มะนาวแคปซูล",
+  "slug_en": "product-19",
+  "slug_th": "ไฟเบอร์มะนาวแคปซูล",
+  "desc_en": "Lemon fiber in capsule form, enhanced with probiotics to help balance the gut.",
+  "desc_th": "เพิ่มกากใยในระบบทางเดินอาหาร ช่วยให้ลำไส้ทำงานมีประสิทธิภาพ ช่วยเพิ่มการขับถ่าย เหมาะกับผู้ทานผักน้อย เสริมสมดุลจุลินทรีย์ในลำไส้",
+  "ingredients_en": [
+   "Probiotic",
+   "Lime Fiber",
+   "Psyllium Husk",
+   "Garcinia",
+   "Vitamin C"
+  ],
+  "ingredients_th": [
+   "มะนาว",
+   "ไฟเบอร์มะนาว",
+   "บาซิลลัส",
+   "ผสานผักและสมุนไพรหลากหลายชนิดไว้ในซองเดียว รวมส่วนประกอบทั้งหมด 18 ชนิด",
+   "ผงส้มยูสุ"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p19.webp",
+  "photos": [
+   "site/products/19-0.webp",
+   "site/products/19-1.webp"
+  ],
+  "sort": 10
+ },
+ {
+  "id": 20,
+  "group": "fiber",
+  "form": "capsule",
+  "symbol": "ฟร",
+  "name_en": "ไฟเบอร์สับปะรดแคปซูล",
+  "name_th": "ไฟเบอร์สับปะรดแคปซูล",
+  "slug_en": "product-20",
+  "slug_th": "ไฟเบอร์สับปะรดแคปซูล",
+  "desc_en": "Pineapple fiber in capsule form, enriched with probiotics to help balance the gut and nourish hair for a healthy shine.",
+  "desc_th": "ช่วยให้ผิวนุ่มเนียนและมีสุขภาพดี เสริมสร้างภูมิคุ้มกัน ป้องกันอาการหวัด ต้านการอักเสบ ปรับสมดุลจุลินทรีย์ในลำไส้ ลดท้องผูก/ท้องร่วง บำรุงเส้นผม ลดผมขาดร่วง",
+  "ingredients_en": [
+   "Probiotic",
+   "Pineapple Fiber",
+   "Yeast Beta Glucan",
+   "Biotin",
+   "Vitamin D"
+  ],
+  "ingredients_th": [
+   "มะนาว",
+   "ไฟเบอร์สับปะรด",
+   "วิตามินดี",
+   "ซีบัคธอร์น",
+   "วิตามินเอ"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p20.webp",
+  "photos": [
+   "site/products/20-0.webp",
+   "site/products/20-1.webp"
+  ],
+  "sort": 11
+ },
+ {
+  "id": 21,
+  "group": "fiber",
+  "form": "capsule",
+  "symbol": "ฟป",
+  "name_en": "ไฟเบอร์แอปเปิ้ลแคปซูล",
+  "name_th": "ไฟเบอร์แอปเปิ้ลแคปซูล",
+  "slug_en": "product-21",
+  "slug_th": "ไฟเบอร์แอปเปิ้ลแคปซูล",
+  "desc_en": "",
+  "desc_th": "",
+  "ingredients_en": [],
+  "ingredients_th": [],
+  "badges": [],
+  "image": "site/products/p21.webp",
+  "photos": [
+   "site/products/21-0.webp",
+   "site/products/21-1.webp"
+  ],
+  "sort": 12
+ },
+ {
+  "id": 24,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "มข",
+  "name_en": "มะขามคอมบูชะ",
+  "name_th": "มะขามคอมบูชะ",
+  "slug_en": "product-24",
+  "slug_th": "มะขามคอมบูชะ",
+  "desc_en": "Helps balance the gut and reduce the absorption of sugar and fat.",
+  "desc_th": "มะขามคอมบูชะ มีจุลินทรีย์ดีกว่า 40,000 ล้านตัว ช่วยในเรื่องของการขับถ่ายเป็นหลัก เน้นรสชาติชาหมักคอมบูชะ ที่ออกแบบให้ดื่มง่าย เหมือนกับดื่มนมเปรี้ยว สำหรับคนที่ชอบนั่งทำงานในเวลานานๆพนักงานออฟฟิศ ที่ไม่ได้มีการขยับลำไส้ ก่อให้เกิดการสะสม เรื่องเกิดปัญหาภายในลำไส้ได้",
+  "ingredients_en": [
+   "Tamarind",
+   "Kombucha",
+   "Probiotics",
+   "Konjac",
+   "Green Tea"
+  ],
+  "ingredients_th": [
+   "มะขาม",
+   "Kombucha",
+   "สับปะรด",
+   "ไซเลียมฮัสก์",
+   "และส่วนประกอบอื่นๆอีกหลากหลาย"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "no preservatives",
+   "sugar free",
+   "vegetarian",
+   "fat free"
+  ],
+  "image": "site/products/p24.webp",
+  "photos": [
+   "site/products/24-0.webp",
+   "site/products/24-1.webp",
+   "site/products/24-2.webp"
+  ],
+  "sort": 13
+ },
+ {
+  "id": 25,
+  "group": "fiber",
+  "form": "jelly",
+  "symbol": "จล",
+  "name_en": "เจลลี่ ไฟเบอร์ มะขาม",
+  "name_th": "เจลลี่ ไฟเบอร์ มะขาม",
+  "slug_en": "product-25",
+  "slug_th": "เจลลี่-ไฟเบอร์-มะขาม",
+  "desc_en": "High in fiber and enriched with probiotics to support a balanced gut microbiome and promote healthy digestion.",
+  "desc_th": "สารสกัดจากน้ำมะขาม ส้มแขก พรุน เพิ่มโพรไบโอติก ช่วยให้ระบบขับถ่ายทำงานได้อย่างเป็นปกติ",
+  "ingredients_en": [
+   "Tamarind Juice",
+   "Acacia Powder",
+   "Polydextrose",
+   "Bacillus Coagulans",
+   "Gamboge Extract"
+  ],
+  "ingredients_th": [
+   "น้ำมะขาม",
+   "ผงมะขาม",
+   "ผงอะคาเชียกัม",
+   "โพลีเด็กซ์โตรส",
+   "ผงบุก"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "sugar free",
+   "vegetarian",
+   "fat free"
+  ],
+  "image": "site/products/p25.webp",
+  "photos": [
+   "site/products/25-0.webp",
+   "site/products/25-1.webp",
+   "site/products/25-2.webp"
+  ],
+  "sort": 14
+ },
+ {
+  "id": 53,
+  "group": "fiber",
+  "form": "powder",
+  "symbol": "Sk",
+  "name_en": "Strawberry Fiber Kick",
+  "name_th": "สตรอเบอร์รี่ คิก",
+  "slug_en": "strawberry-fiber-kick",
+  "slug_th": "สตรอเบอร์รี่-คิก",
+  "desc_en": "Dietary fiber for everyone to support digestive balance. Easy to consume, promotes smooth bowel movements, and helps strengthen the immune system for a healthier body.",
+  "desc_th": "มีใยอาหารสูง วิตามินซีสูง บำรุงผิวพรรณ และช่วยให้ขับถ่ายอย่างอ่อนโยน",
+  "ingredients_en": [
+   "Fruit Powder",
+   "Fructooligosaccharides (FOS)",
+   "Galactooligosaccharides (GOS)",
+   "Bacillus coagulans",
+   "Vitamin C"
+  ],
+  "ingredients_th": [
+   "สตรอเบอร์รี่",
+   "ส้มแขก",
+   "ลิ้นจี่",
+   "โคแอกกูแลน",
+   "ผงส้มยูสุ"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "high vitamin C",
+   "no preservatives"
+  ],
+  "image": "site/products/p53.webp",
+  "photos": [
+   "site/products/53-0.webp",
+   "site/products/53-1.webp",
+   "site/products/53-2.webp"
+  ],
+  "sort": 15
+ },
+ {
+  "id": 7,
+  "group": "care",
+  "form": "capsule",
+  "symbol": "Le",
+  "name_en": "Leep",
+  "name_th": "ลีพ",
+  "slug_en": "leep",
+  "slug_th": "ลีพ",
+  "desc_en": "Supports relaxation, alleviates stress, and enhances the quality and ease of restful sleep.",
+  "desc_th": "ลีพ ช่วยนอน ซองละ 2 เม็ด ทานก่อนนอน 1 ชม . จะช่วยให้นอนหลับง่ายขึ้น และมีสารสกัดที่ช่วยให้คลายเครียด มีส่วนประกอบของรังนก และสารสกัดจากโสมเกาหลี แอล ธีเอนีน",
+  "ingredients_en": [
+   "Bird Nest",
+   "Ginseng",
+   "L-Glutamine",
+   "L-Theanine",
+   "Tart Cherry"
+  ],
+  "ingredients_th": [
+   "รังนกสีทอง",
+   "ขึ้นฉ่าย",
+   "โสมเกาหลี",
+   "โรสแมรี่",
+   "เชอร์รี่ทาร์ต"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p7.webp",
+  "photos": [
+   "site/products/7-0.webp",
+   "site/products/7-1.webp",
+   "site/products/7-2.webp"
+  ],
+  "sort": 16
+ },
+ {
+  "id": 11,
+  "group": "care",
+  "form": "powder",
+  "symbol": "Ca",
+  "name_en": "Chlorophyll Apple Fiber",
+  "name_th": "คลอโรฟิลล์แอปเปิ้ล",
+  "slug_en": "chlorophyll-apple-fiber",
+  "slug_th": "คลอโรฟิลล์แอปเปิ้ล",
+  "desc_en": "Enriched with a blend of 10 vegetable powders containing chlorophyll, which may help detoxify the blood, promote radiant skin, and reduce body odor and unpleasant breath.",
+  "desc_th": "คลอโรฟิลล์ดี 2,650,000 mcg. เพิ่มผักรวม 10 ชนิด มีส่วนช่วยเรื่องระบบขับถ่าย และลดกลิ่นไม่พึงประสงค์",
+  "ingredients_en": [
+   "Apple",
+   "Psyllium Husk",
+   "Vegetable Mix",
+   "Chlorophyll",
+   "Vitamin C"
+  ],
+  "ingredients_th": [
+   "ผงแอปเปิ้ล",
+   "บาซิลลัส",
+   "ผงไซเลียมฮัสก์",
+   "ฟรุกโตโอลิโกแช็กคาไรด์",
+   "ผงส้มยูสุ"
+  ],
+  "badges": [
+   "high fiber",
+   "no preservatives",
+   "vegetarian",
+   "fat free",
+   "GHP",
+   "HACCP",
+   "sugar free"
+  ],
+  "image": "site/products/p11.webp",
+  "photos": [
+   "site/products/11-0.webp",
+   "site/products/11-1.webp",
+   "site/products/11-2.webp"
+  ],
+  "sort": 17
+ },
+ {
+  "id": 22,
+  "group": "care",
+  "form": "powder",
+  "symbol": "พร",
+  "name_en": "โพรไบโอติก สับปะรด",
+  "name_th": "โพรไบโอติก สับปะรด",
+  "slug_en": "product-22",
+  "slug_th": "โพรไบโอติก-สับปะรด",
+  "desc_en": "Contains good probiotics to help balance your gut and also nourish your hair, making it stronger and shinier.",
+  "desc_th": "โพรไบโอติกสับปะรดมีจุลินทรีย์มากกว่า 20,000 ล้านตัว มีวิตามิน เกลือแร่มากกว่า 25 ชนิด ช่วยในการระบบการขับถ่าย และมีสารสกัดที่ช่วยเรื่องเส้นผม เล็บ กระดูก ไม่ว่าจะเป็นซิงค์ ไบโอติน เบต้ากลูแคน วิตามินที่จำเป็นของคนวัย 30+ วิตามินซี เสริมสร้างคอลลาเจน วิตามินดี วิตามินบีรวมกว่า 5 ชนิด ที่ช่วยในเรื่องลดความอ่อนล้าจากการทำงาน บำรุงระบบประสาท และสมอง แมกนีเซียมช่วยในเรื่องของการซ่อมแซมส่วนที่สึกหรอ และส่งเสริมคุณภาพการนอน สารสกัด",
+  "ingredients_en": [
+   "Fructooligosaccharides (FOS)",
+   "Bacillus coagulans",
+   "Yeast Beta Glucan",
+   "Zinc",
+   "Biotin"
+  ],
+  "ingredients_th": [
+   "ส้มแขก",
+   "โคแอกกูแลน",
+   "วิตามินดี",
+   "สับปะรด",
+   "ซีบัคธอร์น"
+  ],
+  "badges": [
+   "high fiber",
+   "no preservatives",
+   "sugar free",
+   "vegetarian",
+   "fat free",
+   "GHP",
+   "HACCP"
+  ],
+  "image": "site/products/p22.webp",
+  "photos": [
+   "site/products/22-0.webp",
+   "site/products/22-1.webp",
+   "site/products/22-2.webp"
+  ],
+  "sort": 18
+ },
+ {
+  "id": 23,
+  "group": "care",
+  "form": "powder",
+  "symbol": "ซพ",
+  "name_en": "ซี โพรไบโอติก แชร์ มังคุด",
+  "name_th": "ซี โพรไบโอติก แชร์ มังคุด",
+  "slug_en": "product-23",
+  "slug_th": "ซี-โพรไบโอติก-แชร์-มังคุด",
+  "desc_en": "Rich in essential nutrients that nourish hair to make it strong and shiny, reduce breakage and hair loss, and stimulate new hair growth.",
+  "desc_th": "โพรไบโอติกมังคุด ช่วยในเรื่องการขับถ่ายเป็นหลัก เรื่องจากความแรง คุณสมบัติ เสริมของโพรไบโอติกมังคุดคือ ช่วยในเรื่องของเส้นผม ไม่ว่าจะเป็นเรื่องเม็ดสีในเส้นผม ปัญหาการพบผมหงอกก่อนวัย ผมหงอกที่เกิดจากความเครียด หรือขึ้นเล็กๆน้อยๆ จะช่วยให้การเพิ่มเม็ดสีในเส้นผม มีไบโอติน และซิงค์ เสริมสร้างความแข็งแรงให้กับเส้นผม ลดการขาดหลุดร่วงของเส้นผม นอกจากสารสกัดที่ช่วยเรื่องเส้นผม มังคุดมีคุณสมบัติในการต้านอนุมูลอิสระ ต้านสารก่อให้เกิดมะเร็ง เสริมสร้างร่างกายให้แข็งแรงแบบองค์รวม มีจุลินทรีย์ดีกว่า 40,000 ล้านตัว น้ำตาล0%",
+  "ingredients_en": [
+   "Probiotic",
+   "Horsetail",
+   "Vitamin C",
+   "Biotin",
+   "Zinc"
+  ],
+  "ingredients_th": [
+   "มะนาว",
+   "ทับทิม",
+   "ผงส้มยูสุ",
+   "ซีบัคธอร์น",
+   "สับปะรด"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "no preservatives",
+   "sugar free",
+   "vegetarian",
+   "fat free"
+  ],
+  "image": "site/products/p23.webp",
+  "photos": [
+   "site/products/23-0.webp",
+   "site/products/23-1.webp",
+   "site/products/23-2.webp"
+  ],
+  "sort": 19
+ },
+ {
+  "id": 54,
+  "group": "care",
+  "form": "capsule",
+  "symbol": "Lm",
+  "name_en": "Lady Maya",
+  "name_th": "บลาดี้ มายา",
+  "slug_en": "lady-maya",
+  "slug_th": "บลาดี้-มายา",
+  "desc_en": "Supports hormonal balance, helps relieve menstrual discomfort and PMS symptoms, promotes emotional well-being, reduces stress, and alleviates vaginal discharge.",
+  "desc_th": "ปรับฮอร์โมน ลดอาการปวดประจำเดือน และPMS ช่วยปรับอารมณ์ ลดความเครียด ลดอาการตกขาว",
+  "ingredients_en": [
+   "Probiotic",
+   "Dong Quai",
+   "Goji Berry",
+   "Biotin",
+   "Vitamin D3"
+  ],
+  "ingredients_th": [
+   "มะนาว",
+   "ตังกุย (Dong Quai)",
+   "สารสกัดจากซีบัคธอร์น",
+   "ซีบัคธอร์น",
+   "วิตามินดี3 (Vitamin D3)"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p54.webp",
+  "photos": [
+   "site/products/54-0.webp",
+   "site/products/54-1.webp"
+  ],
+  "sort": 20
+ },
+ {
+  "id": 55,
+  "group": "care",
+  "form": "jelly",
+  "symbol": "Jc",
+  "name_en": "Jelly Cola Probiotics",
+  "name_th": "เจลลี่ โคล่า โพรไบโอติก",
+  "slug_en": "jelly-cola-probiotics",
+  "slug_th": "เจลลี่-โคล่า-โพรไบโอติก",
+  "desc_en": "High in fiber and enriched with probiotics to help increase beneficial bacteria, support balance in the gut, and promote healthy bowel function.",
+  "desc_th": "เจลลี่โคล่า ช่วยในเรื่องของการขับถ่ายให้มวลนิ่ม มีวิตามินที่จำเป็นในการบำรุงผิวพรรณ ให้ผิวแลดูกระจ่างใสขึ้น มีผงบุก ช่วยในเารของการเผาผลาญ มีจุลินทรีย์ดีกว่า 10,000 ล้านตัว มีวิตามินที่ช่วยในการดูดซึมสารอาหารจากลำไส้เพิ่มนำไปใช้ภายในร่างกาย",
+  "ingredients_en": [
+   "5 Probiotic Strains",
+   "Acacia Powder",
+   "Polydextrose",
+   "Fructooligosaccharides (FOS)",
+   "Gamboge Extract"
+  ],
+  "ingredients_th": [
+   "ฟรุกโตโอลิโกแซคคาไรด์",
+   "ผงมะขาม",
+   "ผงอะคาเชียกัม",
+   "ส้มแขก",
+   "ผงบุก"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "sugar free",
+   "vegetarian"
+  ],
+  "image": "site/products/p55.webp",
+  "photos": [
+   "site/products/55-0.webp",
+   "site/products/55-1.webp",
+   "site/products/55-2.webp"
+  ],
+  "sort": 21
+ },
+ {
+  "id": 56,
+  "group": "care",
+  "form": "capsule",
+  "symbol": "Ga",
+  "name_en": "GANG",
+  "name_th": "แก๊ง",
+  "slug_en": "gang",
+  "slug_th": "แก๊ง",
+  "desc_en": "แอล-ซิสเทอีน : ลดอาการปวดหัว ฟื้นตัว + ลดอาการอ่อนล้า ผงขิง : ช่วยให้ระบบย่อยอาหารทำงานดีขึ้น ลดการคลื่นไส้ กระตุ้นการไหลเวียนเลือด Vitamin B12 : ช่วยลดอาการมึนงง อ่อนเพลีย เสริมสร้างพลังงาน Vitamin B6 : บรรเทาอาการเวียนหัว คลื่นไส้ ผงลูกพลับ : ขับแอลกอฮอล์ ลดอาการคลื่นไส้และเวียนหัว แอล-กลูตาไธโอน : ช่วยขจัดแอลกอฮอล์ออกจากร่างกาย Vitamin B3/B1 : เผาผลาญแอลกอฮอล์ โคลีน ไบทาร์เทรต : ลดการอักเสบ ช่วยให้ร่างกายฟื้นตัว ทอรีน : บำรุงการทำงานของระบบประสาทและกล้ามเนื้อ Vitamin C:ลดการอักเสบ ช่วยให้ร่างกายฟื้นตัว สารสกัดจากขมิ้น : ลดความเสียหายของเซลล์ตับ กรดอัลฟาไลโปอิก : เสริมภูมิคุ้มกัน ลดความอ่อนล้า",
+  "desc_th": "แอล-ซิสเทอีน : ลดอาการปวดหัว ฟื้นตัว + ลดอาการอ่อนล้า ผงขิง : ช่วยให้ระบบย่อยอาหารทำงานดีขึ้น ลดการคลื่นไส้ กระตุ้นการไหลเวียนเลือด Vitamin B12 : ช่วยลดอาการมึนงง อ่อนเพลีย เสริมสร้างพลังงาน Vitamin B6 : บรรเทาอาการเวียนหัว คลื่นไส้ ผงลูกพลับ : ขับแอลกอฮอล์ ลดอาการคลื่นไส้และเวียนหัว แอล-กลูตาไธโอน : ช่วยขจัดแอลกอฮอล์ออกจากร่างกาย Vitamin B3/B1 : เผาผลาญแอลกอฮอล์ โคลีน ไบทาร์เทรต : ลดการอักเสบ ช่วยให้ร่างกายฟื้นตัว ทอรีน : บำรุงการทำงานของระบบประสาทและกล้ามเนื้อ Vitamin C:ลดการอักเสบ ช่วยให้ร่างกายฟื้นตัว สารสกัดจากขมิ้น : ลดความเสียหายของเซลล์ตับ กรดอัลฟาไลโปอิก : เสริมภูมิคุ้มกัน ลดความอ่อนล้า",
+  "ingredients_en": [
+   "ประกอบด้วยส่วนผสมวัตถุดิบจากธรรมชาติ",
+   "สารสกัดจากขมิ้นชัน",
+   "ผงขิง",
+   "รวมส่วนประกอบอื่นๆ อีกหลากหลายทั้งหมด 14 ชนิด"
+  ],
+  "ingredients_th": [
+   "ประกอบด้วยส่วนผสมวัตถุดิบจากธรรมชาติ",
+   "สารสกัดจากขมิ้นชัน",
+   "ผงขิง",
+   "รวมส่วนประกอบอื่นๆ อีกหลากหลายทั้งหมด 14 ชนิด"
+  ],
+  "badges": [],
+  "image": "site/products/p56.webp",
+  "photos": [
+   "site/products/56-0.webp",
+   "site/products/56-1.webp",
+   "site/products/56-2.webp"
+  ],
+  "sort": 22
+ },
+ {
+  "id": 58,
+  "group": "care",
+  "form": "jelly",
+  "symbol": "Jl",
+  "name_en": "Jelly Leep",
+  "name_th": "เจลลี่ ลีพ",
+  "slug_en": "jelly-leep",
+  "slug_th": "เจลลี่-ลีพ",
+  "desc_en": "เจลลี่ลีพ มีสารสกัดกว่า 12 ชนิดมากกว่า แบรนด์อื่นในรูปแบบเจลลี่ที่วางจำหน่ายในเซเว่น มีสารสกัดที่ช่วยคลายความเครียด กว่า 8 ชนิดผงคาโมมายล์ สารสกัดจากแปะก๊วย สารสกัดตระกลูแอลกว่า 3 ชนิด มีผงบุกที่ช่วยในเรื่องของการเผาผลาญขณะนอนหลับ รสชาติเน้นเชอร์รีทาร์ต สามารถทานตอนกลางวันได้ ถ้าทานช่วงเวลาบ่ายโมง แล้วทำงานต่อจะทำให้เวลาทำงานรู้สึกสมองโล่ง เหมือนเข้างานตอนเช้า ทานก่อนนอน 1 ชม. ทำกิจกรรมเบา จะช่วยให้เบาสมองและนอนหลับง่ายมากขึ้น แต่สำหรับคนที่ทานยานอนหลับเป็นประจำ จะไม่ได้ช่วยให้นอน แต่จะช่วยให้ตื่นมาแล้วไม่เพลีย ไม่เหนื่อยเหมือนกับแมกนีเซียม",
+  "desc_th": "เจลลี่ลีพ มีสารสกัดกว่า 12 ชนิดมากกว่า แบรนด์อื่นในรูปแบบเจลลี่ที่วางจำหน่ายในเซเว่น มีสารสกัดที่ช่วยคลายความเครียด กว่า 8 ชนิดผงคาโมมายล์ สารสกัดจากแปะก๊วย สารสกัดตระกลูแอลกว่า 3 ชนิด มีผงบุกที่ช่วยในเรื่องของการเผาผลาญขณะนอนหลับ รสชาติเน้นเชอร์รีทาร์ต สามารถทานตอนกลางวันได้ ถ้าทานช่วงเวลาบ่ายโมง แล้วทำงานต่อจะทำให้เวลาทำงานรู้สึกสมองโล่ง เหมือนเข้างานตอนเช้า ทานก่อนนอน 1 ชม. ทำกิจกรรมเบา จะช่วยให้เบาสมองและนอนหลับง่ายมากขึ้น แต่สำหรับคนที่ทานยานอนหลับเป็นประจำ จะไม่ได้ช่วยให้นอน แต่จะช่วยให้ตื่นมาแล้วไม่เพลีย ไม่เหนื่อยเหมือนกับแมกนีเซียม",
+  "ingredients_en": [
+   "ผงแบล็คเบอร์รี่",
+   "ผงอินทผลัม",
+   "ผงเอลเดอร์เบอรี",
+   "ผงคาโมมายล์",
+   "และส่วนประกอบอื่นอีกหลายชนิด"
+  ],
+  "ingredients_th": [
+   "ผงแบล็คเบอร์รี่",
+   "ผงอินทผลัม",
+   "ผงเอลเดอร์เบอรี",
+   "ผงคาโมมายล์",
+   "และส่วนประกอบอื่นอีกหลายชนิด"
+  ],
+  "badges": [],
+  "image": "site/products/p58.webp",
+  "photos": [
+   "site/products/58-0.webp",
+   "site/products/58-1.webp",
+   "site/products/58-2.webp"
+  ],
+  "sort": 23
+ },
+ {
+  "id": 59,
+  "group": "care",
+  "form": "jelly",
+  "symbol": "Jb",
+  "name_en": "Jelly Blady",
+  "name_th": "เจลลี่ บลาดี้",
+  "slug_en": "jelly-blady",
+  "slug_th": "เจลลี่-บลาดี้",
+  "desc_en": "เจลลี่บลาดี้โพรไบโอติก ที่รูปแบบใหม่ อร่อย กินง่าย ด้วยโพรไบโอติก 20,000 ล้านตัว มีมากถึง 10 สายพันธุ์ และสารสกัดสมุนไพรอย่าง โสม ตังกุย ทับทิม ดูแลความเป็นผู้หญิงจากภายในสู่ภายนอก หมดปัญหากวนใจต่างๆ",
+  "desc_th": "เจลลี่บลาดี้โพรไบโอติก ที่รูปแบบใหม่ อร่อย กินง่าย ด้วยโพรไบโอติก 20,000 ล้านตัว มีมากถึง 10 สายพันธุ์ และสารสกัดสมุนไพรอย่าง โสม ตังกุย ทับทิม ดูแลความเป็นผู้หญิงจากภายในสู่ภายนอก หมดปัญหากวนใจต่างๆ",
+  "ingredients_en": [
+   "ผงแครนเบอร์รี่",
+   "ผงตังกุย",
+   "ผงโสม",
+   "สารสกัดจากทับทิม",
+   "ผงบุก",
+   "และส่วนประกอบอื่นๆอีกหลายชนิด"
+  ],
+  "ingredients_th": [
+   "ผงแครนเบอร์รี่",
+   "ผงตังกุย",
+   "ผงโสม",
+   "สารสกัดจากทับทิม",
+   "ผงบุก",
+   "และส่วนประกอบอื่นๆอีกหลายชนิด"
+  ],
+  "badges": [],
+  "image": "site/products/p59.webp",
+  "photos": [
+   "site/products/59-0.webp",
+   "site/products/59-1.webp",
+   "site/products/59-2.webp"
+  ],
+  "sort": 24
+ },
+ {
+  "id": 61,
+  "group": "care",
+  "form": "capsule",
+  "symbol": "Zi",
+  "name_en": "Zinc มะขาม",
+  "name_th": "ซิงค์ มะขาม",
+  "slug_en": "zinc",
+  "slug_th": "ซิงค์-มะขาม",
+  "desc_en": "ช่วยเสริมการทำงานของเม็ดเลือดขาว ช่วยเพิ่มพลังงาน กระตุ้นการทำงานของระบบภูมิคุ้มกัน เพิ่มการป้องกันการติดเชื้อ และต้านอนุมูลอิสระ แร่ธาตุสำคัญที่ช่วยในกระบวนการทำงานของระบบภูมิคุ้มกัน",
+  "desc_th": "ช่วยเสริมการทำงานของเม็ดเลือดขาว ช่วยเพิ่มพลังงาน กระตุ้นการทำงานของระบบภูมิคุ้มกัน เพิ่มการป้องกันการติดเชื้อ และต้านอนุมูลอิสระ แร่ธาตุสำคัญที่ช่วยในกระบวนการทำงานของระบบภูมิคุ้มกัน",
+  "ingredients_en": [
+   "สารสกัดจากชาเขียว",
+   "สารสกัดจากเห็ดหลินจือ",
+   "วิตามินซี",
+   "สารสกัดจากโสม",
+   "ผงมะขาม",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย"
+  ],
+  "ingredients_th": [
+   "สารสกัดจากชาเขียว",
+   "สารสกัดจากเห็ดหลินจือ",
+   "วิตามินซี",
+   "สารสกัดจากโสม",
+   "ผงมะขาม",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย"
+  ],
+  "badges": [],
+  "image": "site/products/p61.webp",
+  "photos": [
+   "site/products/61-0.webp",
+   "site/products/61-1.webp"
+  ],
+  "sort": 25
+ },
+ {
+  "id": 62,
+  "group": "care",
+  "form": "powder",
+  "symbol": "ผง",
+  "name_en": "ผงผัก บาย ไร่พอช",
+  "name_th": "ผงผัก บาย ไร่พอช",
+  "slug_en": "product-62",
+  "slug_th": "ผงผัก-บาย-ไร่พอช",
+  "desc_en": "อุดมไปด้วยใยอาหาร ช่วยการทำงานระบบขับถ่าย ลดอาการท้องผูก ช่วยดูแลหัวใจ หลอดเลือด ระบบภูมิคุ้มกันของร่างกาย บำรุงสายตา ให้วิตามินสูง ช่วยเสริมภูมิคุ้มกันให้แข็งแรง ช่วยชะลอการเสื่อมของเซลล์",
+  "desc_th": "อุดมไปด้วยใยอาหาร ช่วยการทำงานระบบขับถ่าย ลดอาการท้องผูก ช่วยดูแลหัวใจ หลอดเลือด ระบบภูมิคุ้มกันของร่างกาย บำรุงสายตา ให้วิตามินสูง ช่วยเสริมภูมิคุ้มกันให้แข็งแรง ช่วยชะลอการเสื่อมของเซลล์",
+  "ingredients_en": [
+   "ผงแอปเปิ้ล",
+   "ผงพาร์สลีย์",
+   "ผงบรอกโคลี",
+   "ผงบลูเบอร์รี่",
+   "ผงไซเลียมฮัสก์",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย"
+  ],
+  "ingredients_th": [
+   "ผงแอปเปิ้ล",
+   "ผงพาร์สลีย์",
+   "ผงบรอกโคลี",
+   "ผงบลูเบอร์รี่",
+   "ผงไซเลียมฮัสก์",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย"
+  ],
+  "badges": [],
+  "image": "site/products/p62.webp",
+  "photos": [
+   "site/products/62-0.webp",
+   "site/products/62-1.webp",
+   "site/products/62-2.webp"
+  ],
+  "sort": 26
+ },
+ {
+  "id": 63,
+  "group": "care",
+  "form": "powder",
+  "symbol": "ผพ",
+  "name_en": "ผงพรุน บาย ไร่พอช",
+  "name_th": "ผงพรุน บาย ไร่พอช",
+  "slug_en": "product-63",
+  "slug_th": "ผงพรุน-บาย-ไร่พอช",
+  "desc_en": "เสริมสร้างจุลินทรีย์ในลำไส้ให้แข็งแรง ปรับสมดุลลำไส้ ช่วยเพิ่มมวลอุจจาระ แอนโทไซยานินช่วยลดการอักเสบในร่างกาย ช่วยชะลอการเสื่อมของเซลล์ บำรุงสายตา ป้องกันจอประสาทตาเสื่อม",
+  "desc_th": "เสริมสร้างจุลินทรีย์ในลำไส้ให้แข็งแรง ปรับสมดุลลำไส้ ช่วยเพิ่มมวลอุจจาระ แอนโทไซยานินช่วยลดการอักเสบในร่างกาย ช่วยชะลอการเสื่อมของเซลล์ บำรุงสายตา ป้องกันจอประสาทตาเสื่อม",
+  "ingredients_en": [
+   "ผงน้ำพรุน",
+   "ผงบุก",
+   "ฟรุกโตโอลิโกแซคคาไรด์",
+   "ผงแบล็คเคอแรนท์",
+   "ผงเอลเดอร์เบอร์รี่"
+  ],
+  "ingredients_th": [
+   "ผงน้ำพรุน",
+   "ผงบุก",
+   "ฟรุกโตโอลิโกแซคคาไรด์",
+   "ผงแบล็คเคอแรนท์",
+   "ผงเอลเดอร์เบอร์รี่"
+  ],
+  "badges": [],
+  "image": "site/products/p63.webp",
+  "photos": [
+   "site/products/63-0.webp",
+   "site/products/63-1.webp",
+   "site/products/63-2.webp"
+  ],
+  "sort": 27
+ },
+ {
+  "id": 26,
+  "group": "pung",
+  "form": "powder",
+  "symbol": "อป",
+  "name_en": "แอปเปิ้ลไซเดอร์",
+  "name_th": "แอปเปิ้ลไซเดอร์",
+  "slug_en": "product-26",
+  "slug_th": "แอปเปิ้ลไซเดอร์",
+  "desc_en": "Aids digestion and stimulates energy metabolism to help reduce excess body fat.",
+  "desc_th": "แอปเปิ้ลไซเดอร์ที่อร่อย ดื่มง่ายมาก น้ำตาลและไขมัน 0 % วิตามินบี 12 ชาเขียว ส้มแขก ขิง โสมเกาหลี และอื่นๆ หอมแอปเปิ้ล ชงดื่มก่อนมื้ออาหารมื้อแรก เปิดรับสิ่งดีๆก่อนเริ่มวัน สายดูแลตัวเองต้องลอง",
+  "ingredients_en": [
+   "Apple Cider",
+   "L-Carnitine",
+   "Garcinia",
+   "Matcha (Green Tea)",
+   "Vitamin B12"
+  ],
+  "ingredients_th": [
+   "ผงน้ำส้มสายชูหมักจากแอปเปิ้ล",
+   "แอปเปิ้ลผง",
+   "ผสานผักและสมุนไพรหลากหลายชนิดไว้ในซองเดียว รวมส่วนประกอบทั้งหมด 18 ชนิด",
+   "วิตามินบี 12",
+   "ส่วนประกอบอื่นๆอีกหลายหลายชนิด รวม 15 ชนิด"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "no preservatives",
+   "vegetarian",
+   "fat free",
+   "sugar free"
+  ],
+  "image": "site/products/p26.webp",
+  "photos": [
+   "site/products/26-0.webp",
+   "site/products/26-1.webp",
+   "site/products/26-2.webp"
+  ],
+  "sort": 28
+ },
+ {
+  "id": 27,
+  "group": "pung",
+  "form": "powder",
+  "symbol": "ตง",
+  "name_en": "แตงโม พุงทะลาย",
+  "name_th": "แตงโม พุงทะลาย",
+  "slug_en": "product-27",
+  "slug_th": "แตงโม-พุงทะลาย",
+  "desc_en": "Supports the reduction of excess fat, helps manage appetite, and assists in minimizing unnecessary snacking throughout the day.",
+  "desc_th": "ไฟเบอร์แตงโม แอลคาร์นิทีน สูง 500,000 mcg เพิ่ม ส้มแขก ไคโตซา ซิงค์ ลูกสำรอง และ หญ้าหางม้า ช่วย ผิว ผม เล็บ ครบจบในหนึ่งซอง อร่อย ดื่มง่าย อยู่ท้อง",
+  "ingredients_en": [
+   "Malva Nut",
+   "L-Phenylalanine",
+   "Garcinia",
+   "Mushroom-derived Chitosan",
+   "Zinc"
+  ],
+  "ingredients_th": [
+   "กุหลาบ",
+   "ผงพุงทะลายหรือผงลูกสำรอง",
+   "ผสานผักและสมุนไพรหลากหลายชนิดไว้ในซองเดียว รวมส่วนประกอบทั้งหมด 18 ชนิด",
+   "สารสกัดจากส้มแขก",
+   "สับปะรด"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "no preservatives",
+   "sugar free",
+   "vegetarian",
+   "fat free"
+  ],
+  "image": "site/products/p27.webp",
+  "photos": [
+   "site/products/27-0.webp",
+   "site/products/27-1.webp",
+   "site/products/27-2.webp"
+  ],
+  "sort": 29
+ },
+ {
+  "id": 28,
+  "group": "pung",
+  "form": "powder",
+  "symbol": "มม",
+  "name_en": "มะขาม พุงทะลาย",
+  "name_th": "มะขาม พุงทะลาย",
+  "slug_en": "product-28",
+  "slug_th": "มะขาม-พุงทะลาย",
+  "desc_en": "Helps stimulate bowel movements and reduces the absorption of excess fat.",
+  "desc_th": "มี BCAA ช่วยเพิ่มมวลกล้ามเนื้อ กระชับสัดส่วน ลูกสำรอง ช่วยลดการดูดซึมไขมันและน้ำตาลในร่างกาย ช่วยให้อิ่มนานลดการจุกจิก",
+  "ingredients_en": [
+   "Tamarind",
+   "Malva Nut",
+   "Garcinia",
+   "Chitosan",
+   "Zinc"
+  ],
+  "ingredients_th": [
+   "มะขาม",
+   "กุหลาบ",
+   "ผสานผักและสมุนไพรหลากหลายชนิดไว้ในซองเดียว รวมส่วนประกอบทั้งหมด 18 ชนิด",
+   "ผงขิง",
+   "สับปะรด"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high fiber",
+   "no preservatives",
+   "sugar free",
+   "vegetarian",
+   "fat free"
+  ],
+  "image": "site/products/p28.webp",
+  "photos": [
+   "site/products/28-0.webp",
+   "site/products/28-1.webp",
+   "site/products/28-2.webp"
+  ],
+  "sort": 30
+ },
+ {
+  "id": 29,
+  "group": "pung",
+  "form": "capsule",
+  "symbol": "Ma",
+  "name_en": "MC. Plus Active",
+  "name_th": "แม็คพลัสแอคทิฟ",
+  "slug_en": "mc-plus-active",
+  "slug_th": "แม็คพลัสแอคทิฟ",
+  "desc_en": "Helps reduce the absorption of starch, sugar, and excess fat.",
+  "desc_th": "บูสต์ระบบเผาผลาญ เบิร์น ลดไขมัน เพิ่มการเผาผลาญ บล็อกน้ำตาล",
+  "ingredients_en": [
+   "Green Coffee Bean",
+   "Chitosan",
+   "White Kidney Bean",
+   "Cordyceps",
+   "Bitter Melon"
+  ],
+  "ingredients_th": [
+   "เมล็ดกาแฟไม่คั่ว",
+   "ผงขิง",
+   "มะระขี้นก",
+   "ถั่วขาว",
+   "ไคโตซาน"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP"
+  ],
+  "image": "site/products/p29.webp",
+  "photos": [
+   "site/products/29-0.webp",
+   "site/products/29-1.webp",
+   "site/products/29-2.webp"
+  ],
+  "sort": 31
+ },
+ {
+  "id": 49,
+  "group": "pung",
+  "form": "capsule",
+  "symbol": "Mc",
+  "name_en": "McPlus Activ Pungtalai Series",
+  "name_th": "แม็คพลัส แอคทิฟ พุงทะลาย",
+  "slug_en": "mcplus-activ-pungtalai-series",
+  "slug_th": "แม็คพลัส-แอคทิฟ-พุงทะลาย",
+  "desc_en": "Supports the metabolism of excess fat, helps reduce the absorption of starches and sugars, and promotes the development of lean muscle mass.",
+  "desc_th": "สูตรใหม่!! แอคทิฟกว่าเดิม ผสานสารสกัดการธรรมชาติ และ ตระกูลแอลคาร์นิทีน ลูกสำรอง Creatine & Monohydrate และ Astaxanthin สาหร่ายแดง ปลอดภัย มีอย. เหมาะกับคนดูแลรูปร่างและสุขภาพที่ดี",
+  "ingredients_en": [
+   "Malva Nut",
+   "Creatine Monohydrate",
+   "White Kidney Bean",
+   "Bitter Melon",
+   "Astaxanthin"
+  ],
+  "ingredients_th": [
+   "กุหลาบ",
+   "ผงมะระขี้นก",
+   "มะระขี้นก",
+   "ไคโตซาน",
+   "สารสกัดจากขิง"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p49.webp",
+  "photos": [
+   "site/products/49-0.webp",
+   "site/products/49-1.webp",
+   "site/products/49-2.webp"
+  ],
+  "sort": 32
+ },
+ {
+  "id": 50,
+  "group": "pung",
+  "form": "capsule",
+  "symbol": "มค",
+  "name_en": "แม็คพลัสแอคทิฟ เอ็ม",
+  "name_th": "แม็คพลัสแอคทิฟ เอ็ม",
+  "slug_en": "product-50",
+  "slug_th": "แม็คพลัสแอคทิฟ-เอ็ม",
+  "desc_en": "ช่วยให้อิ่มท้อง ดูแลร่างกาย ขับถ่ายง่าย ช่วยปรับสมดุล และขับล้างสารพิษในระบบ",
+  "desc_th": "ช่วยให้อิ่มท้อง ดูแลร่างกาย ขับถ่ายง่าย ช่วยปรับสมดุล และขับล้างสารพิษในระบบ",
+  "ingredients_en": [
+   "L-Threonine, L-Methionine",
+   "L-Carnitine L-tartrate",
+   "ส้มแขก / ส้มสีแดง",
+   "ถั่งเช่า",
+   "กระชายดำ",
+   "พรุน",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย\""
+  ],
+  "ingredients_th": [
+   "L-Threonine, L-Methionine",
+   "L-Carnitine L-tartrate",
+   "ส้มแขก / ส้มสีแดง",
+   "ถั่งเช่า",
+   "กระชายดำ",
+   "พรุน",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย\""
+  ],
+  "badges": [],
+  "image": "site/products/p50.webp",
+  "photos": [
+   "site/products/50-0.webp",
+   "site/products/50-1.webp",
+   "site/products/50-2.webp"
+  ],
+  "sort": 33
+ },
+ {
+  "id": 12,
+  "group": "skin",
+  "form": "powder",
+  "symbol": "Rt",
+  "name_en": "Rose Tea Fiber",
+  "name_th": "ไฟเบอร์ชากุหลาบ",
+  "slug_en": "rose-tea-fiber",
+  "slug_th": "ไฟเบอร์ชากุหลาบ",
+  "desc_en": "Transparent dietary fiber in rose tea form, easy to drink, helps with smooth bowel movement, strengthens the skin, and boosts the immune system.",
+  "desc_th": "มีคอลลาเจน และกลูต้าไธโอน ช่วยให้ผิวแข็งแรง ลดฝ้า กระ จุดด่างดำ คาโมมายล์ ช่วยให้รู้สึกผ่อนคลาย ลดความตึงเครียด",
+  "ingredients_en": [
+   "Rose",
+   "Fructooligosaccharides (FOS)",
+   "Collagen",
+   "Biotin",
+   "Selenium"
+  ],
+  "ingredients_th": [
+   "กุหลาบ",
+   "ส้มแขก",
+   "โรสฮิป",
+   "ซีบัคธอร์น",
+   "คาโมมายล์"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "fat free",
+   "sugar free"
+  ],
+  "image": "site/products/p12.webp",
+  "photos": [
+   "site/products/12-0.webp",
+   "site/products/12-1.webp",
+   "site/products/12-2.webp"
+  ],
+  "sort": 34
+ },
+ {
+  "id": 14,
+  "group": "skin",
+  "form": "powder",
+  "symbol": "Hr",
+  "name_en": "Honey Rose Tea Fiber",
+  "name_th": "ไฟเบอร์ ชากุหลาบน้ำผึ้ง",
+  "slug_en": "honey-rose-tea-fiber",
+  "slug_th": "ไฟเบอร์-ชากุหลาบน้ำผึ้ง",
+  "desc_en": "Transparent dietary fiber in a honey and rose tea blend, easy to consume, supports smooth bowel movement, enhances radiant skin, and promotes a sense of relaxation.",
+  "desc_th": "รู้สึกอิ่มนานขึ้น เร่งกระบวนการเผาผลาญ ชะลอการดูดซึมน้ำตาลในอาหาร ช่วยรักษาสมดุลระดับไขมันในเลือด มีคอลลาเจน และกลูต้าไธโอน ช่วยให้ผิวแข็งแรง ผิวพรรณกระจ่างใส มีคาโมมายล์ ช่วยให้รู้สึกผ่อนคลาย ลดความตึงเครียด มีไบโอติน บำรุงผิว ผม เล็บให้แข็งแรง ช่วยในการปกป้องเซลล์จากอนุมูลอิสระ",
+  "ingredients_en": [
+   "Rose",
+   "Fructooligosaccharides (FOS)",
+   "L-Glutathione",
+   "Vitamin E",
+   "Chamomile"
+  ],
+  "ingredients_th": [
+   "กุหลาบ",
+   "ส้มแขก",
+   "แอล-กลูต้าไธโอน",
+   "ชาขาว",
+   "น้ำผึ้งมานูก้า"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "fat free",
+   "sugar free"
+  ],
+  "image": "site/products/p14.webp",
+  "photos": [
+   "site/products/14-0.webp",
+   "site/products/14-1.webp",
+   "site/products/14-2.webp"
+  ],
+  "sort": 35
+ },
+ {
+  "id": 37,
+  "group": "skin",
+  "form": "powder",
+  "symbol": "Cl",
+  "name_en": "Collagen Lychee Snow Plus",
+  "name_th": "คอลลาเจนลิ้นจี่หิมะ",
+  "slug_en": "collagen-lychee-snow-plus",
+  "slug_th": "คอลลาเจนลิ้นจี่หิมะ",
+  "desc_en": "Helps nourish the skin for hydration and brightness, while supporting eye health and reducing eye fatigue.",
+  "desc_th": "คอลลาเจนลิ้นจี่หิมะ คอลลาเจนที่ได้จากปลาทะเลน้ำลึก ประเทศญี่ปุ่น ลิ้นจี่มีส่วนช่วยในเรื่องการต้านอนุมูลอิสระ เสริมสร้างภูมิคุ้มกันให้กับร่างกาย สำหรับคนที่เป็นหวัดบ่อย คอลลาเจนไดเปปไทด์จากปลา เจนไตรเปปไทด์จากปลา มีสารสกัดจากข้าว คอลลาเจนที่ได้จากปลาทะเลน้้ำลึกจะช่วย ให้การดูดซึมง่ายกว่าคอลลาเจนที่ได้จากเนื้อสัตว์มากกว่า 1.5 เท่า มีสารสกัดรวมกว่า 22 ชนิด คอลลาเจนกว่า 10,000 มก.",
+  "ingredients_en": [
+   "Collagen",
+   "Ceramide",
+   "L-Glutathione",
+   "Lutein & Zeaxanthin",
+   "Mixed Berries"
+  ],
+  "ingredients_th": [
+   "โรสฮิป",
+   "ผงลิ้นจี่",
+   "แอล-กลูต้าไธโอน",
+   "ผงแครนเบอร์รี่",
+   "สารสกัดจากอาซาอิ"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p37.webp",
+  "photos": [
+   "site/products/37-0.webp",
+   "site/products/37-1.webp",
+   "site/products/37-2.webp"
+  ],
+  "sort": 36
+ },
+ {
+  "id": 38,
+  "group": "skin",
+  "form": "powder",
+  "symbol": "คอ",
+  "name_en": "คอลลาเจนทับทิมหิมะ",
+  "name_th": "คอลลาเจนทับทิมหิมะ",
+  "slug_en": "product-38",
+  "slug_th": "คอลลาเจนทับทิมหิมะ",
+  "desc_en": "Helps strengthen the skin and reduce the appearance of wrinkles, melasma, and dark spots.",
+  "desc_th": "คอลลาเจนทับทิมหิมะ คอลลาเจนที่ได้จากปลาทะเลน้ำลึกประเทศญี่ปุ่น ทับทิมมีส่วนช่วยในเรื่องของริ้วรอย ปัญหาผิวแพ้ช่วย ไวต่อเแสง นอกจากนี้ยังช่วยในเรื่องของข้อกระดูก ให้แข็งแรง คอลลาเจนไดเปปไทด์จากปลา เจนไตรเปปไทด์จากปลา มีสารสกัดจากข้าว คอลลาเจนที่ได้จากปลาทะเลน้้ำลึกจะช่วย ให้การดูดซึมง่ายกว่าคอลลาเจนที่ได้จากเนื้อสัตว์มากกว่า 1.5 เท่า มีสารสกัดรวมกว่า 22 ชนิด คอลลาเจนกว่า 10,000 มก.",
+  "ingredients_en": [
+   "Pomegranate",
+   "Collagen",
+   "Vitamin C",
+   "L-Glutathione",
+   "Coenzyme Q10"
+  ],
+  "ingredients_th": [
+   "ผงทับทิม",
+   "โรสฮิป",
+   "ผงส้มยูสุ",
+   "แอล-กลูต้าไธโอน",
+   "ผงแพร์"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "high vitamin C",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p38.webp",
+  "photos": [
+   "site/products/38-0.webp",
+   "site/products/38-1.webp",
+   "site/products/38-2.webp"
+  ],
+  "sort": 37
+ },
+ {
+  "id": 39,
+  "group": "skin",
+  "form": "powder",
+  "symbol": "กล",
+  "name_en": "กลูต้า ซี ส้มสับ",
+  "name_th": "กลูต้า ซี ส้มสับ",
+  "slug_en": "product-39",
+  "slug_th": "กลูต้า-ซี-ส้มสับ",
+  "desc_en": "Helps brighten the skin while providing protection against UV damage.",
+  "desc_th": "รวมอะมิโน 3 ชนิด L-Glutathione, L-Cysteine, L-Glutamine ช่วยให้ผิวกระจ่างใส เต็ม 100% RDI วิตามิน เอ และเบต้าแคโรทีน มีส่วนช่วยบำรุงสายตา ลดอาการตาล้า และตาแห้ง - รสชาติอร่อย ทานง่าย",
+  "ingredients_en": [
+   "L-Glutathione",
+   "Collagen",
+   "Coenzyme Q10",
+   "Vitamin C",
+   "Beta-Carotene"
+  ],
+  "ingredients_th": [
+   "แอล-กลูต้าไธโอน",
+   "โรสฮิป",
+   "ผงแพร์",
+   "ผงส้มยูสุ",
+   "มะนาว"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p39.webp",
+  "photos": [
+   "site/products/39-0.webp",
+   "site/products/39-1.webp",
+   "site/products/39-2.webp"
+  ],
+  "sort": 38
+ },
+ {
+  "id": 40,
+  "group": "skin",
+  "form": "capsule",
+  "symbol": "กต",
+  "name_en": "กลูต้า แม็กซ์ พลัส",
+  "name_th": "กลูต้า แม็กซ์ พลัส",
+  "slug_en": "product-40",
+  "slug_th": "กลูต้า-แม็กซ์-พลัส",
+  "desc_en": "Supports a radiant complexion and helps reduce the appearance of melasma, freckles, and dark spots.",
+  "desc_th": "รวมอะมิโน 3 ชนิด L-Glutathione, L-Cysteine, L-Glutamine ช่วยให้ผิวกระจ่างใส มีส่วนผสมของสารสกัดหลายชนิด ช่วยฟื้นฟูผิวให้แข็งแรง กระจ่างใส ไร้ริ้วรอย",
+  "ingredients_en": [
+   "L-Glutathione",
+   "Vitamin C",
+   "Vitamin B3",
+   "Cranberry",
+   "Alpha-Lipoic Acid"
+  ],
+  "ingredients_th": [
+   "แอล-กลูต้าไธโอน",
+   "ผงส้มยูสุ",
+   "สารสกัดจากแครนเบอร์รี่",
+   "สารสกัดจากเมล็ดองุ่น",
+   "วิตามินซี"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p40.webp",
+  "photos": [
+   "site/products/40-0.webp",
+   "site/products/40-1.webp",
+   "site/products/40-2.webp"
+  ],
+  "sort": 39
+ },
+ {
+  "id": 41,
+  "group": "skin",
+  "form": "capsule",
+  "symbol": "คล",
+  "name_en": "คอลลาเจน พลัส",
+  "name_th": "คอลลาเจน พลัส",
+  "slug_en": "product-41",
+  "slug_th": "คอลลาเจน-พลัส",
+  "desc_en": "Nourishes the skin for a healthy, firm appearance and helps slow the formation of wrinkles.",
+  "desc_th": "มีส่วนผสมของกระดูกอ่อนปลาฉลาม ช่วยบำรุงข้อต่อให้แข็งแรง ช่วยให้ผิวสุขภาพดี ชุ่มชื้น อิ่มน้ำ",
+  "ingredients_en": [
+   "Collagen",
+   "Shark Cartilage",
+   "Coenzyme Q10",
+   "Vitamin B5",
+   "Vitamin B12"
+  ],
+  "ingredients_th": [
+   "โรสฮิป",
+   "คอลลาเจนไตรเปปไทด์จากปลา",
+   "ผงแพร์",
+   "สารสกัดจากเปลือกสน",
+   "ส่วนประกอบอื่นๆอีกหลายหลายชนิด รวม 15 ชนิด"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p41.webp",
+  "photos": [
+   "site/products/41-0.webp",
+   "site/products/41-1.webp",
+   "site/products/41-2.webp"
+  ],
+  "sort": 40
+ },
+ {
+  "id": 43,
+  "group": "skin",
+  "form": "jelly",
+  "symbol": "จค",
+  "name_en": "เจลลี่ คอลลาเจน องุ่นขาว",
+  "name_th": "เจลลี่ คอลลาเจน องุ่นขาว",
+  "slug_en": "product-43",
+  "slug_th": "เจลลี่-คอลลาเจน-องุ่นขาว",
+  "desc_en": "Promotes a radiant and firm complexion, enriched with antioxidants that help strengthen the skin and protect it from environmental pollutants.",
+  "desc_th": "มีคอลลาเจน กลูต้า ไบโอติน และซิงค์ ช่วยให้ผิวแลดูกระจ่างใส เส้นผม และเล็บแข็งแรงขึ้น",
+  "ingredients_en": [
+   "Collagen Dipeptide",
+   "Collagen Tripeptide",
+   "Vitamin C",
+   "L-Glutathione",
+   "Grape Seed Extract"
+  ],
+  "ingredients_th": [
+   "สารสกัดเมล็ดองุ่น",
+   "ชาขาว",
+   "ผงส้มยูสุ",
+   "แอล-กลูต้าไธโอน",
+   "แอลกลูต้าไธโอน"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p43.webp",
+  "photos": [
+   "site/products/43-0.webp",
+   "site/products/43-1.webp",
+   "site/products/43-2.webp"
+  ],
+  "sort": 41
+ },
+ {
+  "id": 51,
+  "group": "skin",
+  "form": "capsule",
+  "symbol": "Co",
+  "name_en": "Collagen Astaxanthin",
+  "name_th": "คอลลาเจน แอสต้า พลัส",
+  "slug_en": "collagen-astaxanthin",
+  "slug_th": "คอลลาเจน-แอสต้า-พลัส",
+  "desc_en": "Nourishes the skin for a healthy, firm, and youthful appearance, helping to delay the formation of wrinkles and support skin regeneration.",
+  "desc_th": "ช่วยเพิ่มความยืดหยุ่น เต่งตึง กระชับ ให้ผิวหนัง ช่วยเสริมสร้างความแข็งแรงให้กับระบบข้อต่อ ช่วยต้านอนุมูลอิสระ ลดความเสียหายที่เกิดจากออกซิเดชันในร่างกาย ช่วยลดการอักเสบ และรอยดำจากสิว ช่วยลดริ้วรอย และชะลอการเสื่อมของเซลล์ผิวหนัง",
+  "ingredients_en": [
+   "Collagen",
+   "Astaxanthin",
+   "Goji Berry",
+   "Acai",
+   "Coenzyme Q10"
+  ],
+  "ingredients_th": [
+   "โรสฮิป",
+   "สารสกัดจากขิง",
+   "สารสกัดจากซีบัคธอร์น",
+   "สารสกัดจากโกจิเบอร์รี่",
+   "ผงแพร์"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p51.webp",
+  "photos": [
+   "site/products/51-0.webp",
+   "site/products/51-1.webp"
+  ],
+  "sort": 42
+ },
+ {
+  "id": 52,
+  "group": "skin",
+  "form": "capsule",
+  "symbol": "Gl",
+  "name_en": "Gluta Astaxanthin",
+  "name_th": "กลูต้า แอสต้า พลัส",
+  "slug_en": "gluta-astaxanthin",
+  "slug_th": "กลูต้า-แอสต้า-พลัส",
+  "desc_en": "Promotes a brighter complexion, helps diminish the appearance of melasma, freckles, and dark spots, and supports the restoration and resilience of the skin.",
+  "desc_th": "ยับยั้งการทำงานของเอนไซม์ไทโรซิเนส ลดการสร้างเม็ดสีเมลานิน ช่วยผิวกระจ่างใส ช่วยลดเลือนจุดด่างดำ ช่วยเสริมสร้างและฟื้นฟูคอลลาเจน ลดความหยาบกร้านของผิว ผิวชุ่มชื้น เนียนนุ่ม",
+  "ingredients_en": [
+   "L-Glutathione",
+   "Astaxanthin",
+   "White Jelly Mushroom",
+   "L-Cysteine",
+   "Coenzyme Q10"
+  ],
+  "ingredients_th": [
+   "แอล-กลูต้าไธโอน",
+   "สารสกัดจากขิง",
+   "แอล-กลูตามีน",
+   "วิตามินซี",
+   "ผงแพร์"
+  ],
+  "badges": [
+   "GHP",
+   "HACCP",
+   "no preservatives",
+   "sugar free",
+   "fat free"
+  ],
+  "image": "site/products/p52.webp",
+  "photos": [
+   "site/products/52-0.webp",
+   "site/products/52-1.webp"
+  ],
+  "sort": 43
+ },
+ {
+  "id": 60,
+  "group": "skin",
+  "form": "capsule",
+  "symbol": "Bi",
+  "name_en": "Biotin มะขาม",
+  "name_th": "ไบโอตินมะขาม",
+  "slug_en": "biotin",
+  "slug_th": "ไบโอตินมะขาม",
+  "desc_en": "ต้านอนุมูลอิสระ ช่วยลดเลือนริ้วรอย ปรับสีผิวให้สม่ำเสมอ ลดการอักเสบ และความมันบนใบหน้า ช่วยให้ผิวชุ่มชื้น ลดความเสื่อมของเซลล์ผิว เสริมสร้างโครงสร้างผมให้แข็งแรง ลดผมขาดหลุดร่วง ช่วยผมเงางาม ไม่แห้งเสีย ไม่แตกปลาย",
+  "desc_th": "ต้านอนุมูลอิสระ ช่วยลดเลือนริ้วรอย ปรับสีผิวให้สม่ำเสมอ ลดการอักเสบ และความมันบนใบหน้า ช่วยให้ผิวชุ่มชื้น ลดความเสื่อมของเซลล์ผิว เสริมสร้างโครงสร้างผมให้แข็งแรง ลดผมขาดหลุดร่วง ช่วยผมเงางาม ไม่แห้งเสีย ไม่แตกปลาย",
+  "ingredients_en": [
+   "ผงเมล็ดแฟลกซ์",
+   "สารสกัดจากเมล็ดองุ่น",
+   "แอล-เมไธโอนีน",
+   "ผงฮอร์สเทล",
+   "ผงมะขาม",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย"
+  ],
+  "ingredients_th": [
+   "ผงเมล็ดแฟลกซ์",
+   "สารสกัดจากเมล็ดองุ่น",
+   "แอล-เมไธโอนีน",
+   "ผงฮอร์สเทล",
+   "ผงมะขาม",
+   "และวัตถุดิบอื่นๆ อีกหลากหลาย"
+  ],
+  "badges": [],
+  "image": "site/products/p60.webp",
+  "photos": [
+   "site/products/60-0.webp",
+   "site/products/60-1.webp"
+  ],
+  "sort": 44
+ }
+]

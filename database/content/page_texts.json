@@ -1,0 +1,1276 @@
+[
+ {
+  "key": "home.towardmedicalexcellence",
+  "page": "home",
+  "en": "<span class=\"hero__line\">Toward</span><span class=\"hero__line\">Medical</span><span class=\"hero__line\">Excellence</span>",
+  "th": "<span class=\"hero__line\">Toward</span><span class=\"hero__line\">Medical</span><span class=\"hero__line\">Excellence</span>",
+  "html": true
+ },
+ {
+  "key": "home.we-are-committed-to-excellence-in",
+  "page": "home",
+  "en": "We are committed to excellence in health and wellness. By enhancing our team’s expertise and investing in innovation, we deliver premium, safe, and effective products. Guided by ethics and transparency, we build trust and confidence with every customer interaction.",
+  "th": "เรามุ่งมั่นสู่ความเป็นเลิศด้านสุขภาพและความงามด้วยความเชี่ยวชาญของทีมงานและการลงทุนในนวัตกรรม เราสร้างสรรค์ผลิตภัณฑ์คุณภาพระดับพรีเมียม ปลอดภัย และมีประสิทธิภาพ ดำเนินธุรกิจด้วยจริยธรรมและความโปร่งใส เพื่อสร้างความไว้วางใจและความมั่นใจในทุกประสบการณ์ของลูกค้า",
+  "html": false
+ },
+ {
+  "key": "home.we-innovate-with-expertise-to-deliver",
+  "page": "home",
+  "en": "We innovate with expertise to deliver premium, safe, and effective products built on ethics, transparency, and trust.",
+  "th": "เราสร้างสรรค์นวัตกรรมด้วยความเชี่ยวชาญ เพื่อส่งมอบผลิตภัณฑ์คุณภาพพรีเมียมที่ปลอดภัยและมีประสิทธิภาพ โดยยึดหลักจริยธรรม ความโปร่งใส และความไว้วางใจ",
+  "html": false
+ },
+ {
+  "key": "home.rooted-in-ethics-and-transparency-we",
+  "page": "home",
+  "en": "Rooted in ethics and transparency, we build lasting relationships through integrity, ensuring every customer experiences confidence and care in every interaction.",
+  "th": "เราดำเนินธุรกิจด้วยรากฐานของจริยธรรมและความโปร่งใสสร้างความสัมพันธ์ที่ยั่งยืนด้วยความจริงใจ เพื่อให้ทุกประสบการณ์ของลูกค้าเต็มไปด้วยความมั่นใจและความใส่ใจ",
+  "html": false
+ },
+ {
+  "key": "home.pick-a-flavour",
+  "page": "home",
+  "en": "Pick a flavour",
+  "th": "เลือกรสชาติ",
+  "html": false
+ },
+ {
+  "key": "home.tamarind",
+  "page": "home",
+  "en": "Tamarind",
+  "th": "มะขาม",
+  "html": false
+ },
+ {
+  "key": "home.tangerine",
+  "page": "home",
+  "en": "Tangerine",
+  "th": "ส้มเขียวหวาน",
+  "html": false
+ },
+ {
+  "key": "home.lime",
+  "page": "home",
+  "en": "Lime",
+  "th": "มะนาว",
+  "html": false
+ },
+ {
+  "key": "home.strawberry",
+  "page": "home",
+  "en": "Strawberry",
+  "th": "สตรอเบอร์รี่",
+  "html": false
+ },
+ {
+  "key": "home.collagen-lychee",
+  "page": "home",
+  "en": "Collagen Lychee",
+  "th": "คอลลาเจนลิ้นจี่",
+  "html": false
+ },
+ {
+  "key": "home.no-02",
+  "page": "home",
+  "en": "No. <b>02</b>",
+  "th": "No. <b>02</b>",
+  "html": true
+ },
+ {
+  "key": "home.fiber-powder",
+  "page": "home",
+  "en": "Fiber · Powder",
+  "th": "ไฟเบอร์ · แบบผง",
+  "html": false
+ },
+ {
+  "key": "home.tamarind-fiber",
+  "page": "home",
+  "en": "Tamarind Fiber",
+  "th": "ไฟเบอร์มะขาม",
+  "html": false
+ },
+ {
+  "key": "home.more-detail",
+  "page": "home",
+  "en": "More Detail",
+  "th": "รายละเอียดเพิ่มเติม",
+  "html": false
+ },
+ {
+  "key": "home.descriptions",
+  "page": "home",
+  "en": "Descriptions",
+  "th": "คำอธิบาย",
+  "html": false
+ },
+ {
+  "key": "home.ingredients",
+  "page": "home",
+  "en": "Ingredients",
+  "th": "ส่วนผสม",
+  "html": false
+ },
+ {
+  "key": "home.more-detail-2",
+  "page": "home",
+  "en": "More Detail",
+  "th": "รายละเอียดเพิ่มเติม",
+  "html": false
+ },
+ {
+  "key": "home.15-years",
+  "page": "home",
+  "en": "15 Years",
+  "th": "15 ปี",
+  "html": false
+ },
+ {
+  "key": "home.about-us",
+  "page": "home",
+  "en": "About Us",
+  "th": "เกี่ยวกับเรา",
+  "html": false
+ },
+ {
+  "key": "home.posh-medica-lifetechpublic-company-limited",
+  "page": "home",
+  "en": "Posh Medica Lifetech<br/>Public Company Limited",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": true
+ },
+ {
+  "key": "home.for-over-15-years-posh-has",
+  "page": "home",
+  "en": "<b>For over 15 years,</b> POSH has been a trusted leader in health and wellness, delivering premium supplements and cosmetics with internationally recognized quality and safety standards.",
+  "th": "กว่า 15 ปี ที่ POSH ได้รับความไว้วางใจในฐานะผู้นำด้านสุขภาพและความงาม ด้วยผลิตภัณฑ์เสริมอาหารและเครื่องสำอางคุณภาพสูงที่ผ่านการรับรองตามมาตรฐานระดับสากล ทั้งในด้านคุณภาพและความปลอดภัย",
+  "html": true
+ },
+ {
+  "key": "home.read-more",
+  "page": "home",
+  "en": "Read More",
+  "th": "อ่านเพิ่มเติม",
+  "html": false
+ },
+ {
+  "key": "home.posh-aroi",
+  "page": "home",
+  "en": "@posh_aroi",
+  "th": "@posh_aroi",
+  "html": false
+ },
+ {
+  "key": "home.tiktok-posh-aroi",
+  "page": "home",
+  "en": "TikTok <b>@posh_aroi</b>",
+  "th": "TikTok <b>@posh_aroi</b>",
+  "html": true
+ },
+ {
+  "key": "home.posh-medica",
+  "page": "home",
+  "en": "Posh Medica",
+  "th": "Posh Medica",
+  "html": false
+ },
+ {
+  "key": "home.follow-on-tiktok",
+  "page": "home",
+  "en": "Follow on TikTok",
+  "th": "ติดตามใน TikTok",
+  "html": false
+ },
+ {
+  "key": "home.posh-aroi-2",
+  "page": "home",
+  "en": "@posh_aroi",
+  "th": "@posh_aroi",
+  "html": false
+ },
+ {
+  "key": "home.on-air",
+  "page": "home",
+  "en": "On air",
+  "th": "ออนแอร์",
+  "html": false
+ },
+ {
+  "key": "home.youtube-poshmedicathailand700",
+  "page": "home",
+  "en": "YouTube <b>@poshmedicathailand700</b>",
+  "th": "YouTube <b>@poshmedicathailand700</b>",
+  "html": true
+ },
+ {
+  "key": "home.posh-medica-2",
+  "page": "home",
+  "en": "Posh Medica",
+  "th": "Posh Medica",
+  "html": false
+ },
+ {
+  "key": "home.open-the-channel",
+  "page": "home",
+  "en": "Open the channel",
+  "th": "ไปที่ช่อง",
+  "html": false
+ },
+ {
+  "key": "home.distribution-channels-partners",
+  "page": "home",
+  "en": "Distribution Channels & Partners",
+  "th": "ช่องทางการจำหน่ายและคู่ค้า",
+  "html": false
+ },
+ {
+  "key": "home.award-standard",
+  "page": "home",
+  "en": "Award & Standard",
+  "th": "รางวัลและมาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "home.awardsview-more",
+  "page": "home",
+  "en": "<span class=\"podium__name\">Awards</span><span class=\"podium__go\">View More</span>",
+  "th": "<span class=\"podium__name\">รางวัล</span><span class=\"podium__go\">ดูเพิ่มเติม</span>",
+  "html": true
+ },
+ {
+  "key": "home.standardsview-more",
+  "page": "home",
+  "en": "<span class=\"podium__name\">Standards</span><span class=\"podium__go\">View More</span>",
+  "th": "<span class=\"podium__name\">มาตรฐาน</span><span class=\"podium__go\">ดูเพิ่มเติม</span>",
+  "html": true
+ },
+ {
+  "key": "home.latest-event",
+  "page": "home",
+  "en": "Latest Event",
+  "th": "Latest Event",
+  "html": false
+ },
+ {
+  "key": "home.view-more",
+  "page": "home",
+  "en": "View More",
+  "th": "ดูเพิ่มเติม",
+  "html": false
+ },
+ {
+  "key": "home.toward-medical-excellence",
+  "page": "home",
+  "en": "Toward Medical Excellence",
+  "th": "Toward Medical Excellence",
+  "html": false
+ },
+ {
+  "key": "home.close",
+  "page": "home",
+  "en": "Close",
+  "th": "ปิด",
+  "html": false
+ },
+ {
+  "key": "home.awards",
+  "page": "home",
+  "en": "Awards",
+  "th": "รางวัล",
+  "html": false
+ },
+ {
+  "key": "home.standards",
+  "page": "home",
+  "en": "Standards",
+  "th": "มาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "about.lab",
+  "page": "about",
+  "en": "Lab",
+  "th": "แล็บ",
+  "html": false
+ },
+ {
+  "key": "about.home",
+  "page": "about",
+  "en": "Home",
+  "th": "หน้าหลัก",
+  "html": false
+ },
+ {
+  "key": "about.about-us",
+  "page": "about",
+  "en": "About Us",
+  "th": "เกี่ยวกับเรา",
+  "html": false
+ },
+ {
+  "key": "about.innovative-health-and-beauty-solutions",
+  "page": "about",
+  "en": "Innovative Health and Beauty Solutions",
+  "th": "ทางเลือกใหม่เพื่อสุขภาพและความงามอย่างยั่งยืน",
+  "html": false
+ },
+ {
+  "key": "about.posh-medica-lifetech-public-company-limited",
+  "page": "about",
+  "en": "Posh Medica Lifetech Public Company Limited",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": false
+ },
+ {
+  "key": "about.for-over-15-years-posh-has",
+  "page": "about",
+  "en": "<b>For over 15 years,</b> POSH has been a trusted leader in health and wellness, delivering premium supplements and cosmetics with internationally recognized quality and safety standards.",
+  "th": "กว่า 15 ปี ที่ POSH ได้รับความไว้วางใจในฐานะผู้นำด้านสุขภาพและความงาม ด้วยผลิตภัณฑ์เสริมอาหารและเครื่องสำอางคุณภาพสูงที่ผ่านการรับรองตามมาตรฐานระดับสากล ทั้งในด้านคุณภาพและความปลอดภัย",
+  "html": true
+ },
+ {
+  "key": "about.driven-by-innovation-and-research-we",
+  "page": "about",
+  "en": "Driven by innovation and research, we continuously develop products that meet the evolving needs of our consumers. Our expert team brings deep industry insight, ensuring we stay ahead of market trends.",
+  "th": "เราขับเคลื่อนด้วยนวัตกรรมและงานวิจัยอย่างต่อเนื่อง เพื่อพัฒนาผลิตภัณฑ์ที่ตอบโจทย์ความต้องการที่เปลี่ยนแปลงอยู่เสมอ โดยทีมงานผู้เชี่ยวชาญที่มีความเชี่ยวชาญในอุตสาหกรรมเสริมอาหารและเครื่องสำอางสำหรับนำเสนอสินค้าที่ทันสมัยและล้ำหน้าอยู่เสมอ",
+  "html": false
+ },
+ {
+  "key": "about.through-strategic-and-creative-marketing-we",
+  "page": "about",
+  "en": "Through strategic and creative marketing, we communicate the true value of our products while providing exceptional customer service that fosters lasting trust and loyalty.",
+  "th": "ด้วยกลยุทธ์การตลาดที่คิดอย่างสร้างสรรค์ เราสื่อสารคุณค่าที่แท้จริงของผลิตภัณฑ์ พร้อมมอบประสบการณ์การบริการที่ยอดเยี่ยม เพื่อสร้างความประทับใจและความผูกพันในระยะยาวกับลูกค้า",
+  "html": false
+ },
+ {
+  "key": "about.at-our-core-we-prioritize-sustainability",
+  "page": "about",
+  "en": "At our core, we prioritize sustainability, operating responsibly with a commitment to social and environmental well-being.",
+  "th": "อีกทั้ง POSH ยังให้ความสำคัญกับความยั่งยืน โดยดำเนินธุรกิจอย่างมีความรับผิดชอบต่อสังคมและสิ่งแวดล้อม",
+  "html": false
+ },
+ {
+  "key": "about.with-a-passion-for-excellence-posh",
+  "page": "about",
+  "en": "With a passion for excellence, Posh Medica remains a brand consumers trust today and always.",
+  "th": "ด้วยหัวใจที่มุ่งมั่นในความเป็นเลิศ เราจึงยังคงเป็นแบรนด์ที่ผู้บริโภคเชื่อมั่นและไว้วางใจเสมอมา",
+  "html": false
+ },
+ {
+  "key": "about.vision",
+  "page": "about",
+  "en": "Vision",
+  "th": "วิสัยทัศน์",
+  "html": false
+ },
+ {
+  "key": "about.leader-of-affordable-evidence-based-healthcare",
+  "page": "about",
+  "en": "Leader of affordable evidence-based healthcare and cosmetic products, internally and externally.",
+  "th": "ผู้นำด้านผลิตภัณฑ์ดูแลสุขภาพที่มีคุณภาพและราคาเข้าถึงได้ มีส่วนช่วยให้สุขภาพดีทั้งภายในและภายนอก",
+  "html": false
+ },
+ {
+  "key": "about.mission",
+  "page": "about",
+  "en": "Mission",
+  "th": "พันธกิจ",
+  "html": false
+ },
+ {
+  "key": "about.we-are-fully-committed-to-excellent",
+  "page": "about",
+  "en": "We are fully committed to excellent manufacturing technology, quality ingredients and evidence-based R&D to result in the best efficacy of all healthcare and cosmetic products at an affordable price for all customers.",
+  "th": "เราทุ่มเทอย่างเต็มที่ในการใช้เทคโนโลยีการผลิตอันทันสมัย วัตถุดิบที่มีคุณภาพ และการวิจัยพัฒนาที่มีมาตรฐานสากลรองรับ เพื่อให้ได้ผลิตภัณฑ์ดูแลสุขภาพที่มีประสิทธิผลสูงสุดในราคาที่เข้าถึงได้",
+  "html": false
+ },
+ {
+  "key": "about.research-development-by-specialized-scientists",
+  "page": "about",
+  "en": "Research & Development by Specialized Scientists",
+  "th": "วิจัยและพัฒนาโดยนักวิทยาศาสตร์เฉพาะทาง",
+  "html": false
+ },
+ {
+  "key": "about.researches-clinical-trials",
+  "page": "about",
+  "en": "Researches & Clinical Trials",
+  "th": "งานวิจัย",
+  "html": false
+ },
+ {
+  "key": "about.1-000-papers",
+  "page": "about",
+  "en": "<b>1,000+</b> Papers",
+  "th": "<b>1,000+</b> ฉบับ",
+  "html": true
+ },
+ {
+  "key": "about.formula-developments",
+  "page": "about",
+  "en": "Formula Developments",
+  "th": "พัฒนาสูตร",
+  "html": false
+ },
+ {
+  "key": "about.500-projects",
+  "page": "about",
+  "en": "<b>500+</b> Projects",
+  "th": "<b>500+</b> โครงการ",
+  "html": true
+ },
+ {
+  "key": "about.fda-registrations",
+  "page": "about",
+  "en": "FDA Registrations",
+  "th": "ทะเบียน อย.",
+  "html": false
+ },
+ {
+  "key": "about.200-formulations",
+  "page": "about",
+  "en": "<b>200+</b> Formulations",
+  "th": "<b>200+</b> ตำรับ",
+  "html": true
+ },
+ {
+  "key": "about.r-d-investment",
+  "page": "about",
+  "en": "R&D Investment",
+  "th": "ลงทุน R&D",
+  "html": false
+ },
+ {
+  "key": "about.100-million-baht",
+  "page": "about",
+  "en": "<b>100+</b> Million Baht",
+  "th": "<b>100+</b> ล้านบาท",
+  "html": true
+ },
+ {
+  "key": "about.manufacturing-quality-control-at-global-standard",
+  "page": "about",
+  "en": "Manufacturing & Quality Control at Global Standards",
+  "th": "การผลิตและควบคุมคุณภาพตามมาตรฐาน ระดับโลก",
+  "html": false
+ },
+ {
+  "key": "about.production-areas",
+  "page": "about",
+  "en": "Production Areas",
+  "th": "พื้นที่ผลิต",
+  "html": false
+ },
+ {
+  "key": "about.15-000-square-meters",
+  "page": "about",
+  "en": "<b>15,000</b> Square Meters",
+  "th": "<b>15,000</b> ตารางเมตร",
+  "html": true
+ },
+ {
+  "key": "about.advanced-machines",
+  "page": "about",
+  "en": "Advanced Machines",
+  "th": "เครื่องจักร",
+  "html": false
+ },
+ {
+  "key": "about.100-units",
+  "page": "about",
+  "en": "<b>100+</b> Units",
+  "th": "<b>100+</b> เครื่อง",
+  "html": true
+ },
+ {
+  "key": "about.production-capacity",
+  "page": "about",
+  "en": "Production Capacity",
+  "th": "กำลังการผลิต",
+  "html": false
+ },
+ {
+  "key": "about.500-million-units-per-annum",
+  "page": "about",
+  "en": "<b>500+</b> Million Units per Annum",
+  "th": "<b>500+</b> ล้านชิ้นต่อปี",
+  "html": true
+ },
+ {
+  "key": "about.licensed-manufacturing",
+  "page": "about",
+  "en": "Licensed Manufacturing",
+  "th": "ใบอนุญาตผลิต",
+  "html": false
+ },
+ {
+  "key": "about.13-categories",
+  "page": "about",
+  "en": "<b>13</b> Categories",
+  "th": "<b>13</b> ประเภท",
+  "html": true
+ },
+ {
+  "key": "about.environmental-management-system",
+  "page": "about",
+  "en": "Environmental Management System",
+  "th": "ระบบควบคุม",
+  "html": false
+ },
+ {
+  "key": "about.humidity-control",
+  "page": "about",
+  "en": "Humidity Control",
+  "th": "Humidity Control",
+  "html": false
+ },
+ {
+  "key": "about.iso-class-ii",
+  "page": "about",
+  "en": "ISO Class II",
+  "th": "ISO Class II",
+  "html": false
+ },
+ {
+  "key": "about.high-speed-door-system",
+  "page": "about",
+  "en": "High Speed Door System",
+  "th": "High Speed Door System",
+  "html": false
+ },
+ {
+  "key": "about.possitive-pressure",
+  "page": "about",
+  "en": "Possitive Pressure",
+  "th": "Possitive Pressure",
+  "html": false
+ },
+ {
+  "key": "about.temperature-control",
+  "page": "about",
+  "en": "Temperature Control",
+  "th": "Temperature Control",
+  "html": false
+ },
+ {
+  "key": "about.certified-by",
+  "page": "about",
+  "en": "Certified By",
+  "th": "การรับรองโดย",
+  "html": false
+ },
+ {
+  "key": "about.company-milestone",
+  "page": "about",
+  "en": "Company Milestone",
+  "th": "เหตุการณ์สำคัญ",
+  "html": false
+ },
+ {
+  "key": "about.message-from-company",
+  "page": "about",
+  "en": "Message from Company",
+  "th": "สารจากบริษัท",
+  "html": false
+ },
+ {
+  "key": "about.dr-mangkorn-dhanasarnsilpchairman-of-the-board",
+  "page": "about",
+  "en": "<b>Dr. Mangkorn Dhanasarnsilp</b>Chairman of the Board",
+  "th": "<b>ดร.มังกร ธนสารศิลป์</b>ประธานกรรมการบริษัท",
+  "html": true
+ },
+ {
+  "key": "about.mr-warodom-ngowsiriexecutive-chairman",
+  "page": "about",
+  "en": "<b>Mr. Warodom Ngowsiri</b>Executive Chairman",
+  "th": "<b>นายวโรดม โง้วศิริ</b>ประธานคณะกรรมการบริหาร",
+  "html": true
+ },
+ {
+  "key": "about.wiwan-ngowsiri-md-chief-executive-officer",
+  "page": "about",
+  "en": "<b>Wiwan Ngowsiri, MD.</b>Chief Executive Officer",
+  "th": "<b>พญ.วิวรรณ โง้วศิริ</b>ประธานเจ้าหน้าที่บริหาร",
+  "html": true
+ },
+ {
+  "key": "about.to-our-shareholders-and-stakeholders",
+  "page": "about",
+  "en": "To Our Shareholders and Stakeholders,",
+  "th": "เรียน ผู้ถือหุ้นและผู้มีส่วนได้เสียทุกภาคส่วน",
+  "html": false
+ },
+ {
+  "key": "about.in-the-year-2026-the-global",
+  "page": "about",
+  "en": "In the year 2026, the global landscape of politics and economics among major world powers continues to evolve, inevitably impacting Thailand’s economy. Forecasts indicate that Thailand’s economic growth will remain positive, although at a moderate level. Nevertheless, supportive factors remain, including the nationwide parliamentary elections, which will provide clearer direction for national policies and governance. In addition, the tourism sector continues to show steady progress.",
+  "th": "ในปี 2569 นี้ สถานการ์ณของโลกทั้งการเมือง และเศรษฐกิจ ของประเทศมหาอำนาจ ซึ่งมีผลกระทบกับเศรษฐกิจของประเทศไทยอย่างหลีกเลี่ยงไม่ได้ มีการพยากรณ์ว่าเศรษฐกิจไทยจะยังคงมีความเติบโตอย่างต่อเนื่อง แม้จะไม่สูงมากนัก อย่างไรก็ดี ยังมีแรงหนุนจากการมีเลือกตั้งสมาชิกรัฐสภาใหม่ทั่วประเทศ ซึ่งจะทำให้นโยบายในการบริหารประเทศ มีทิศทางที่แน่นอนขึ้น และภาคการท่องเที่ยว ยังคงไปได้ บริษัทได้ตระหนักถึงปัจจัยเหล่านี้ และทางผู้บริหารได้เตรียมความพร้อมในด้านต่างๆ เพื่อให้บรรลุถึงเป้าหมาย ที่วางไว้อย่างเต็มที่ และมุ่งมั่นให้เป็นไปตามเป้าหมายที่ได้วางไว้ต่อไป",
+  "html": false
+ },
+ {
+  "key": "about.recognizing-these-circumstances-the-company-and",
+  "page": "about",
+  "en": "Recognizing these circumstances, the Company and its management team have proactively prepared across all key areas to ensure the achievement of our strategic objectives. We remain committed to driving the Company forward and accomplishing the goals we have set for the future.",
+  "th": "ในนามของ บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน) (“บริษัทฯ”) ผู้ผลิตและจัดจำหน่ายผลิตภัณฑ์เสริมอาหารและเครื่องสำอางครบวงจร ภายใต้โรงงานที่ได้รับการรับรองมาตรฐานสากล ขอแสดงความขอบคุณต่อลูกค้า คู่ค้า และพันธมิตรทางธุรกิจทุกท่านที่ให้ความไว้วางใจและสนับสนุนบริษัทของเราด้วยดีเสมอมา",
+  "html": false
+ },
+ {
+  "key": "about.as-a-fully-integrated-manufacturer-and",
+  "page": "about",
+  "en": "As a fully integrated manufacturer and distributor of dietary supplements and cosmetics, operating under internationally certified standards, we extend our sincere appreciation to our valued customers, partners, and business allies for their continued trust and support.",
+  "th": "บริษัทฯ มุ่งมั่นพัฒนาผลิตภัณฑ์ที่มีคุณภาพ ปลอดภัย และตอบโจทย์ความต้องการของผู้บริโภคในยุคปัจจุบัน ด้วยการนำนวัตกรรมและเทคโนโลยีสมัยใหม่มาปรับใช้ในกระบวนการผลิตทุกขั้นตอน พร้อมทั้งดำเนินธุรกิจด้วยความรับผิดชอบต่อสังคมและสิ่งแวดล้อม ภายใต้ปรัชญา “Toward Medical Excellence”",
+  "html": false
+ },
+ {
+  "key": "about.the-company-is-committed-to-developing",
+  "page": "about",
+  "en": "The Company is committed to developing high-quality, safe, and consumer-oriented products by integrating modern innovations and technologies throughout every stage of our production processes. We conduct our business with a deep sense of responsibility towards society and the environment, guided by our philosophy: “Toward Medical Excellence.”",
+  "th": "ในปีที่ผ่านมา บริษัทฯ ได้ขยายช่องทางการจัดจำหน่ายผลิตภัณฑ์ของเราให้ครอบคลุมทั้งร้านค้าทั่วประเทศและช่องทางออนไลน์ เพื่อให้ผู้บริโภคสามารถเข้าถึงผลิตภัณฑ์ของเราได้สะดวกยิ่งขึ้น เราเชื่อมั่นว่า การปรับตัวและพัฒนาตนเองอย่างต่อเนื่องจะช่วยให้บริษัทฯ เติบโตอย่างยั่งยืนในสภาวะเศรษฐกิจที่เปลี่ยนแปลง รวมถึงการสร้างพันธมิตรทางธุรกิจใหม่ๆ เพื่อเสริมความแข็งแกร่งของระบบโลจิสติกส์และการกระจายสินค้า ส่งผลให้เราสามารถตอบสนองความต้องการของลูกค้าได้รวดเร็วและมีประสิทธิภาพมากยิ่งขึ้น",
+  "html": false
+ },
+ {
+  "key": "about.over-the-past-year-we-have",
+  "page": "about",
+  "en": "Over the past year, we have expanded our distribution channels nationwide, both offline and online, to enhance accessibility for consumers. We believe that continuous adaptation and improvement are key to sustainable growth in an ever-changing economic landscape. In addition, we are actively building new strategic partnerships to strengthen our logistics and distribution systems, enabling us to respond to customer needs with greater speed and efficiency.",
+  "th": "บริษัทฯ ยังคงให้ความสำคัญกับการสร้างความสัมพันธ์อันดีต่อชุมชนและสังคม โดยสนับสนุนผู้ประกอบการรายย่อย รวมถึงส่งเสริมการจ้างงานในท้องถิ่น ผ่านการขยายกำลังการผลิตของโรงงานของเราอย่างต่อเนื่อง นอกจากนี้ บริษัทฯ ยังเดินหน้าพัฒนานวัตกรรมผลิตภัณฑ์ใหม่ๆ ที่สอดรับกับแนวโน้มสุขภาพและความงามในระดับสากล เพื่อตอบสนองความต้องการของผู้บริโภคที่เปลี่ยนแปลงอยู่เสมอ และมีแผนที่จะขยายตลาดไปยังต่างประเทศ เพื่อเพิ่มโอกาสในการเติบโตและสร้างความแข็งแกร่งให้กับแบรนด์ของเรา",
+  "html": false
+ },
+ {
+  "key": "about.the-company-also-prioritizes-building-strong",
+  "page": "about",
+  "en": "The Company also prioritizes building strong relationships with local communities by supporting small businesses and promoting local employment through the ongoing expansion of our manufacturing capacity. Furthermore, we are committed to developing innovative new products that align with global health and beauty trends, ensuring we continue to meet the evolving demands of modern consumers. Our strategic plan includes expanding into international markets to seize new growth opportunities and enhance the strength of our brand.",
+  "th": "ในนามของคณะกรรมการ ผู้บริหาร และพนักงานบริษัทฯ ขอขอบคุณลูกค้า คู่ค้า ผู้ถือหุ้น และผู้มีส่วนได้เสียทุกท่านที่มอบความไว้วางใจและร่วมเติบโตไปกับเรา เราจะไม่หยุดนิ่งในการพัฒนาธุรกิจให้เติบโตอย่างยั่งยืน พร้อมทั้งส่งมอบผลิตภัณฑ์ที่ดีที่สุดสู่ผู้บริโภคทั่วประเทศ",
+  "html": false
+ },
+ {
+  "key": "about.on-behalf-of-the-board-of",
+  "page": "about",
+  "en": "On behalf of the Board of Directors, management, and all employees of the Company, I would like to express our heartfelt gratitude to our customers, partners, shareholders, and stakeholders for your continued confidence and partnership. We remain steadfast in our mission to pursue sustainable growth and to deliver the very best products to consumers across Thailand and beyond.",
+  "th": "ในนามของคณะกรรมการ ผู้บริหาร และพนักงานบริษัทฯ ขอขอบคุณลูกค้า คู่ค้า ผู้ถือหุ้น และผู้มีส่วนได้เสียทุกท่านที่มอบความไว้วางใจและร่วมเติบโตไปกับเรา เราจะไม่หยุดนิ่งในการพัฒนาธุรกิจให้เติบโตอย่างยั่งยืน พร้อมทั้งส่งมอบผลิตภัณฑ์ที่ดีที่สุดสู่ผู้บริโภคทั่วประเทศ",
+  "html": false
+ },
+ {
+  "key": "about.dr-mangkorn-dhanasarnsilp",
+  "page": "about",
+  "en": "Dr. Mangkorn Dhanasarnsilp",
+  "th": "ดร.มังกร ธนสารศิลป์",
+  "html": false
+ },
+ {
+  "key": "about.chairman-of-the-board",
+  "page": "about",
+  "en": "Chairman of the Board",
+  "th": "ประธานกรรมการบริษัท",
+  "html": false
+ },
+ {
+  "key": "about.posh-medica-lifetech-public-company-limited-2",
+  "page": "about",
+  "en": "Posh Medica Lifetech Public Company Limited",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": false
+ },
+ {
+  "key": "about.the-path-to-achieving-our-vision",
+  "page": "about",
+  "en": "The path to achieving our vision — “To be the leading provider of high-quality, accessible healthcare products that contribute to wellness inside and out” — leaves Posh with no choice but to uphold our mission with utmost dedication.",
+  "th": "หนทางที่จะบรรลุ Vision ของบริษัท ‘‘ผู้นำด้านผลิตภัณฑ์ดูแลสุขภาพที่มีคุณภาพและราคาเข้าถึงได้ มีส่วนช่วยให้สุขภาพดีทั้งภายในและภายนอก’’ ได้นั้น",
+  "html": false
+ },
+ {
+  "key": "about.our-mission-is-a-social-contract",
+  "page": "about",
+  "en": "Our mission is a social contract between us, our partners, and our consumers. It demands our full commitment — in both effort and heart — to adopt only advanced and safe manufacturing technologies, carefully select premium-quality ingredients, and continuously elevate our standards in research and product development.",
+  "th": "Posh ไม่มีทางเลือกอื่นนอกจากปฏิบัติตาม Mission ที่เหมือนเป็นสัญญาประชาคมระหว่างเรา-คู่ค้า-ผู้บริโภคอย่างเคร่งครัดทั้งในแง่ความทุ่มเทแรงกายแรงใจ เลือกใช้แต่เทคโนโลยีการผลิตอันทันสมัยและปลอดภัย คัดสรรเฉพาะวัตถุดิบที่มีคุณภาพและพัฒนามาตรฐานการวิจัยและพัฒนาผลิตภัณฑ์อย่างต่อเนื่อง",
+  "html": false
+ },
+ {
+  "key": "about.and-we-have-already-proven-that",
+  "page": "about",
+  "en": "And we have already proven that by truly “walking the talk” in every aspect of our mission, our ultimate goal is within reach: to be recognized by our partners as a trustworthy company and remembered by consumers for our highly effective, great-tasting, and affordable healthcare products.",
+  "th": "เเละเราก็พิสูจน์ให้เห็นแล้วว่าถ้าเรา Walk the Talk ในทุกๆ Mission การทำงาน เป้าหมายสูงสุดที่ Posh ต้องการจะเป็นที่จดจำจากคู่ค้าในแง่บริษัทที่น่าไว้วางใจและถูกจดจำจากผู้บริโภคในแง่ผลิตภัณฑ์ดูแลสุขภาพที่มีประสิทธิผลสูงสุด รสชาติถูกปากในราคาที่เข้าถึงได้ เป็นจริงได้",
+  "html": false
+ },
+ {
+  "key": "about.health-is-wealth",
+  "page": "about",
+  "en": "<strong>Health is Wealth.</strong>",
+  "th": "<strong>Health is Wealth สุขภาพดี คือ ความมั่งคั่ง</strong>",
+  "html": true
+ },
+ {
+  "key": "about.at-posh-we-will-never-stop",
+  "page": "about",
+  "en": "At Posh, we will never stop creating this wealth for society. This is our vow.",
+  "th": "และ Posh จะไม่หยุดสร้างความมั่งคั่งนี้ให้กับสังคม นี่คือพันธะสัญญาจากเรา",
+  "html": false
+ },
+ {
+  "key": "about.mr-warodom-ngowsiri",
+  "page": "about",
+  "en": "Mr. Warodom Ngowsiri",
+  "th": "นายวโรดม โง้วศิริ",
+  "html": false
+ },
+ {
+  "key": "about.executive-chairman",
+  "page": "about",
+  "en": "Executive Chairman",
+  "th": "ประธานคณะกรรมการบริหาร",
+  "html": false
+ },
+ {
+  "key": "about.posh-medica-lifetech-public-company-limited-3",
+  "page": "about",
+  "en": "Posh Medica Lifetech Public Company Limited",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": false
+ },
+ {
+  "key": "about.for-over-15-years-as-a",
+  "page": "about",
+  "en": "For over 15 years, as a physician caring for patients, I’ve witnessed how easily health is taken for granted, and how powerful prevention can be when it starts early. That was the beginning of POSH MEDICA!",
+  "th": "ในฐานะหมอที่ดูแลผู้ป่วยมา 15 ปี มีโอกาสพบเจอปัญหาสุขภาพมากมาย ทั้งเล็กและใหญ่ นั่นคือจุดเริ่มต้นของ พอช เมดิก้า!",
+  "html": false
+ },
+ {
+  "key": "about.we-didn-t-create-this-brand",
+  "page": "about",
+  "en": "We didn’t create this brand to follow trends. We built it to change how people experience wellness - to make it affordable, enjoyable, and deeply rooted in science.",
+  "th": "เราไม่ได้แค่อยากขายอาหารเสริมหรือเครื่องสำอาง แต่ต้องการสร้าง “มาตรฐานใหม่” ในการดูแลสุขภาพ",
+  "html": false
+ },
+ {
+  "key": "about.we-believe-supplements-should-delight-not",
+  "page": "about",
+  "en": "We believe supplements should “delight”, not feel like a chore.",
+  "th": "เราท้าทายภาพจำเดิมๆ ว่าการใส่ใจสุขภาพต้องน่าเบื่อ จืดชืด หรือยากเกินไป",
+  "html": false
+ },
+ {
+  "key": "about.so-we-turned-routine-into-ritual",
+  "page": "about",
+  "en": "So we turned routine into ritual - with flavors you love, formats that fit your life, and formulas that actually deliver. So taking supplements becomes something you want to do, not something you have to do.",
+  "th": "เราผสานนวัตกรรมกับงานวิจัยที่เข้มข้น ออกมาเป็นผลิตภัณฑ์ที่สนุก อร่อย หลากหลาย ราคาจับต้องได้",
+  "html": false
+ },
+ {
+  "key": "about.we-re-committed-to-progress-without",
+  "page": "about",
+  "en": "We’re committed to progress without compromise - on safety, on quality, or on our shared future with the planet.",
+  "th": "เพื่อให้การรับประทานอาหารเสริมเป็นเรื่องง่าย “อยากทานต่อ” ไม่ใช่ “ต้องทนทาน”",
+  "html": false
+ },
+ {
+  "key": "about.we-are-committed-to-sourcing-safe",
+  "page": "about",
+  "en": "We are committed to sourcing safe, high-quality ingredients - with full traceability from origin to finished product, and to partnering exclusively with those who share our ethical standards and long-term vision.",
+  "th": "เราไม่ลดทอนคุณภาพ ไม่ประนีประนอมกับความปลอดภัย และไม่ทิ้งภาระให้สิ่งแวดล้อม",
+  "html": false
+ },
+ {
+  "key": "about.this-isn-t-just-a-business",
+  "page": "about",
+  "en": "This isn’t just a Business - it’s a Mission:",
+  "th": "เราคัดสรรวัตถุดิบที่ปลอดภัยตั้งแต่ต้นน้ำ ผ่านกระบวนการผลิตและ Quality Assurance ที่มีมาตรฐานระดับโลก ร่วมมือกับพันธมิตรที่มีจริยธรรมและวิสัยทัศน์ระยะยาวร่วมกัน",
+  "html": false
+ },
+ {
+  "key": "about.to-design-evidence-based-health-products",
+  "page": "about",
+  "en": "To design evidence-based health products that deliver effective results, while making the journey joyful.",
+  "th": "นี่จึงไม่ใช่แค่ “ธุรกิจ” แต่มันคือ “ภารกิจ” เพื่อผลิตภัณฑ์ดูแลสุขภาพที่ออกแบบให้ “ได้ผล” และ “ได้ความสุข” ไปพร้อมกัน",
+  "html": false
+ },
+ {
+  "key": "about.this-philosophy-shapes-how-we-grow",
+  "page": "about",
+  "en": "This philosophy shapes how we grow to become a trusted and sustainable leader in the health and wellness industry.",
+  "th": "ทั้งหมดนี้คือวิธีที่เราเติบโต เพื่อเดินหน้าอย่างมั่นคง สู่การเป็นแบรนด์สุขภาพชั้นนำที่ยั่งยืน",
+  "html": false
+ },
+ {
+  "key": "about.wiwan-ngowsiri-md",
+  "page": "about",
+  "en": "Wiwan Ngowsiri, MD.",
+  "th": "พญ.วิวรรณ โง้วศิริ",
+  "html": false
+ },
+ {
+  "key": "about.chief-executive-officer",
+  "page": "about",
+  "en": "Chief Executive Officer",
+  "th": "ประธานเจ้าหน้าที่บริหาร",
+  "html": false
+ },
+ {
+  "key": "about.posh-medica-lifetech-public-company-limited-4",
+  "page": "about",
+  "en": "Posh Medica Lifetech Public Company Limited",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": false
+ },
+ {
+  "key": "about.organization-chart",
+  "page": "about",
+  "en": "Organization Chart",
+  "th": "แผนผังโครงสร้างองค์กร",
+  "html": false
+ },
+ {
+  "key": "about.view-large",
+  "page": "about",
+  "en": "View Large",
+  "th": "ดูขนาดใหญ่",
+  "html": false
+ },
+ {
+  "key": "about.breadcrumb",
+  "page": "about",
+  "en": "Breadcrumb",
+  "th": "ตำแหน่งหน้า",
+  "html": false
+ },
+ {
+  "key": "about.asean-guidelines-for-cosmetic-gmp",
+  "page": "about",
+  "en": "ASEAN Guidelines for Cosmetic GMP",
+  "th": "ASEAN Guidelines for Cosmetic GMP",
+  "html": false
+ },
+ {
+  "key": "about.ghp",
+  "page": "about",
+  "en": "GHP",
+  "th": "GHP",
+  "html": false
+ },
+ {
+  "key": "about.haccp",
+  "page": "about",
+  "en": "HACCP",
+  "th": "HACCP",
+  "html": false
+ },
+ {
+  "key": "about.iso-22716",
+  "page": "about",
+  "en": "ISO 22716",
+  "th": "ISO 22716",
+  "html": false
+ },
+ {
+  "key": "about.fda",
+  "page": "about",
+  "en": "FDA",
+  "th": "FDA",
+  "html": false
+ },
+ {
+  "key": "about.halal",
+  "page": "about",
+  "en": "HALAL",
+  "th": "HALAL",
+  "html": false
+ },
+ {
+  "key": "about.messages",
+  "page": "about",
+  "en": "Messages",
+  "th": "สารจากบริษัท",
+  "html": false
+ },
+ {
+  "key": "about.dr-mangkorn-dhanasarnsilp-2",
+  "page": "about",
+  "en": "Dr. Mangkorn Dhanasarnsilp",
+  "th": "ดร.มังกร ธนสารศิลป์",
+  "html": false
+ },
+ {
+  "key": "about.mr-warodom-ngowsiri-2",
+  "page": "about",
+  "en": "Mr. Warodom Ngowsiri",
+  "th": "นายวโรดม โง้วศิริ",
+  "html": false
+ },
+ {
+  "key": "about.wiwan-ngowsiri-md-2",
+  "page": "about",
+  "en": "Wiwan Ngowsiri, MD.",
+  "th": "พญ.วิวรรณ โง้วศิริ",
+  "html": false
+ },
+ {
+  "key": "about.organization-chart-2",
+  "page": "about",
+  "en": "Organization Chart",
+  "th": "แผนผังโครงสร้างองค์กร",
+  "html": false
+ },
+ {
+  "key": "awards.trophy",
+  "page": "awards",
+  "en": "Trophy",
+  "th": "รางวัล",
+  "html": false
+ },
+ {
+  "key": "awards.home",
+  "page": "awards",
+  "en": "Home",
+  "th": "หน้าหลัก",
+  "html": false
+ },
+ {
+  "key": "awards.about-us",
+  "page": "awards",
+  "en": "About Us",
+  "th": "เกี่ยวกับเรา",
+  "html": false
+ },
+ {
+  "key": "awards.awards-standards",
+  "page": "awards",
+  "en": "Awards & Standards",
+  "th": "รางวัลและมาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "awards.accreditation-recognition",
+  "page": "awards",
+  "en": "Accreditation & Recognition",
+  "th": "รางวัลและมาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "awards.at-posh-medica-lifetech-public-company",
+  "page": "awards",
+  "en": "At <b>Posh Medica Lifetech Public Company Limited</b>, we proudly affirm the quality of our products through the prestigious accolades we have received. In 2014, the company was honored with the Quality Businessperson Award from the Foundation of Science and Technology Council of Thailand (FSTT). The award was presented by H.E. Mr. Plodprasop Suraswadi, Privy Councillor, in recognition of individuals who have achieved success in life and demonstrated dedication to activities benefiting society.",
+  "th": "โดยเรา บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน) การันตีคุณภาพจากรางวัลที่เคยได้รับมาจากมูลนิธิสภาวิทยาศาสตร์และเทคโนโลยีแห่งประเทศไทย (มสวท.) ที่ได้มอบรางวัลบุคคลคุณภาพภาคธุรกิจในปี 2557 จาก ฯพณฯ พลากร สุวรรณรัฐ (องคมนตรี) เพื่อเป็นการยกย่องบุคคลที่ประสบความสำเร็จในการดำเนินชีวิต และการอุทิศตนทำกิจกรรมเพื่อประโยชน์ต่อสังคม",
+  "html": true
+ },
+ {
+  "key": "awards.in-2016-the-company-received-the",
+  "page": "awards",
+  "en": "In 2016, the company received the <b>Outstanding Product of the Year 2016 Award</b> from the Council for the Promotion and Development of Thai Business and Economy (CPDE). This accolade affirms that our products meet high quality standards and are in full compliance with applicable legal and regulatory requirements.",
+  "th": "ปี 2559 บริษัทฯ ได้รับ รางวัลผลิตภัณฑ์ดีเด่นแห่งปี 2559 โดยสภาเครือข่ายส่งเสริมพัฒนาธุรกิจและเศรษฐกิจแห่งประเทศไทย (สส.ศท) จึงรับรองได้ว่า สินค้าที่ผลิตนั้นมีคุณภาพและมาตรฐานที่ถูกต้องตามกฏหมาย",
+  "html": true
+ },
+ {
+  "key": "awards.awards",
+  "page": "awards",
+  "en": "Awards",
+  "th": "รางวัล",
+  "html": false
+ },
+ {
+  "key": "awards.standards",
+  "page": "awards",
+  "en": "Standards",
+  "th": "มาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "awards.breadcrumb",
+  "page": "awards",
+  "en": "Breadcrumb",
+  "th": "ตำแหน่งหน้า",
+  "html": false
+ },
+ {
+  "key": "oem.factory",
+  "page": "oem",
+  "en": "Factory",
+  "th": "โรงงาน",
+  "html": false
+ },
+ {
+  "key": "oem.home",
+  "page": "oem",
+  "en": "Home",
+  "th": "หน้าหลัก",
+  "html": false
+ },
+ {
+  "key": "oem.our-business",
+  "page": "oem",
+  "en": "Our Business",
+  "th": "ธุรกิจของเรา",
+  "html": false
+ },
+ {
+  "key": "oem.oem-and-odm",
+  "page": "oem",
+  "en": "OEM and ODM",
+  "th": "OEM and ODM",
+  "html": false
+ },
+ {
+  "key": "oem.oem-and-odm-2",
+  "page": "oem",
+  "en": "OEM and ODM",
+  "th": "OEM and ODM",
+  "html": false
+ },
+ {
+  "key": "oem.posh-medica-lifetech-is-your-trusted",
+  "page": "oem",
+  "en": "<b>POSH Medica LifeTech</b> is your trusted business partner — a one-stop OEM/ODM manufacturer for dietary supplements and cosmetics. We operate under internationally certified production systems and are supported by a team of industry specialists with extensive hands-on experience in the health and beauty sector.",
+  "th": "POSH MEDICA LIFETECH (บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)) คือ พันธมิตรทางธุรกิจที่คุณวางใจได้ เพราะเราคือโรงงานรับผลิตอาหารเสริมและเครื่องสำอาง (OEM/ODM) ที่ครบ จบ ในที่เดียว ดำเนินการภายใต้ระบบการผลิตที่ได้รับ การรับรอง คุณภาพระดับสากล พร้อมทีมผู้เชี่ยวชาญเฉพาะทาง ที่มีประสบการณ์จริงในวงการอุตสาหกรรม",
+  "html": true
+ },
+ {
+  "key": "oem.contact-us",
+  "page": "oem",
+  "en": "Contact Us",
+  "th": "ติดต่อเรา",
+  "html": false
+ },
+ {
+  "key": "oem.what-we-deliver",
+  "page": "oem",
+  "en": "What We Deliver",
+  "th": "What We Deliver",
+  "html": false
+ },
+ {
+  "key": "oem.initial-consultation",
+  "page": "oem",
+  "en": "Initial Consultation",
+  "th": "ให้คำปรึกษาเริ่มต้น",
+  "html": false
+ },
+ {
+  "key": "oem.we-provide-business-planning-and-formula",
+  "page": "oem",
+  "en": "We provide business planning and formula selection to match your target market.",
+  "th": "วางแผนธุรกิจ และเลือกสูตรให้เหมาะกับกลุ่มเป้าหมาย",
+  "html": false
+ },
+ {
+  "key": "oem.customized-formula-development-odm",
+  "page": "oem",
+  "en": "Customized Formula Development (ODM)",
+  "th": "คิดค้นและพัฒนาสูตรเฉพาะแบรนด์ (ODM)",
+  "html": false
+ },
+ {
+  "key": "oem.formulated-by-a-team-of-doctors",
+  "page": "oem",
+  "en": "Formulated by a team of doctors, researchers, and professional specialists dedicated to your brand.",
+  "th": "โดยทีมคุณหมอ นักวิจัย และเภสัชกร ผู้เชี่ยวชาญ",
+  "html": false
+ },
+ {
+  "key": "oem.manufacturing-under-your-formula-oem",
+  "page": "oem",
+  "en": "Manufacturing under Your Formula (OEM)",
+  "th": "ผลิตตามสูตรของลูกค้า (OEM)",
+  "html": false
+ },
+ {
+  "key": "oem.produced-with-premium-grade-ingredients-under",
+  "page": "oem",
+  "en": "Produced with premium-grade ingredients under strict quality control standards.",
+  "th": "ด้วยวัตถุดิบคุณภาพระดับพรีเมียม",
+  "html": false
+ },
+ {
+  "key": "oem.packaging-design-logo-and-brand-ci",
+  "page": "oem",
+  "en": "Packaging Design, Logo, and Brand CI Development",
+  "th": "ออกแบบบรรจุภัณฑ์ โลโก้ และ CI แบรนด์",
+  "html": false
+ },
+ {
+  "key": "oem.designed-by-our-experienced-and-professional",
+  "page": "oem",
+  "en": "Designed by our experienced and professional graphic design team.",
+  "th": "โดยทีมกราฟิกมืออาชีพ",
+  "html": false
+ },
+ {
+  "key": "oem.fda-registration-and-legal-documentation-service",
+  "page": "oem",
+  "en": "FDA Registration and Legal Documentation Services",
+  "th": "บริการจดแจ้ง อย. และเอกสารตามกฎหมายครบถ้วน",
+  "html": false
+ },
+ {
+  "key": "oem.we-take-care-of-all-required",
+  "page": "oem",
+  "en": "We take care of all required registrations and legal compliance processes.",
+  "th": "บริการบรรจุภัณฑ์ครบวงจร พร้อมจัดส่งถึงที่",
+  "html": false
+ },
+ {
+  "key": "oem.comprehensive-packaging-and-delivery-services",
+  "page": "oem",
+  "en": "Comprehensive Packaging and Delivery Services",
+  "th": "บริการคลังสินค้า",
+  "html": false
+ },
+ {
+  "key": "oem.full-packaging-solutions-with-nationwide-deliver",
+  "page": "oem",
+  "en": "Full packaging solutions with nationwide delivery convenience.",
+  "th": "จัดเก็บ ดูแล และบริหารสินค้าภายในพื้นที่จัดเก็บที่ได้มาตรฐาน",
+  "html": false
+ },
+ {
+  "key": "oem.product-categories",
+  "page": "oem",
+  "en": "Product Categories",
+  "th": "ประเภทสินค้าที่เรารับผลิต",
+  "html": false
+ },
+ {
+  "key": "oem.dietary-supplements",
+  "page": "oem",
+  "en": "Dietary Supplements",
+  "th": "อาหารเสริม (Dietary Supplements)",
+  "html": false
+ },
+ {
+  "key": "oem.multivitamins-collagen-glutathione-fiber-detox-f",
+  "page": "oem",
+  "en": "Multivitamins, collagen, glutathione, fiber, detox formulas, beauty supplements, herbal extracts, and more.",
+  "th": "วิตามินรวม, คอลลาเจน, กลูต้า, ไฟเบอร์, ดีท็อกซ์, อาหารเสริมผิว, สมุนไพร ฯลฯ",
+  "html": false
+ },
+ {
+  "key": "oem.build-your-brand-with-confidence",
+  "page": "oem",
+  "en": "Build Your Brand with Confidence",
+  "th": "เริ่มต้นสร้างแบรนด์ของคุณวันนี้ กับ POSH MEDICA",
+  "html": false
+ },
+ {
+  "key": "oem.start-your-brand-today-with-posh",
+  "page": "oem",
+  "en": "Start your brand today with POSH MEDICA — your professional partner in supplement and cosmetic manufacturing.",
+  "th": "หากคุณต้องการเริ่มต้นธุรกิจ อาหารเสริม หรือ เครื่องสำอาง อย่างมืออาชีพ หากคุณกำลังมองหา โรงงาน OEM / ODM ที่มีประสบการณ์จริง หากคุณอยากได้มากกว่าการผลิต แต่คือพาร์ทเนอร์ที่ขับเคลื่อนธุรกิจคุณอย่างยั่งยืน บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน) คือคำตอบ",
+  "html": false
+ },
+ {
+  "key": "oem.whether-you-are-launching-a-new",
+  "page": "oem",
+  "en": "Whether you are launching a new business or expanding an existing one, our expertise and commitment to quality will help drive your brand’s success sustainably. <b>POSH Medica LifeTech Public Company Limited</b> — your complete solution for innovation, trust, and growth.",
+  "th": "เริ่มต้นสร้างแบรนด์ของคุณวันนี้ กับ POSH MEDICA หากคุณต้องการเริ่มต้นธุรกิจ อาหารเสริม หรือ เครื่องสำอาง อย่างมืออาชีพ หากคุณกำลังมองหา โรงงาน OEM / ODM ที่มีประสบการณ์จริง หากคุณอยากได้มากกว่าการผลิต แต่คือพาร์ทเนอร์ที่ขับเคลื่อนธุรกิจคุณอย่างยั่งยืน <b>บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)</b> คือคำตอบ",
+  "html": true
+ },
+ {
+  "key": "oem.contact-us-2",
+  "page": "oem",
+  "en": "Contact Us",
+  "th": "ติดต่อเรา",
+  "html": false
+ },
+ {
+  "key": "oem.breadcrumb",
+  "page": "oem",
+  "en": "Breadcrumb",
+  "th": "ตำแหน่งหน้า",
+  "html": false
+ },
+ {
+  "key": "contact.hello",
+  "page": "contact",
+  "en": "Hello",
+  "th": "สวัสดี",
+  "html": false
+ },
+ {
+  "key": "contact.home",
+  "page": "contact",
+  "en": "Home",
+  "th": "หน้าหลัก",
+  "html": false
+ },
+ {
+  "key": "contact.contact-us",
+  "page": "contact",
+  "en": "Contact Us",
+  "th": "ติดต่อเรา",
+  "html": false
+ },
+ {
+  "key": "contact.contact-us-2",
+  "page": "contact",
+  "en": "Contact Us",
+  "th": "ติดต่อเรา",
+  "html": false
+ },
+ {
+  "key": "contact.posh-medica-lifetech-public-company-limited",
+  "page": "contact",
+  "en": "Posh Medica Lifetech Public Company Limited",
+  "th": "บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)",
+  "html": false
+ },
+ {
+  "key": "contact.27-8-soi-01-kanchanaphisek-11",
+  "page": "contact",
+  "en": "27/8 Soi 01 Kanchanaphisek 11/1, Khan Na Yao, Khan Na Yao, Bangkok, 10230",
+  "th": "27/8 ซอย 01 กาญจนาภิเษก 11/1 แขวงคันนายาว เขตคันนายาว กรุงเทพฯ 10230",
+  "html": false
+ },
+ {
+  "key": "contact.for-customer",
+  "page": "contact",
+  "en": "For Customer :",
+  "th": "สำหรับลูกค้า :",
+  "html": false
+ },
+ {
+  "key": "contact.customer-poshmedica-com",
+  "page": "contact",
+  "en": "customer@poshmedica.com",
+  "th": "customer@poshmedica.com",
+  "html": false
+ },
+ {
+  "key": "contact.for-shareholder-and-investor",
+  "page": "contact",
+  "en": "For Shareholder and Investor :",
+  "th": "สำหรับผู้ถือหุ้นและนักลงทุน :",
+  "html": false
+ },
+ {
+  "key": "contact.companysecretary-poshmedica-com",
+  "page": "contact",
+  "en": "companysecretary@poshmedica.com",
+  "th": "companysecretary@poshmedica.com",
+  "html": false
+ },
+ {
+  "key": "contact.line",
+  "page": "contact",
+  "en": "LINE",
+  "th": "LINE",
+  "html": false
+ },
+ {
+  "key": "contact.breadcrumb",
+  "page": "contact",
+  "en": "Breadcrumb",
+  "th": "ตำแหน่งหน้า",
+  "html": false
+ },
+ {
+  "key": "contact.posh-medica-lifetech-building",
+  "page": "contact",
+  "en": "Posh Medica Lifetech building",
+  "th": "อาคาร Posh Medica Lifetech",
+  "html": false
+ },
+ {
+  "key": "contact.map-to-posh-medica-lifetech",
+  "page": "contact",
+  "en": "Map to Posh Medica Lifetech",
+  "th": "แผนที่ไป Posh Medica Lifetech",
+  "html": false
+ }
+]
