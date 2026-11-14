@@ -32,7 +32,7 @@
 
 /* ---------- page header ---------- */
 .phead{position:relative;overflow:hidden;background:var(--accent-bg);padding:150px clamp(16px,4vw,56px) clamp(48px,7vw,90px)}
-.phead__giant{position:absolute;right:-2vw;bottom:-.18em;margin:0;font-weight:900;font-size:clamp(7rem,24vw,22rem);line-height:.8;text-transform:uppercase;color:transparent;
+.phead__giant{position:absolute;right:clamp(12px,2.5vw,40px);bottom:clamp(10px,2vw,24px);margin:0;font-weight:900;font-size:clamp(4rem,14vw,16rem);line-height:.78;text-transform:uppercase;color:transparent;
   -webkit-text-stroke:.03em var(--accent-ink);opacity:.35;letter-spacing:-.03em;pointer-events:none;white-space:nowrap}
 .phead__in{position:relative;max-width:1240px;margin:0 auto}
 .phead h1{font-size:var(--step-3);color:var(--navy);max-width:16ch;text-wrap:balance}
@@ -229,22 +229,6 @@ p{text-wrap:pretty}
 .foot__legal a{display:inline-flex;min-height:32px;align-items:center}
 @media (max-width:760px){.foot__wrap{grid-template-columns:1fr}}
 
-/* ---------- flask buddy ---------- */
-.buddy{position:fixed;left:12px;bottom:12px;z-index:50;width:62px;cursor:pointer;transform:translateY(130%);transition:transform .45s cubic-bezier(.3,1.5,.5,1)}
-.buddy.is-out{transform:none}
-.buddy__svg{width:100%;height:auto;overflow:visible;transform-origin:50% 95%;animation:bob 3.2s ease-in-out infinite}
-.buddy__liquid,.buddy__wave{fill:var(--accent,#f05a28);transition:fill .5s}
-.buddy__wave{animation:wave 2.4s linear infinite}
-.buddy__eye{transform-box:fill-box;transform-origin:center;animation:blink 5s infinite}
-.buddy.is-hop .buddy__svg{animation:hop .6s cubic-bezier(.3,1.6,.5,1)}
-.buddy__bubbles i{position:absolute;bottom:60%;left:50%;width:9px;height:9px;border-radius:50%;border:2px solid var(--navy);background:#fff;animation:rise 1.2s ease-out forwards;pointer-events:none}
-@keyframes bob{50%{transform:translateY(-4px) rotate(-3deg)}}
-@keyframes wave{to{transform:translateX(30px)}}
-@keyframes blink{0%,94%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
-@keyframes hop{30%{transform:translateY(-26px) rotate(8deg)}60%{transform:translateY(0) scaleY(.88)}}
-@keyframes rise{to{transform:translate(var(--dx,0),-90px) scale(.4);opacity:0}}
-@media (max-width:1391px){.buddy{display:none}}
-@media (prefers-reduced-motion:reduce){.buddy__svg,.buddy__wave,.buddy__eye{animation:none}}
 .top__logo{display:block;background:var(--navy);padding:12px 18px;border-radius:14px 14px 22px 22px;box-shadow:0 6px 0 var(--navy-ink)}
 .top__logo img{height:34px;width:auto}
 .top__logo:active{transform:translateY(2px)}

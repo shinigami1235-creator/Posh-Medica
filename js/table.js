@@ -2,8 +2,9 @@
   const data = window.POSH_PRODUCTS || [];
   const list = document.querySelector('.ptable__cells');
   const card = document.querySelector('.labcard');
-  const GROUP = { fiber: 'Fiber', care: 'Health Care', skin: 'Skin', pung: 'Pungtalai Series' };
-  const FORM = { powder: 'Powder', capsule: 'Capsule', jelly: 'Jelly' };
+  const T = s => (window.POSH_T || {})[s] || s;
+  const GROUP = { fiber: T('Fiber'), care: T('Health Care'), skin: T('Skin'), pung: T('Pungtalai Series') };
+  const FORM = { powder: T('Powder'), capsule: T('Capsule'), jelly: T('Jelly') };
   const ICON = {
     powder: '<path d="M4 14c2-4 6-4 8 0" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="6" r="1.3"/><circle cx="10" cy="4" r="1.3"/><circle cx="8" cy="9" r="1.3"/>',
     capsule: '<rect x="2" y="5.5" width="12" height="5" rx="2.5" transform="rotate(-35 8 8)" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 4.6 9.9 11" stroke="currentColor" stroke-width="2" transform="rotate(-35 8 8) translate(-1 .2)"/>',

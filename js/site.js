@@ -17,29 +17,16 @@
   burger.addEventListener('click', e => { e.stopPropagation(); const open = !top.classList.contains('is-open'); top.classList.toggle('is-open', open); burger.setAttribute('aria-expanded', open); });
   top.querySelectorAll('.nav__sub a, .nav > li > a').forEach(a => a.addEventListener('click', () => { close(); top.classList.remove('is-open'); }));
 
-  // flask buddy: comes out once the visitor scrolls past the first screen, hops on click and when a new section arrives
-  const buddy = document.querySelector('.buddy');
-  if (!buddy) return;
-  const hero = document.querySelector('.hero');
-  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const bubbles = buddy.querySelector('.buddy__bubbles');
-  function hop() {
-    if (reduce) return;
-    buddy.classList.remove('is-hop'); void buddy.offsetWidth; buddy.classList.add('is-hop');
-    for (let i = 0; i < 4; i++) {
-      const b = document.createElement('i'); b.style.setProperty('--dx', (Math.random() * 40 - 20) + 'px'); b.style.animationDelay = i * 0.12 + 's';
-      b.style.left = 40 + Math.random() * 20 + '%'; bubbles.appendChild(b); setTimeout(() => b.remove(), 1600);
-    }
-  }
-  function place() {
-    const past = hero ? hero.getBoundingClientRect().bottom < innerHeight * 0.4 : scrollY > 200;
-    const nearFoot = document.querySelector('.foot').getBoundingClientRect().top < innerHeight - 40;
-    const roomy = innerWidth >= 1392;   // only where the page margin is wide enough for it to stand on empty space
-    buddy.classList.toggle('is-out', past && !nearFoot && roomy);
-  }
-  addEventListener('scroll', place, { passive: true }); addEventListener('resize', place); place();
-  buddy.addEventListener('click', hop);
-  let seen = new WeakSet();
-  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting && !seen.has(e.target)) { seen.add(e.target); if (buddy.classList.contains('is-out')) hop(); } }), { threshold: 0.5 });
-  document.querySelectorAll('main > section').forEach(s => io.observe(s));
+})();
+
+// Shrink each page header's outline word until the whole word fits inside the header.
+(() => {
+  const fit = () => document.querySelectorAll('.phead__giant').forEach(el => {
+    el.style.fontSize = '';
+    const box = el.parentElement, maxW = box.clientWidth - 24, maxH = box.clientHeight - 20;
+    let fs = parseFloat(getComputedStyle(el).fontSize);
+    for (let i = 0; i < 40 && (el.scrollWidth > maxW || el.offsetHeight > maxH); i++) { fs *= 0.95; el.style.fontSize = fs + 'px'; }
+  });
+  (document.fonts ? document.fonts.ready : Promise.resolve()).then(fit);
+  let t; addEventListener('resize', () => { clearTimeout(t); t = setTimeout(fit, 120); });
 })();

@@ -28,8 +28,8 @@
 
   const sprites = {};
   P.forEach(p => {
-    [`${p.key}-sachet`, `${p.key}-splash`, `glass-${p.key}-drink${sfx}`].forEach(f => { const i = new Image(); i.src = `assets/img/hero/${f}.webp`; });
-    const g = new Image(); g.src = `assets/img/hero/grains-${p.key}.webp`; sprites[p.key] = g;
+    [`${p.key}-sachet`, `${p.key}-splash`, `glass-${p.key}-drink${sfx}`].forEach(f => { const i = new Image(); i.src = `${window.POSH_BASE || ''}assets/img/hero/${f}.webp`; });
+    const g = new Image(); g.src = `${window.POSH_BASE || ''}assets/img/hero/grains-${p.key}.webp`; sprites[p.key] = g;
   });
 
   const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
@@ -41,17 +41,22 @@
 
   let cur = 0, pours = 0;
   function setProduct(i) {
-    cur = i; const p = P[i]; landT = null; grains.length = 0; bubbles.length = 0; puffs.length = 0;
+    const picked = cur !== undefined && cur !== i;
+    cur = i; const p = P[i]; landT = null; poured = false;
+    window.__poshDrink = [p.liquid, shade(p.liquid)];
+    document.dispatchEvent(new CustomEvent('buddy-drink', { detail: window.__poshDrink }));
+    if (picked) document.dispatchEvent(new CustomEvent('buddy', { detail: 'pick' })); grains.length = 0; bubbles.length = 0; puffs.length = 0;
     hero.style.setProperty('--accent-bg', p.bg);
     hero.style.setProperty('--accent-ink', p.ink);
     hero.style.setProperty('--accent', p.liquid);
-    body.src = strip.src = `assets/img/hero/${p.key}-sachet.webp`;
-    splash.src = `assets/img/hero/${p.key}-splash.webp`;
-    drink.src = `assets/img/hero/glass-${p.key}-drink${sfx}.webp`;
+    body.src = strip.src = `${window.POSH_BASE || ''}assets/img/hero/${p.key}-sachet.webp`;
+    splash.src = `${window.POSH_BASE || ''}assets/img/hero/${p.key}-splash.webp`;
+    drink.src = `${window.POSH_BASE || ''}assets/img/hero/glass-${p.key}-drink${sfx}.webp`;
     tag.href = 'product.html?id=' + p.id;
     tag.querySelector('.tag__no b').textContent = String(p.id).padStart(2, '0');
-    tag.querySelector('.tag__group').textContent = p.group;
-    tag.querySelector('.tag__name').textContent = p.name;
+    const T = s => (window.POSH_T || {})[s] || s;
+    tag.querySelector('.tag__group').textContent = T(p.group);
+    tag.querySelector('.tag__name').textContent = T(p.name);
     picks.forEach((b, k) => { b.setAttribute('aria-checked', k === i); b.tabIndex = k === i ? 0 : -1; });
     texts.forEach((t, k) => t.classList.toggle('is-on', k === pours % texts.length));
     pours++;
@@ -73,7 +78,8 @@
   function lowCorner(t) { const a = rot(0.5 * sw, EDGE * sh, t), b = rot(-0.5 * sw, EDGE * sh, t); return a.y > b.y ? { u: 1, ...a } : { u: -1, ...b }; }
   function pourPose(t) { const k = lowCorner(t); return { x: bw * 0.5 - k.x, y: bh * 0.0 - k.y }; }
 
-  let empty = 0, landT = null, cen = { x: 0, y: 0 }, theta = 0, pourAmt = 0, fizz = 0, burst = 0, burstDone = false, shake = 0;
+  const shade = h => '#' + [1, 3, 5].map(i => Math.round(parseInt(h.slice(i, i + 2), 16) * 0.78).toString(16).padStart(2, '0')).join('');
+  let poured = false, empty = 0, landT = null, cen = { x: 0, y: 0 }, theta = 0, pourAmt = 0, fizz = 0, burst = 0, burstDone = false, shake = 0;
   const grains = [], drops = [], bubbles = [], puffs = [];
 
   function frame(s) {
@@ -114,6 +120,7 @@
     const wallL = y => bx + bw * (0.14 + 0.05 * clamp((y - inTop) / (inBot - inTop))), wallR = y => bx + bw - (wallL(y) - bx);
     // colour starts only when the first grains reach the water, spreads down fast then slower, and the glass evens out last
     if (landT !== null) landT += dt;
+    if (!poured && landT > 3) { poured = true; document.dispatchEvent(new CustomEvent('buddy', { detail: 'poured' })); }
     const lt = landT === null ? 0 : landT;
     hero.style.setProperty('--on', clamp(lt / 0.3).toFixed(3));
     hero.style.setProperty('--D', (95 * Math.sqrt(clamp(lt / 4.5))).toFixed(1));
