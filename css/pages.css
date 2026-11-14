@@ -250,3 +250,5 @@ p{text-wrap:pretty}
 .top__logo:active{transform:translateY(2px)}
 .h3+.chips,.figures+.h3{margin-top:24px}
 .figures+.h3{display:block}
+.phead__deco{position:absolute;right:clamp(10px,6vw,120px);top:50%;width:clamp(200px,30vw,440px);height:auto;transform:translateY(-42%) rotate(-8deg);pointer-events:none;filter:drop-shadow(0 18px 20px rgba(27,25,70,.18))}
+@media (max-width:760px){.phead__deco{width:170px;right:-30px;top:auto;bottom:-30px;transform:rotate(-8deg);opacity:.9}}

@@ -73,3 +73,4 @@
   .labcard__media{border-right:none;border-bottom:2px dashed var(--navy);padding:24px}
   .labcard__media img{max-height:200px}
 }
+@media (min-width:600px) and (max-width:900px){.ptable__cells{grid-template-columns:repeat(auto-fill,minmax(96px,1fr))}.el{aspect-ratio:auto;min-height:96px}}
