@@ -41,7 +41,7 @@
 
   let cur = 0, pours = 0;
   function setProduct(i) {
-    cur = i; const p = P[i];
+    cur = i; const p = P[i]; landT = null; grains.length = 0; bubbles.length = 0; puffs.length = 0;
     hero.style.setProperty('--accent-bg', p.bg);
     hero.style.setProperty('--accent-ink', p.ink);
     hero.style.setProperty('--accent', p.liquid);
@@ -73,13 +73,13 @@
   function lowCorner(t) { const a = rot(0.5 * sw, EDGE * sh, t), b = rot(-0.5 * sw, EDGE * sh, t); return a.y > b.y ? { u: 1, ...a } : { u: -1, ...b }; }
   function pourPose(t) { const k = lowCorner(t); return { x: bw * 0.5 - k.x, y: bh * 0.0 - k.y }; }
 
-  let cen = { x: 0, y: 0 }, theta = 0, pourAmt = 0, fizz = 0, burst = 0, burstDone = false, shake = 0;
+  let empty = 0, landT = null, cen = { x: 0, y: 0 }, theta = 0, pourAmt = 0, fizz = 0, burst = 0, burstDone = false, shake = 0;
   const grains = [], drops = [], bubbles = [], puffs = [];
 
   function frame(s) {
     const arrive = out(seg(s, 0, .12)), tear = seg(s, .12, .2), tip = ease(seg(s, .18, .3)), leave = ease(seg(s, .56, .66));
     const home = { x: bw * 1.05, y: bh * 0.12 }, T = -1.95, pose = pourPose(T);
-    pourAmt = seg(s, .28, .33) * (1 - seg(s, .5, .56));
+    pourAmt = seg(s, .31, .34) * (1 - seg(s, .52, .57));
     shake = Math.sin(s * 150) * pourAmt;
     theta = lerp(0.18, T, tip) + shake * 0.07 - leave * 0.6;
     const cx = lerp(home.x, pose.x, tip) + (1 - arrive) * bw * 0.9 + leave * bw * 1.2 + shake * 3;
@@ -89,12 +89,8 @@
     sachet.style.opacity = (s <= 0 ? 0 : 1 - leave).toFixed(3);
     strip.style.transform = `translate3d(${tear * sw * 0.9}px,${-tear * sh * 0.5}px,0) rotate(${tear * 0.9}rad)`;
     strip.style.opacity = (1 - seg(s, .17, .24)).toFixed(3);
-    // colour diffuses down from the surface: the front grows like the square root of time, then the glass evens out
-    const q = seg(s, .3, .86);
-    hero.style.setProperty('--D', (95 * Math.sqrt(q)).toFixed(1));
-    hero.style.setProperty('--even', ease(seg(s, .55, .9)).toFixed(3));
-    hero.style.setProperty('--drink', ((1 - ease(seg(s, .9, 1))) * seg(s, .28, .34)).toFixed(3));
-    fizz = seg(s, .34, .5) * (1 - seg(s, .9, .97));
+    hero.style.setProperty('--drink', (1 - ease(seg(s, .9, 1))).toFixed(3));
+    empty = seg(s, .9, .97);
     const rise = seg(s, .62, .82), fade = seg(s, .9, 1), k = back(rise);
     splash.style.opacity = (Math.min(1, rise * 2) * (1 - fade)).toFixed(3);
     splash.style.transform = `translate(-50%,${-50 - 6 * k}%) scale(${(0.15 + 0.85 * k) * (1 + 0.15 * fade)}) rotate(${(1 - k) * -40}deg)`;
@@ -113,7 +109,16 @@
   function fx(dt) {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
     const p = P[cur], sp = sprites[p.key];
-    const inL = bx + bw * 0.16, inR = bx + bw * 0.84, inTop = by + bh * 0.33, inBot = by + bh * 0.86;
+    // the liquid inside the glass, measured from the drink render: surface at 32% of the glass height, bottom at 82%, walls taper inward
+    const inTop = by + bh * 0.325, inBot = by + bh * 0.815, rimY = by + bh * 0.06;
+    const wallL = y => bx + bw * (0.14 + 0.05 * clamp((y - inTop) / (inBot - inTop))), wallR = y => bx + bw - (wallL(y) - bx);
+    // colour starts only when the first grains reach the water, spreads down fast then slower, and the glass evens out last
+    if (landT !== null) landT += dt;
+    const lt = landT === null ? 0 : landT;
+    hero.style.setProperty('--on', clamp(lt / 0.3).toFixed(3));
+    hero.style.setProperty('--D', (95 * Math.sqrt(clamp(lt / 4.5))).toFixed(1));
+    hero.style.setProperty('--even', ease(clamp((lt - 2) / 2.6)).toFixed(3));
+    fizz = clamp((lt - 0.2) / 0.6) * (1 - clamp((lt - 4.5) / 2)) * (1 - empty);
     // the sachet's own velocity, so grains leave the torn edge moving with it
     const vel = lastCen ? { x: (cen.x - lastCen.x) / Math.max(dt, 1e-3), y: (cen.y - lastCen.y) / Math.max(dt, 1e-3) } : { x: 0, y: 0 };
     lastCen = { x: cen.x, y: cen.y };
@@ -121,15 +126,17 @@
     const flow = pourAmt * (0.55 + 0.45 * Math.max(0, shake / Math.max(pourAmt, 1e-3)));
     for (let n = 0; n < flow * (small ? 260 : 560) * dt; n++) {
       const u = 0.25 + 0.75 * Math.random(), e = rot(low.u * u * 0.5 * sw, EDGE * sh, theta);
-      grains.push({ x: cen.x + e.x, y: cen.y + e.y, vx: vel.x * 0.6 + out.x * 50 + (Math.random() - .5) * 26, vy: vel.y * 0.6 + out.y * 50 + 20 + Math.random() * 30,
+      grains.push({ x: cen.x + e.x, y: cen.y + e.y, vx: clamp(vel.x * 0.2, -40, 40) + out.x * 30 + (Math.random() - .5) * 18, vy: Math.max(0, vel.y * 0.2) + out.y * 30 + 20 + Math.random() * 30,
         r: Math.random() < .35 ? 0.7 + Math.random() * 1.2 : 2.5 + Math.random() * 4.5, f: (Math.random() * 12) | 0, a: Math.random() * 6.28, life: 0 });
     }
     for (let g = grains.length - 1; g >= 0; g--) {
       const q = grains[g]; q.vy += 1400 * dt; q.x += q.vx * dt; q.y += q.vy * dt; q.life += dt;
-      const inGlass = q.x > inL && q.x < inR;
-      if ((inGlass && q.y > inTop - 2) || q.life > 2.5 || q.y > H) {
+      const inGlass = q.x > wallL(inTop) + 4 && q.x < wallR(inTop) - 4;
+      // a grain that would miss the glass is dropped at the rim rather than falling past it
+      if (!inGlass && q.y > rimY) { grains.splice(g, 1); continue; }
+      if ((inGlass && q.y > inTop) || q.life > 2.5) {
         grains.splice(g, 1);
-        if (inGlass && puffs.length < 90 && Math.random() < .5) puffs.push({ x: q.x, y: inTop + 2 + Math.random() * 6, r: 2 + Math.random() * 3, life: 0, vy: 10 + Math.random() * 30 });
+        if (inGlass) { if (landT === null) landT = 0; if (puffs.length < 90 && Math.random() < .5) puffs.push({ x: q.x, y: inTop + 3 + Math.random() * 6, r: 2 + Math.random() * 3, life: 0, vy: 8 + Math.random() * 18 }); }
         continue;
       }
       if (q.r < 2 || !sp.complete) { ctx.fillStyle = p.grain; ctx.beginPath(); ctx.arc(q.x, q.y, q.r, 0, 6.283); ctx.fill(); }
@@ -138,7 +145,8 @@
     // each grain that lands blooms into a soft cloud that sinks and spreads as it dissolves
     for (let k = puffs.length - 1; k >= 0; k--) {
       const q = puffs[k]; q.life += dt; q.y += q.vy * dt; q.r += 9 * dt;
-      if (q.life > 1.4) { puffs.splice(k, 1); continue; }
+      q.x = clamp(q.x, wallL(q.y) + q.r, wallR(q.y) - q.r);
+      if (q.life > 1.4 || q.y > inBot - q.r) { puffs.splice(k, 1); continue; }
       const g = ctx.createRadialGradient(q.x, q.y, 0, q.x, q.y, q.r);
       g.addColorStop(0, p.liquid); g.addColorStop(1, p.liquid + '00');
       ctx.globalAlpha = 0.35 * (1 - q.life / 1.4); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(q.x, q.y, q.r, 0, 6.283); ctx.fill();
@@ -146,21 +154,23 @@
     ctx.globalAlpha = 1;
     // bubbles: bigger ones rise faster, they wobble, and they pop in a small ring at the surface
     for (let n = 0; n < fizz * (small ? 22 : 34) * dt; n++) {
-      const r = Math.random() < .8 ? 1.2 + Math.random() * 2.5 : 3.5 + Math.random() * 3.5, wall = Math.random() < .3;
-      const x = wall ? (Math.random() < .5 ? inL + 3 + Math.random() * 6 : inR - 3 - Math.random() * 6) : inL + 8 + Math.random() * (inR - inL - 16);
-      bubbles.push({ x, y: inBot - Math.random() * 30, r, v: 40 + r * 22 + Math.random() * 20, w: Math.random() * 6.28, hold: wall ? 0.3 + Math.random() * 1.2 : 0, pop: -1 });
+      const r = Math.random() < .8 ? 1.2 + Math.random() * 2.2 : 3 + Math.random() * 2.5, wall = Math.random() < .3;
+      const y = inBot - r - 2 - Math.random() * 40, L = wallL(y) + r + 3, R = wallR(y) - r - 3;
+      const x = wall ? (Math.random() < .5 ? L + Math.random() * 4 : R - Math.random() * 4) : L + 6 + Math.random() * (R - L - 12);
+      bubbles.push({ x, y, r, v: 16 + r * 7 + Math.random() * 10, w: Math.random() * 6.28, hold: wall ? 0.5 + Math.random() * 1.5 : 0, pop: -1 });
     }
     for (let b = bubbles.length - 1; b >= 0; b--) {
       const q = bubbles[b];
       if (q.pop >= 0) {
         q.pop += dt; if (q.pop > 0.25) { bubbles.splice(b, 1); continue; }
         ctx.globalAlpha = 0.7 * (1 - q.pop / 0.25); ctx.strokeStyle = '#fff'; ctx.lineWidth = 1;
-        ctx.beginPath(); ctx.ellipse(q.x, inTop + 1, q.r + q.pop * 30, (q.r + q.pop * 30) * 0.3, 0, 0, 6.283); ctx.stroke(); continue;
+        const pr = Math.min(q.r + q.pop * 24, q.x - wallL(inTop) - 1, wallR(inTop) - q.x - 1); ctx.beginPath(); ctx.ellipse(q.x, inTop + 2, Math.max(1, pr), Math.max(1, pr) * 0.3, 0, 0, 6.283); ctx.stroke(); continue;
       }
-      if (q.hold > 0) q.hold -= dt; else { q.y -= q.v * dt; q.w += dt * 5; q.x += Math.sin(q.w) * q.r * 0.08; }
-      if (q.y < inTop + q.r) { q.pop = 0; continue; }
+      if (q.hold > 0) q.hold -= dt; else { q.y -= q.v * dt; q.w += dt * 3; q.x += Math.sin(q.w) * q.r * 0.05; }
+      q.x = clamp(q.x, wallL(q.y) + q.r + 2, wallR(q.y) - q.r - 2);
+      if (q.y < inTop + q.r + 1) { q.pop = 0; continue; }
       const sx = 1 + Math.sin(q.w * 1.7) * 0.06, d = q.r * 2;
-      ctx.globalAlpha = Math.min(0.95, (q.y - inTop) / 30);
+      ctx.globalAlpha = Math.min(0.9, (q.y - inTop) / 20) * (1 - empty);
       ctx.drawImage(bub, q.x - q.r * sx, q.y - q.r / sx, d * sx, d / sx);
     }
     ctx.globalAlpha = 1;
@@ -193,11 +203,11 @@
     });
   });
 
-  window.__heroSet = v => { s = v; target = v; frame(v); };
+  window.__heroSet = (v, land) => { s = v; target = v; if (land !== undefined) landT = land; frame(v); };
   window.__heroPick = i => { setProduct(i); s = 0; target = HOLD; burstDone = false; frame(0); };
   measure(); addEventListener('resize', measure);
   setProduct(0);
-  if (reduce) { s = target = HOLD; burstDone = true; frame(s); return; }
+  if (reduce) { s = target = HOLD; burstDone = true; frame(s); landT = 99; fx(0); return; }
   frame(0);
 
   let last = performance.now(), visible = true;
