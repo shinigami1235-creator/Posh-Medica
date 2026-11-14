@@ -1,0 +1,23 @@
+(() => {
+  const data = window.POSH_PRODUCTS || [];
+  const id = +new URLSearchParams(location.search).get('id') || 2;
+  const p = data.find(x => x.id === id) || data[0];
+  const GROUP = { fiber: 'Fiber Dietary Supplements', care: 'Health Care Dietary Supplements', skin: 'Skin Dietary Supplements', pung: 'Pungtalai Series Dietary Supplements' };
+  const FORM = { powder: 'Powder', capsule: 'Capsule', jelly: 'Jelly' };
+  const COL = { fiber: ['#f05a28', '#ffe1d2', '#a8371a'], care: ['#14967f', '#d2f2e9', '#0b5f50'], skin: ['#e03f78', '#ffdbe7', '#a01e50'], pung: ['#6a45c4', '#e7defe', '#43278f'] };
+  const [a, bg, ink] = COL[p.group];
+  const s = document.body.style; s.setProperty('--accent', a); s.setProperty('--accent-bg', bg); s.setProperty('--accent-ink', ink);
+  document.title = `${p.name} | Supplements | Posh Medica Lifetech Public Company Limited (POSH)`;
+  const $ = q => document.querySelector(q);
+  const pack = $('.pd__pack'); pack.src = p.photos[0]; pack.alt = p.name;
+  $('.pd__thumbs').innerHTML = p.photos.map((ph, i) => `<button aria-pressed="${i === 0}" aria-label="Photo ${i + 1}"><img src="${ph}" alt=""></button>`).join('');
+  $('.pd__thumbs').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; pack.src = b.querySelector('img').src; [...b.parentNode.children].forEach(x => x.setAttribute('aria-pressed', x === b)); });
+  $('.pd__groupname').textContent = GROUP[p.group];
+  $('.pd__no').textContent = 'No. ' + String(p.id).padStart(2, '0');
+  $('.pd__form').textContent = FORM[p.form];
+  const name = $('.pd__name'); name.textContent = p.name; if (!/[a-z]/i.test(p.name)) name.lang = 'th';
+  $('.pd__desc').textContent = p.desc; $('.pd__desc').hidden = $('.pd__dh').hidden = !p.desc;
+  $('.pd__formula').innerHTML = p.ingr.map(i => `<li>${i}</li>`).join(''); $('.pd__ih').hidden = !p.ingr.length;
+  $('.pd__badges').innerHTML = p.badges.map(b => `<li>${b}</li>`).join('');
+  $('.pd__more').innerHTML = data.filter(x => x.group === p.group && x.id !== p.id).map(x => `<li><a href="product.html?id=${x.id}"><img src="${x.img}" alt="" loading="lazy">${x.name}</a></li>`).join('');
+})();

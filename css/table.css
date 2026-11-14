@@ -10,7 +10,7 @@
 .ptable__filters{display:flex;flex-wrap:wrap;gap:8px}
 .chip{font:inherit;font-weight:800;font-size:.95rem;min-height:44px;padding:0 16px;border-radius:999px;border:2px solid var(--navy);background:var(--paper);color:var(--navy);cursor:pointer;display:flex;align-items:center;gap:8px;transition:transform .12s}
 .chip b{display:inline-grid;place-items:center;min-width:26px;height:26px;padding:0 6px;border-radius:99px;background:var(--navy);color:var(--cream);font-size:.8rem}
-.chip.is-on{background:var(--orange);border-color:var(--orange);color:#fff}
+.chip.is-on{background:var(--orange-fill);border-color:var(--orange-fill);color:#fff}
 .chip.is-on b{background:#fff;color:var(--orange-ink)}
 .chip:active{transform:scale(.96)}
 
@@ -60,7 +60,7 @@
 .labcard__formula li+li::before{content:"+";margin:0 8px 0 -2px;color:var(--orange-ink)}
 .labcard__badges{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
 .labcard__badges li{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;padding:4px 8px;border-radius:6px;background:var(--navy);color:var(--cream)}
-.labcard__go{display:inline-flex;align-items:center;min-height:48px;margin-top:22px;padding:0 22px;border-radius:999px;background:var(--orange);color:#fff;font-weight:800;text-decoration:none}
+.labcard__go{display:inline-flex;align-items:center;min-height:48px;margin-top:22px;padding:0 22px;border-radius:999px;background:var(--orange-fill);color:#fff;font-weight:800;text-decoration:none}
 
 @media (max-width:900px){
   .ptable{display:block}

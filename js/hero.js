@@ -9,13 +9,16 @@
   ];
 
   const hero = document.querySelector('.hero');
+  const small = matchMedia('(max-width: 760px)').matches;
   const stage = hero.querySelector('.hero__stage');
   const bench = hero.querySelector('.bench');
   const sachet = hero.querySelector('.sachet');
   const body = sachet.querySelector('.sachet__body');
   const strip = sachet.querySelector('.sachet__strip');
   const splash = hero.querySelector('.bench__splash');
-  const drinks = [...hero.querySelectorAll('.glass__drink')];
+  const drink = hero.querySelector('.glass__drink');
+  const sfx = small ? '-s' : '';
+  if (small) hero.querySelectorAll('.glass img[data-small]').forEach(i => { i.src = i.dataset.small; });
   const sprites = {}; P.forEach(p => { const i = new Image(); i.src = `assets/img/hero/grains-${p.key}.webp`; sprites[p.key] = i; });
   const lines = [...hero.querySelectorAll('.hero__line')];
   const texts = [...hero.querySelectorAll('.hero__text')];
@@ -26,7 +29,7 @@
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // preload
-  P.forEach(p => { ['sachet', 'splash'].forEach(k => { const i = new Image(); i.src = `assets/img/hero/${p.key}-${k}.webp`; }); });
+  P.forEach(p => { [`${p.key}-sachet`, `${p.key}-splash`, `glass-${p.key}-drink${small ? '-s' : ''}`].forEach(f => { const i = new Image(); i.src = `assets/img/hero/${f}.webp`; }); });
 
   const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
   const seg = (s, a, b) => clamp((s - a) / (b - a));
@@ -45,8 +48,8 @@
     hero.style.setProperty('--accent', p.liquid);
     body.src = strip.src = `assets/img/hero/${p.key}-sachet.webp`;
     splash.src = `assets/img/hero/${p.key}-splash.webp`;
-    drinks[0].src = `assets/img/hero/glass-${p.key}-tint.jpg`; drinks[1].src = `assets/img/hero/glass-${p.key}-shine.jpg`;
-    tag.href = p.href;
+    drink.src = `assets/img/hero/glass-${p.key}-drink${sfx}.webp`;
+    tag.href = 'product.html?id=' + +p.no;
     tag.querySelector('.tag__no b').textContent = p.no;
     tag.querySelector('.tag__group').textContent = p.group;
     tag.querySelector('.tag__name').textContent = p.name;
@@ -56,7 +59,7 @@
   // geometry, in px relative to the bench box
   let W = 0, H = 0, bw = 0, bh = 0, bx = 0, by = 0, sw = 0, sh = 0, dpr = 1;
   function measure() {
-    dpr = Math.min(2, devicePixelRatio || 1);
+    dpr = Math.min(small ? 1.5 : 2, devicePixelRatio || 1);
     W = stage.clientWidth; H = stage.clientHeight;
     cv.width = W * dpr; cv.height = H * dpr;
     const r = bench.getBoundingClientRect(), sr = stage.getBoundingClientRect();
@@ -134,7 +137,7 @@
     ctx.clearRect(0, 0, W, H);
     const p = P[active] || P[0];
     const surface = { x: bx + bw * 0.5, y: by + bh * 0.30 };
-    const rate = pourAmt * 520 * dt;
+    const rate = pourAmt * (small ? 240 : 520) * dt;
     for (let n = 0; n < rate; n++) {
       grains.push({ x: mouth.x + (Math.random() - .5) * 10, y: mouth.y, vx: (surface.x - mouth.x) * 0.9 + (Math.random() - .5) * 46, vy: 40 + Math.random() * 40,
         r: Math.random() < .35 ? 0.7 + Math.random() * 1.2 : 2.5 + Math.random() * 4.5, f: (Math.random() * 12) | 0, a: Math.random() * 6.28, life: 0 });
@@ -188,11 +191,17 @@
   measure();
   addEventListener('resize', measure);
   if (reduce) { frame(0.27); return; }
-  let last = performance.now();
+  let last = performance.now(), cur = progress(), visible = true;
+  new IntersectionObserver(e => { visible = e[0].isIntersecting; }).observe(hero);
   (function loop(t) {
     const dt = Math.min(0.05, (t - last) / 1000); last = t;
-    if (!window.__heroFrozen) frame(progress());
-    fx(dt);
+    if (visible && !window.__heroFrozen) {
+      const target = progress();
+      cur += (target - cur) * (1 - Math.exp(-dt * 7));   // glide toward the scroll position instead of jumping with each wheel step
+      if (Math.abs(target - cur) < 0.0002) cur = target;
+      frame(cur);
+    }
+    if (visible) fx(dt);
     requestAnimationFrame(loop);
   })(last);
 })();

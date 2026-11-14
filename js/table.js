@@ -49,7 +49,7 @@
     card.querySelector('.labcard__formula').innerHTML = p.ingr.map(i => `<li>${i}</li>`).join('');
     card.querySelector('.labcard__formula').previousElementSibling.hidden = !p.ingr.length;
     card.querySelector('.labcard__badges').innerHTML = p.badges.map(b => `<li>${b}</li>`).join('');
-    card.querySelector('.labcard__go').href = `products/${p.slug}.html`;
+    card.querySelector(".labcard__go").href = `product.html?id=${p.id}`;
     card.showModal();
   }
   list.addEventListener('click', e => { const b = e.target.closest('button[data-id]'); if (b) open(b.dataset.id); });

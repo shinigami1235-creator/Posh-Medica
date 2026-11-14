@@ -17,7 +17,7 @@
 .glass img{position:absolute;inset:0;width:100%;height:100%;z-index:2}
 .glass__tint{mix-blend-mode:multiply}
 .glass__shine{mix-blend-mode:screen}
-.glass__drink{-webkit-mask-image:linear-gradient(#000 calc(var(--mix,0)*1% - 6%),transparent calc(var(--mix,0)*1% + 6%));mask-image:linear-gradient(#000 calc(var(--mix,0)*1% - 6%),transparent calc(var(--mix,0)*1% + 6%));opacity:var(--drink,1)}
+.glass__drink{z-index:3!important;-webkit-mask-image:linear-gradient(#000 calc(var(--mix,0)*1% - 6%),transparent calc(var(--mix,0)*1% + 6%));mask-image:linear-gradient(#000 calc(var(--mix,0)*1% - 6%),transparent calc(var(--mix,0)*1% + 6%));opacity:var(--drink,1)}
 .bench::after{content:"";position:absolute;left:4%;right:4%;bottom:-3%;height:7%;border-radius:50%;background:radial-gradient(closest-side,rgba(27,25,70,.32),transparent);z-index:1}
 .bench__splash{position:absolute;left:50%;top:6%;width:190%;max-width:none;transform:translate(-50%,-50%) scale(.1);opacity:0;z-index:1;will-change:transform,opacity}
 .sachet{position:absolute;left:0;top:0;width:66%;transform-origin:50% 50%;will-change:transform;z-index:3}
@@ -61,3 +61,8 @@
   .tag{left:16px;right:16px;bottom:16px;min-width:0}
 }
 @media (prefers-reduced-motion:reduce){.hero{height:auto}.hero__stage{position:relative;height:100vh}}
+@media (min-width:761px) and (max-aspect-ratio:4/5){
+  .hero__type{justify-content:flex-start;padding-top:120px;font-size:15.5vw}
+  .bench{--bw:min(46vw,33vh);top:calc(63% - var(--bw)*.828)}
+  .hero__copy{width:42vw}
+}

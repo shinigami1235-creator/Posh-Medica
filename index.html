@@ -5,27 +5,19 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Posh Medica Lifetech Public Company Limited (POSH)</title>
 <meta name="description" content="For over 15 years, POSH has been a trusted leader in health and wellness, delivering premium supplements and cosmetics with internationally recognized quality and safety standards.">
+<meta name="theme-color" content="#26235e">
+<link rel="icon" href="assets/img/favicon.png">
 <link rel="preload" href="assets/fonts/LINESeedSansTH-Heavy.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/hero.css">
-<link rel="stylesheet" href="css/table.css">
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/pages.css"><link rel="stylesheet" href="css/hero.css"><link rel="stylesheet" href="css/table.css"><link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-
 <header class="top">
-  <a class="top__logo" href="./" aria-label="Posh Medica home"><img src="assets/img/posh-logo-white.svg" alt="Posh" width="77" height="34"></a>
-  <nav class="top__nav" aria-label="Main">
-    <a href="#about">About Us</a>
-    <a href="#products">Our Business</a>
-    <a href="#ir">Investor Relations</a>
-    <a href="#events">Blog and Event</a>
-    <a href="#contact">Contact Us</a>
-    <a class="top__lang" href="#" lang="th">TH</a>
-  </nav>
-  <button class="top__burger" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="#26235e" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+  <a class="top__logo" href="index.html" aria-label="Posh Medica home"><img src="assets/img/posh-logo-white.svg" alt="Posh" width="77" height="34"></a>
+  <nav class="top__nav" aria-label="Main"><ul class="nav"><li class="nav__group"><button class="nav__link" aria-expanded="false" aria-controls="sub0">About Us<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5 5 6.5 8 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><ul class="nav__sub" id="sub0"><li><a href="about.html#corporate">Corporate Info</a></li><li><a href="about.html#milestone">Company Milestone</a></li><li><a href="about.html#message">Message from Company</a></li><li><a href="about.html#org">Organization Chart</a></li><li><a href="awards.html">Awards &amp; Standards</a></li></ul></li><li class="nav__group"><button class="nav__link" aria-expanded="false" aria-controls="sub1">Our Business<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5 5 6.5 8 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><ul class="nav__sub" id="sub1"><li><a href="index.html#products">Product Overview</a></li><li><a href="index.html#products">Supplements</a></li><li><a href="oem.html">OEM and ODM</a></li></ul></li><li class="nav__group"><button class="nav__link" aria-expanded="false" aria-controls="sub2">Investor Relations<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5 5 6.5 8 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><ul class="nav__sub" id="sub2"><li><a href="ir.html#corporate-governance-policy">Corporate Governance Policy</a></li><li><a href="ir.html#charters">Charters</a></li><li><a href="ir.html#anti-corruption-policy">Anti - Corruption Policy</a></li><li><a href="ir.html#whistleblowing-policy">Whistleblowing Policy</a></li><li><a href="ir.html#personal-data-protection-policy">Personal Data Protection Policy</a></li></ul></li><li><a class="nav__link" href="events.html">Blog and Event</a></li><li><a class="nav__link" href="contact.html">Contact Us</a></li></ul>
+    <a class="top__lang" href="https://www.poshmedica.co.th/th/home" lang="th">TH</a></nav>
+  <button class="top__burger" aria-label="Menu" aria-expanded="false"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="#26235e" stroke-width="2.4" stroke-linecap="round"/></svg></button>
 </header>
-
-<main>
+<main id="main">
 <section class="hero" id="hero" aria-label="Toward Medical Excellence">
   <div class="hero__stage">
     <div class="hero__grid" aria-hidden="true"></div>
@@ -39,10 +31,9 @@
     <div class="bench" aria-hidden="true">
       <img class="bench__splash" src="assets/img/hero/tamarind-splash.webp" alt="">
       <div class="glass">
-        <img class="glass__tint" src="assets/img/hero/glass-water-tint.jpg" alt="">
-        <img class="glass__tint glass__drink" src="assets/img/hero/glass-tamarind-tint.jpg" alt="">
-        <img class="glass__shine" src="assets/img/hero/glass-water-shine.jpg" alt="">
-        <img class="glass__shine glass__drink" src="assets/img/hero/glass-tamarind-shine.jpg" alt="">
+        <img class="glass__tint" src="assets/img/hero/glass-water-tint.jpg" data-small="assets/img/hero/glass-water-tint-s.jpg" alt="">
+        <img class="glass__shine" src="assets/img/hero/glass-water-shine.jpg" data-small="assets/img/hero/glass-water-shine-s.jpg" alt="">
+        <img class="glass__drink" src="assets/img/hero/glass-tamarind-drink.webp" alt="">
       </div>
       <div class="sachet">
         <img class="sachet__body" src="assets/img/hero/tamarind-sachet.webp" alt="">
@@ -58,7 +49,7 @@
       <p class="hero__text" data-i="2">Rooted in ethics and transparency, we build lasting relationships through integrity, ensuring every customer experiences confidence and care in every interaction.</p>
     </div>
 
-    <a class="tag" href="#products">
+    <a class="tag" href="product.html?id=2">
       <span class="tag__no">No. <b>02</b></span>
       <span class="tag__group">Fiber · Powder</span>
       <span class="tag__name">Tamarind Fiber</span>
@@ -67,9 +58,7 @@
     </a>
 
   </div>
-</section>
-
-<section class="table" id="products" aria-labelledby="tableTitle">
+</section><section class="table" id="products" aria-labelledby="tableTitle">
   <div class="ptable">
     <div class="ptable__head">
       <h2 id="tableTitle">Supplement</h2>
@@ -105,10 +94,83 @@
     </div>
   </dialog>
 </section>
-</main>
+<section class="sec about-teaser" id="about">
+  <div class="wrap split">
+    <div>
+      <h2 class="h2">About Us</h2>
+      <p class="h3">Posh Medica Lifetech<br>Public Company Limited</p>
+      <p class="lead"><b>For over 15 years,</b> POSH has been a trusted leader in health and wellness, delivering premium supplements and cosmetics with internationally recognized quality and safety standards.</p>
+      <a class="btn" href="about.html">Read More</a>
+    </div>
+    <div class="floats" aria-hidden="true"><img src="assets/img/home/honey-lime.png" alt="" width="266" height="268" loading=lazy decoding=async class='float f0'><img src="assets/img/home/lychee.png" alt="" width="198" height="210" loading=lazy decoding=async class='float f1'><img src="assets/img/home/tamarind.png" alt="" width="224" height="172" loading=lazy decoding=async class='float f2'><img src="assets/img/home/orange.png" alt="" width="224" height="199" loading=lazy decoding=async class='float f3'><img src="assets/img/home/lime-fiber.png" alt="" width="286" height="274" loading=lazy decoding=async class='float f4'><img src="assets/img/home/lychee-collagen.png" alt="" width="255" height="294" loading=lazy decoding=async class='float f5'><img src="assets/img/home/tamarind-fiber.png" alt="" width="270" height="340" loading=lazy decoding=async class='float f6'><img src="assets/img/home/orange-fiber.png" alt="" width="217" height="303" loading=lazy decoding=async class='float f7'></div>
+  </div>
+</section>
 
-<script src="js/hero.js"></script>
-<script src="js/products-data.js"></script>
-<script src="js/table.js"></script>
+<section class="sec sec--feed" id="feed">
+  <div class="wrap feed">
+    <div class="feed__side">
+      <p class="feed__handle">TikTok <b>@posh_aroi</b></p>
+      <h2 class="h2">Posh Medica</h2>
+      <p lang="th">บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน)<br>ผลิตและจำหน่าย อาหารเสริม,เครื่องสำอาง</p>
+      <a class="btn" href="https://www.tiktok.com/@posh_aroi" target="_blank" rel="noopener">Follow on TikTok</a>
+    </div>
+    <div class="feed__embed">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@posh_aroi" data-unique-id="posh_aroi" data-embed-type="creator" style="max-width:780px;min-width:288px">
+        <section><a target="_blank" href="https://www.tiktok.com/@posh_aroi?refer=creator_embed">@posh_aroi</a></section>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="sec shelf" id="where">
+  <div class="wrap"><h2 class="h2 center">Distribution Channels &amp; Partners</h2><ul class="shelf__row"><li><span class="shelf__item"><img src="assets/img/partners/711.png" alt="7-Eleven" width="63" height="82" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/familymart.png" alt="FamilyMart" width="86" height="87" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/lawson.png" alt="Lawson" width="101" height="101" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/jiffy.png" alt="Jiffy" width="108" height="72" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/cj.png" alt="CJ" width="80" height="80" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/tops.png" alt="Tops" width="119" height="72" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/bigc.png" alt="Big C" width="119" height="78" loading=lazy decoding=async></span></li></ul><ul class="shelf__row"><li><span class="shelf__item"><img src="assets/img/partners/bigcmini.png" alt="Big C Mini" width="80" height="80" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/lotuss.png" alt="Lotus&#x27;s" width="161" height="63" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/themall.png" alt="The Mall" width="116" height="77" loading=lazy decoding=async></span></li><li><a class="shelf__item" href="https://www.watsons.co.th/en/posh-medica-fiber-tamarind-10-sachets-box-fiber-dietary/p/BP_302103" target="_blank" rel="noopener"><img src="assets/img/partners/watsons.png" alt="Watsons" width="97" height="91" loading=lazy decoding=async></a></li><li><span class="shelf__item"><img src="assets/img/partners/bootspng.png" alt="Boots" width="113" height="75" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/matsukiyo.png" alt="Matsukiyo" width="152" height="66" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/beautrium.png" alt="Beautrium" width="162" height="52" loading=lazy decoding=async></span></li></ul><ul class="shelf__row"><li><span class="shelf__item"><img src="assets/img/partners/ninebeauty.png" alt="Nine Beauty" width="160" height="90" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/pure.png" alt="Pure" width="139" height="60" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/saveandsafe.png" alt="Save and Safe" width="133" height="91" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/shopee.png" alt="Shopee" width="162" height="52" loading=lazy decoding=async></span></li><li><span class="shelf__item"><img src="assets/img/partners/lazada.png" alt="Lazada" width="165" height="43" loading=lazy decoding=async></span></li><li><a class="shelf__item" href="https://page.line.me/rng1382b" target="_blank" rel="noopener"><img src="assets/img/partners/lineshop.png" alt="LINE Shop" width="97" height="91" loading=lazy decoding=async></a></li></ul></div>
+</section>
+
+<section class="sec sec--tint" id="awards">
+  <div class="wrap"><h2 class="h2">Award &amp; Standard</h2>
+    <div class="podiums">
+      <a class="podium" href="awards.html#awards"><img src="assets/img/home/trophy.webp" alt="Awards" width="434" height="277" loading=lazy decoding=async><span class="podium__name">Awards</span><span class="btn">View More</span></a>
+      <a class="podium" href="awards.html#standards"><img src="assets/img/home/certificates.webp" alt="Standards" width="434" height="239" loading=lazy decoding=async><span class="podium__name">Standards</span><span class="btn">View More</span></a>
+    </div></div>
+</section>
+
+<section class="sec" id="events">
+  <div class="wrap"><h2 class="h2">Latest Event</h2><ul class="posts"><li class="post"><a href="https://www.poshmedica.co.th/en/updates/blog-and-event/event/221/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B8%9E%E0%B8%AD%E0%B8%8A-%E0%B9%80%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%81%E0%B9%89%E0%B8%B2-%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%84-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94-%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88" target="_blank" rel="noopener"><div class="post__img"><img src="assets/img/posts/event-0.webp" alt="" width="600" height="440" loading=lazy decoding=async><span class="post__date">18 Aug 2026</span></div><h3 lang="th">บริษัท พอช เมดิก้า ไลฟ์เทค จำกัด (มหาชน) ร่วมเปิดมุมมองการวิจัยตลาด สู่ประสบการณ์จริงในโลกธุรกิจ</h3><span class="post__more">Read More</span></a></li><li class="post"><a href="https://www.poshmedica.co.th/en/updates/blog-and-event/event/220/%E0%B8%9E%E0%B8%AD%E0%B8%8A-%E0%B9%80%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%81%E0%B9%89%E0%B8%B2-%E0%B8%82%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%81-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%94%E0%B9%83%E0%B8%AA-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1-esport-what-school-tour-2026-2" target="_blank" rel="noopener"><div class="post__img"><img src="assets/img/posts/event-1.webp" alt="" width="600" height="440" loading=lazy decoding=async><span class="post__date">14 Aug 2026</span></div><h3 lang="th">พอช เมดิก้า ขอเป็นส่วนหนึ่งในการส่งต่อความสนุก ความสดใส และพลังของคนรุ่นใหม่ กับกิจกรรม “Esport What? School Tour 2026”</h3><span class="post__more">Read More</span></a></li><li class="post"><a href="https://www.poshmedica.co.th/en/updates/blog-and-event/event/219/%E0%B8%9E%E0%B8%AD%E0%B8%8A-%E0%B9%80%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%81%E0%B9%89%E0%B8%B2-%E0%B8%82%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%81-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%94%E0%B9%83%E0%B8%AA-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-2" target="_blank" rel="noopener"><div class="post__img"><img src="assets/img/posts/event-2.webp" alt="" width="600" height="440" loading=lazy decoding=async><span class="post__date">07 Aug 2026</span></div><h3 lang="th">พอช เมดิก้า ขอเป็นส่วนหนึ่งในการส่งต่อความสนุก ความสดใส และพลังของคนรุ่นใหม่ กับกิจกรรม “Esport What? School Tour 2026”</h3><span class="post__more">Read More</span></a></li></ul>
+    <p class="center" style="margin-top:28px"><a class="btn" href="events.html">View More</a></p></div>
+</section>
+</main>
+<footer class="foot">
+  <div class="foot__wrap">
+    <div class="foot__co">
+      <img src="assets/img/posh-logo-white.svg" alt="Posh" width="110" height="49" loading="lazy">
+      <p class="foot__name">Posh Medica Lifetech Public Company Limited</p>
+      <p>27/8 Soi 01 Kanchanaphisek 11/1, Khan Na Yao, Khan Na Yao, Bangkok, 10230</p>
+      <p>For Customer : <a href="mailto:customer@poshmedica.com">customer@poshmedica.com</a><br>
+         For Shareholder and Investor : <a href="mailto:companysecretary@poshmedica.com">companysecretary@poshmedica.com</a><br>
+         <a href="tel:020977700">02 097 7700</a></p>
+      <ul class="foot__social"><li><a href="https://www.facebook.com/poshmedica" target="_blank" rel="noopener" aria-label="Facebook"><img src="assets/img/social/facebook.png" alt="" width="36" height="36" loading="lazy"></a></li><li><a href="https://www.instagram.com/poshmedica" target="_blank" rel="noopener" aria-label="Instagram"><img src="assets/img/social/instagram.png" alt="" width="36" height="36" loading="lazy"></a></li><li><a href="https://www.youtube.com/@poshmedicathailand700" target="_blank" rel="noopener" aria-label="Youtube"><img src="assets/img/social/youtube.png" alt="" width="36" height="36" loading="lazy"></a></li><li><a href="https://page.line.me/rng1382b" target="_blank" rel="noopener" aria-label="Line"><img src="assets/img/social/line.png" alt="" width="36" height="36" loading="lazy"></a></li><li><a href="https://www.tiktok.com/@posh_aroi" target="_blank" rel="noopener" aria-label="Tiktok"><img src="assets/img/social/tiktok.png" alt="" width="36" height="36" loading="lazy"></a></li><li><a href="https://x.com/Posh_Medica" target="_blank" rel="noopener" aria-label="X"><img src="assets/img/social/x-twitter.png" alt="" width="36" height="36" loading="lazy"></a></li></ul>
+    </div>
+    <ul class="foot__links"><li><a href="index.html">Home</a></li><li><a href="about.html#corporate">About Us</a></li><li><a href="index.html#products">Our Business</a></li><li><a href="ir.html#corporate-governance-policy">Investor Relations</a></li><li><a href="events.html">Blog and Event</a></li><li><a href="contact.html">Contact Us</a></li></ul>
+  </div>
+  <div class="foot__legal">
+    <p>© Copyright 2026 Posh Medica Lifetech Public Company Limited. All rights reserved.</p>
+    <ul><li><a href="https://www.poshmedica.co.th/en/sitemap">Sitemap</a></li><li><a href="https://www.poshmedica.co.th/en/terms-conditions">Terms &amp; Conditions</a></li>
+        <li><a href="https://www.poshmedica.co.th/en/privacy-policy">Privacy Policy</a></li><li><a href="https://www.poshmedica.co.th/en/cookie-policy">Cookie Policy</a></li></ul>
+  </div>
+</footer>
+<div class="buddy" aria-hidden="true">
+  <svg class="buddy__svg" viewBox="0 0 120 150">
+    <defs><clipPath id="buddyIn"><path d="M48 52 V30 h24 v22 c22 7 36 26 36 46 0 25-21 44-48 44S12 123 12 98c0-20 14-39 36-46z"/></clipPath></defs>
+    <g clip-path="url(#buddyIn)"><rect class="buddy__liquid" x="0" y="82" width="120" height="80"/>
+      <path class="buddy__wave" d="M-20 84 q15 -7 30 0 t30 0 t30 0 t30 0 t30 0 v12 h-150z"/></g>
+    <path d="M48 52 V30 h24 v22 c22 7 36 26 36 46 0 25-21 44-48 44S12 123 12 98c0-20 14-39 36-46z" fill="none" stroke="#26235e" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="44" y="16" width="32" height="16" rx="5" fill="#f05a28" stroke="#26235e" stroke-width="4"/>
+    <path d="M30 70 q4 -10 12 -14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+    <g class="buddy__face"><circle class="buddy__eye" cx="47" cy="100" r="5.5" fill="#26235e"/><circle class="buddy__eye" cx="73" cy="100" r="5.5" fill="#26235e"/>
+      <path d="M50 114 q10 9 20 0" fill="none" stroke="#26235e" stroke-width="4.5" stroke-linecap="round"/></g>
+  </svg>
+  <span class="buddy__bubbles"></span>
+</div>
+<script src="js/site.js" defer></script><script src="js/hero.js" defer></script><script src="js/products-data.js" defer></script><script src="js/table.js" defer></script><script src="js/tiktok.js" defer></script>
 </body>
 </html>

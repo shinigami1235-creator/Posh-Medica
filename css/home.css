@@ -1,0 +1,38 @@
+/* about teaser: their product shots drift around */
+.about-teaser{overflow:hidden}
+.floats{position:relative;aspect-ratio:1;max-width:520px;justify-self:center;width:100%}
+.float{position:absolute;width:30%;height:auto;filter:drop-shadow(0 12px 14px rgba(27,25,70,.22));animation:drift 7s ease-in-out infinite}
+.f0{left:2%;top:4%;animation-delay:-1s}.f1{left:36%;top:0;animation-delay:-3s}.f2{left:70%;top:8%;animation-delay:-2s}
+.f3{left:6%;top:38%;animation-delay:-5s}.f4{left:40%;top:34%;width:34%;animation-delay:-4s}.f5{left:72%;top:42%;animation-delay:-6s}
+.f6{left:14%;top:68%;animation-delay:-2.5s}.f7{left:56%;top:70%;animation-delay:-.5s}
+@keyframes drift{50%{transform:translateY(-12px) rotate(4deg)}}
+@media (prefers-reduced-motion:reduce){.float{animation:none}}
+
+/* TikTok feed */
+.sec--feed{background:#111;color:#f3f3f3}
+.sec--feed .h2{color:#fff}
+.feed{display:grid;grid-template-columns:320px 1fr;gap:40px;align-items:center}
+.feed__handle{display:inline-flex;gap:8px;padding:8px 14px;border-radius:999px;background:#25f4ee;color:#111;font-weight:800;box-shadow:4px 4px 0 #fe2c55}
+.feed__embed{min-height:420px;display:grid;place-items:center;background:#1c1c1c;border-radius:26px;padding:12px}
+.feed__embed blockquote{margin:0}
+@media (max-width:900px){.feed{grid-template-columns:1fr}}
+
+/* partner shelf */
+.shelf__row{list-style:none;margin:0 auto 34px;padding:0 0 14px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px;position:relative;max-width:1100px}
+.shelf__row::after{content:"";position:absolute;left:0;right:0;bottom:0;height:14px;border-radius:4px;background:var(--navy);box-shadow:0 8px 0 rgba(38,35,94,.18)}
+.shelf__item{display:grid;place-items:center;width:132px;height:84px;padding:10px;background:#fff;border:2px solid var(--navy);border-radius:14px 14px 4px 4px}
+.shelf__item img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+a.shelf__item{outline-offset:3px;position:relative}
+a.shelf__item::after{content:"";position:absolute;right:-6px;top:-6px;width:14px;height:14px;border-radius:50%;background:var(--orange);border:2px solid var(--navy)}
+a.shelf__item:active{transform:scale(.97)}
+@media (max-width:560px){.shelf__item{width:calc(33vw - 24px);height:64px}}
+
+/* award podiums */
+.podiums{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.podium{display:grid;justify-items:center;gap:14px;padding:26px;background:#fff;border:2px solid var(--navy);border-radius:28px;text-decoration:none;box-shadow:8px 8px 0 var(--accent)}
+.podium img{width:100%;height:auto;max-width:460px}
+.podium__name{font-weight:900;font-size:var(--step-2);color:var(--navy)}
+.podium:active{transform:scale(.99)}
+@media (max-width:700px){.podiums{grid-template-columns:1fr}}
+
+#events .posts{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
