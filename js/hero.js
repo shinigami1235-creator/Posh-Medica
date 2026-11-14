@@ -66,57 +66,102 @@
     bw = r.width; bh = r.height; bx = r.left - sr.left; by = r.top - sr.top;
     sw = sachet.offsetWidth; sh = sw * 612 / 421;
   }
-  function pourPose(theta) {
-    const my = -0.42 * sh, c = Math.cos(theta), s = Math.sin(theta);
-    return { x: bw * 0.5 + my * s, y: -my * c };
-  }
+  // Sachet geometry: the torn edge sits 37% of the sachet's height above its centre (the strip clip starts at 13%).
+  const EDGE = -0.37;
+  const rot = (x, y, t) => ({ x: x * Math.cos(t) - y * Math.sin(t), y: x * Math.sin(t) + y * Math.cos(t) });
+  // the corner of the torn edge that hangs lowest when tipped
+  function lowCorner(t) { const a = rot(0.5 * sw, EDGE * sh, t), b = rot(-0.5 * sw, EDGE * sh, t); return a.y > b.y ? { u: 1, ...a } : { u: -1, ...b }; }
+  function pourPose(t) { const k = lowCorner(t); return { x: bw * 0.5 - k.x, y: bh * 0.0 - k.y }; }
 
-  let mouth = { x: 0, y: 0 }, pourAmt = 0, fizz = 0, burst = 0, burstDone = false;
-  const grains = [], drops = [], bubbles = [];
+  let cen = { x: 0, y: 0 }, theta = 0, pourAmt = 0, fizz = 0, burst = 0, burstDone = false, shake = 0;
+  const grains = [], drops = [], bubbles = [], puffs = [];
 
   function frame(s) {
     const arrive = out(seg(s, 0, .12)), tear = seg(s, .12, .2), tip = ease(seg(s, .18, .3)), leave = ease(seg(s, .56, .66));
-    const home = { x: bw * 1.05, y: bh * 0.12 };
-    const theta = lerp(0.18, -1.95, tip), pose = pourPose(-1.95);
-    const cx = lerp(home.x, pose.x, tip) + (1 - arrive) * bw * 0.9 + leave * bw * 1.2;
-    const cy = lerp(home.y, pose.y, tip) - (1 - arrive) * bh * 0.6 - leave * bh * 0.9;
-    sachet.style.transform = `translate3d(${cx - sw / 2}px,${cy - sh / 2}px,0) rotate(${theta - leave * 0.6}rad)`;
+    const home = { x: bw * 1.05, y: bh * 0.12 }, T = -1.95, pose = pourPose(T);
+    pourAmt = seg(s, .28, .33) * (1 - seg(s, .5, .56));
+    shake = Math.sin(s * 150) * pourAmt;
+    theta = lerp(0.18, T, tip) + shake * 0.07 - leave * 0.6;
+    const cx = lerp(home.x, pose.x, tip) + (1 - arrive) * bw * 0.9 + leave * bw * 1.2 + shake * 3;
+    const cy = lerp(home.y, pose.y, tip) - (1 - arrive) * bh * 0.6 - leave * bh * 0.9 - Math.abs(shake) * 4;
+    cen.x = bx + cx; cen.y = by + cy;
+    sachet.style.transform = `translate3d(${cx - sw / 2}px,${cy - sh / 2}px,0) rotate(${theta}rad)`;
     sachet.style.opacity = (s <= 0 ? 0 : 1 - leave).toFixed(3);
     strip.style.transform = `translate3d(${tear * sw * 0.9}px,${-tear * sh * 0.5}px,0) rotate(${tear * 0.9}rad)`;
     strip.style.opacity = (1 - seg(s, .17, .24)).toFixed(3);
-    const my = -0.42 * sh, c = Math.cos(theta), sn = Math.sin(theta);
-    mouth.x = bx + cx - my * sn; mouth.y = by + cy + my * c;
-    pourAmt = seg(s, .28, .34) * (1 - seg(s, .5, .56));
-    const mq = seg(s, .32, .8), mixf = 0.3 * seg(s, .26, .32) + 0.75 * mq * (2 - mq);
-    hero.style.setProperty('--mixf', mixf.toFixed(3));
-    hero.style.setProperty('--drink', (1 - ease(seg(s, .9, 1))).toFixed(3));
-    fizz = seg(s, .36, .6) * (1 - seg(s, .9, .97));
+    // colour diffuses down from the surface: the front grows like the square root of time, then the glass evens out
+    const q = seg(s, .3, .86);
+    hero.style.setProperty('--D', (95 * Math.sqrt(q)).toFixed(1));
+    hero.style.setProperty('--even', ease(seg(s, .55, .9)).toFixed(3));
+    hero.style.setProperty('--drink', ((1 - ease(seg(s, .9, 1))) * seg(s, .28, .34)).toFixed(3));
+    fizz = seg(s, .34, .5) * (1 - seg(s, .9, .97));
     const rise = seg(s, .62, .82), fade = seg(s, .9, 1), k = back(rise);
     splash.style.opacity = (Math.min(1, rise * 2) * (1 - fade)).toFixed(3);
     splash.style.transform = `translate(-50%,${-50 - 6 * k}%) scale(${(0.15 + 0.85 * k) * (1 + 0.15 * fade)}) rotate(${(1 - k) * -40}deg)`;
     if (rise > 0.05 && !burstDone) { burstDone = true; burst = 1; }
   }
 
+  // one bubble drawn once, then stamped: clear middle, bright rim, a highlight up-left and a small glint down-right
+  const bub = document.createElement('canvas'); bub.width = bub.height = 64;
+  (() => { const b = bub.getContext('2d'), g = b.createRadialGradient(32, 32, 0, 32, 32, 30);
+    g.addColorStop(0, 'rgba(255,255,255,0.02)'); g.addColorStop(0.62, 'rgba(255,255,255,0.08)'); g.addColorStop(0.86, 'rgba(255,255,255,0.55)'); g.addColorStop(0.97, 'rgba(255,255,255,0.85)'); g.addColorStop(1, 'rgba(255,255,255,0)');
+    b.fillStyle = g; b.beginPath(); b.arc(32, 32, 30, 0, 6.283); b.fill();
+    b.fillStyle = 'rgba(255,255,255,0.95)'; b.beginPath(); b.ellipse(22, 20, 8, 5, -0.7, 0, 6.283); b.fill();
+    b.fillStyle = 'rgba(255,255,255,0.6)'; b.beginPath(); b.ellipse(43, 44, 3.5, 2, -0.7, 0, 6.283); b.fill(); })();
+
+  let lastCen = null;
   function fx(dt) {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
     const p = P[cur], sp = sprites[p.key];
-    const surface = { x: bx + bw * 0.5, y: by + bh * 0.30 };
-    for (let n = 0; n < pourAmt * (small ? 240 : 520) * dt; n++)
-      grains.push({ x: mouth.x + (Math.random() - .5) * 10, y: mouth.y, vx: (surface.x - mouth.x) * 0.9 + (Math.random() - .5) * 46, vy: 40 + Math.random() * 40,
+    const inL = bx + bw * 0.16, inR = bx + bw * 0.84, inTop = by + bh * 0.33, inBot = by + bh * 0.86;
+    // the sachet's own velocity, so grains leave the torn edge moving with it
+    const vel = lastCen ? { x: (cen.x - lastCen.x) / Math.max(dt, 1e-3), y: (cen.y - lastCen.y) / Math.max(dt, 1e-3) } : { x: 0, y: 0 };
+    lastCen = { x: cen.x, y: cen.y };
+    const low = lowCorner(theta), out = rot(0, -1, theta);
+    const flow = pourAmt * (0.55 + 0.45 * Math.max(0, shake / Math.max(pourAmt, 1e-3)));
+    for (let n = 0; n < flow * (small ? 260 : 560) * dt; n++) {
+      const u = 0.25 + 0.75 * Math.random(), e = rot(low.u * u * 0.5 * sw, EDGE * sh, theta);
+      grains.push({ x: cen.x + e.x, y: cen.y + e.y, vx: vel.x * 0.6 + out.x * 50 + (Math.random() - .5) * 26, vy: vel.y * 0.6 + out.y * 50 + 20 + Math.random() * 30,
         r: Math.random() < .35 ? 0.7 + Math.random() * 1.2 : 2.5 + Math.random() * 4.5, f: (Math.random() * 12) | 0, a: Math.random() * 6.28, life: 0 });
+    }
     for (let g = grains.length - 1; g >= 0; g--) {
-      const q = grains[g]; q.vy += 1400 * dt; q.x += q.vx * dt; q.y += q.vy * dt; q.vx *= 0.96; q.life += dt;
-      if (q.y > surface.y + Math.random() * 20 || q.life > 2) { grains.splice(g, 1); continue; }
+      const q = grains[g]; q.vy += 1400 * dt; q.x += q.vx * dt; q.y += q.vy * dt; q.life += dt;
+      const inGlass = q.x > inL && q.x < inR;
+      if ((inGlass && q.y > inTop - 2) || q.life > 2.5 || q.y > H) {
+        grains.splice(g, 1);
+        if (inGlass && puffs.length < 90 && Math.random() < .5) puffs.push({ x: q.x, y: inTop + 2 + Math.random() * 6, r: 2 + Math.random() * 3, life: 0, vy: 10 + Math.random() * 30 });
+        continue;
+      }
       if (q.r < 2 || !sp.complete) { ctx.fillStyle = p.grain; ctx.beginPath(); ctx.arc(q.x, q.y, q.r, 0, 6.283); ctx.fill(); }
       else { ctx.save(); ctx.translate(q.x, q.y); ctx.rotate(q.a + q.life * 6); ctx.drawImage(sp, q.f * 64, 0, 64, 64, -q.r, -q.r, q.r * 2, q.r * 2); ctx.restore(); }
     }
-    const inL = bx + bw * 0.16, inR = bx + bw * 0.84, inTop = by + bh * 0.33, inBot = by + bh * 0.84;
-    for (let n = 0; n < fizz * 30 * dt; n++) bubbles.push({ x: inL + Math.random() * (inR - inL), y: inBot, r: 1 + Math.random() * 3, v: 60 + Math.random() * 90, w: Math.random() * 6.28 });
-    ctx.strokeStyle = 'rgba(255,255,255,.55)'; ctx.lineWidth = 1;
+    // each grain that lands blooms into a soft cloud that sinks and spreads as it dissolves
+    for (let k = puffs.length - 1; k >= 0; k--) {
+      const q = puffs[k]; q.life += dt; q.y += q.vy * dt; q.r += 9 * dt;
+      if (q.life > 1.4) { puffs.splice(k, 1); continue; }
+      const g = ctx.createRadialGradient(q.x, q.y, 0, q.x, q.y, q.r);
+      g.addColorStop(0, p.liquid); g.addColorStop(1, p.liquid + '00');
+      ctx.globalAlpha = 0.35 * (1 - q.life / 1.4); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(q.x, q.y, q.r, 0, 6.283); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    // bubbles: bigger ones rise faster, they wobble, and they pop in a small ring at the surface
+    for (let n = 0; n < fizz * (small ? 22 : 34) * dt; n++) {
+      const r = Math.random() < .8 ? 1.2 + Math.random() * 2.5 : 3.5 + Math.random() * 3.5, wall = Math.random() < .3;
+      const x = wall ? (Math.random() < .5 ? inL + 3 + Math.random() * 6 : inR - 3 - Math.random() * 6) : inL + 8 + Math.random() * (inR - inL - 16);
+      bubbles.push({ x, y: inBot - Math.random() * 30, r, v: 40 + r * 22 + Math.random() * 20, w: Math.random() * 6.28, hold: wall ? 0.3 + Math.random() * 1.2 : 0, pop: -1 });
+    }
     for (let b = bubbles.length - 1; b >= 0; b--) {
-      const q = bubbles[b]; q.y -= q.v * dt; q.w += dt * 4; q.x += Math.sin(q.w) * .4;
-      if (q.y < inTop) { bubbles.splice(b, 1); continue; }
-      ctx.globalAlpha = Math.min(.8, (q.y - inTop) / 40); ctx.beginPath(); ctx.arc(q.x, q.y, q.r, 0, 6.283); ctx.stroke();
+      const q = bubbles[b];
+      if (q.pop >= 0) {
+        q.pop += dt; if (q.pop > 0.25) { bubbles.splice(b, 1); continue; }
+        ctx.globalAlpha = 0.7 * (1 - q.pop / 0.25); ctx.strokeStyle = '#fff'; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.ellipse(q.x, inTop + 1, q.r + q.pop * 30, (q.r + q.pop * 30) * 0.3, 0, 0, 6.283); ctx.stroke(); continue;
+      }
+      if (q.hold > 0) q.hold -= dt; else { q.y -= q.v * dt; q.w += dt * 5; q.x += Math.sin(q.w) * q.r * 0.08; }
+      if (q.y < inTop + q.r) { q.pop = 0; continue; }
+      const sx = 1 + Math.sin(q.w * 1.7) * 0.06, d = q.r * 2;
+      ctx.globalAlpha = Math.min(0.95, (q.y - inTop) / 30);
+      ctx.drawImage(bub, q.x - q.r * sx, q.y - q.r / sx, d * sx, d / sx);
     }
     ctx.globalAlpha = 1;
     if (burst) {
